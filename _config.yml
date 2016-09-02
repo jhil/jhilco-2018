@@ -10,6 +10,10 @@ meta:
   google_analytics_id: "" # UA-66637918-1
   theme_color: "#666666" # #FFFFFF
 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jhil.co" # the base hostname & protocol for your site
+permalink: /:title/ # example: http://jhil.co/bitcamp
+
 name: "Jeff Hilnbrand"
 markdown: redcarpt
 highlighter: pygments

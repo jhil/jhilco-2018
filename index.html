@@ -15,7 +15,7 @@ layout: default
     {% for post in site.posts %}
     <li class="feature-post">
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <img class="feature-post-image" src="/img/{{ post.title | slugify }}.jpg">
+        <img class="feature-post-image" src="/img/{{ post.title | slugify }}_thumbnail.png">
       </a>
       <a href="{{ post.url | prepend: site.baseurl }}" class="h2 feature-post-title">{{ post.title }}</a>
     </a>
