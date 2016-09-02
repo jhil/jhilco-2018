@@ -1,11 +1,15 @@
-$content-width: 58.75rem;
+$content-width: 69rem;
 
 .content {
   @include clearfix;
   margin: 0 auto;
   max-width: $content-width;
-  padding: 0 0.625rem;
+  padding: 0;
   width: 90%;
+}
+
+section {
+  padding-top: 3rem;
 }
 
 @media screen and (max-width: $phone-landscape-max) {
@@ -19,3 +23,21 @@ $content-width: 58.75rem;
     padding-right: 2.5rem;
   }
 }
+
+.rich-before {
+  &:before {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+  }
+}
+
+.rich-after {
+  &:after {
+    display: inline-block;
+    text-align: center;
+    margin-left: 3rem;
+  }
+}
+

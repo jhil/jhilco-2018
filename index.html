@@ -1,5 +1,46 @@
 ---
-layout: base
+layout: default
 ---
 
-<h1>Hello World!</h1>
+<section class="intro">
+  <ul>
+    <li class="h2">I like making cool things with cool people.</li>
+    <li class="h2">Product Designer at Facebook.</li>
+    <li class="h2">Previously at Minimill, Startup Shell, Bitcamp, Autodesk, Venmo.</li>
+  </ul>
+</section>
+
+<section class="posts-feature">
+  <ul class="feature-posts">
+    {% for post in site.posts %}
+    <li class="feature-post">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <img class="feature-post-image" src="/img/{{ post.title | slugify }}.jpg">
+      </a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="h2 feature-post-title">{{ post.title }}</a>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+</section>
+
+<section class="posts-list">
+  <ul class="list list-photo-circle">
+    <a href="#"><li class="list-item">
+      <img src="" class="list-image">
+      <h2 class="list-title">Bonnaroo 2016</h2>
+    </li></a>
+    <a href="#"><li class="list-item">
+      <img src="" class="list-image">
+      <h2 class="list-title">Bonnaroo 2016</h2>
+    </li></a>
+    <a href="#"><li class="list-item">
+      <img src="" class="list-image">
+      <h2 class="list-title">Bonnaroo 2016</h2>
+    </li></a>
+    <a href="#"><li class="list-item">
+      <img src="" class="list-image">
+      <h2 class="list-title">Bonnaroo 2016</h2>
+    </li></a>
+  </ul>
+</section>

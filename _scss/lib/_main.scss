@@ -1,0 +1,130 @@
+.intro {
+  li {
+    &:before {
+      @extend .rich-before;
+      content: "∙";
+    }
+  }
+}
+
+.nav {
+  @extend .rich-before;
+  &:before {
+    content: " ";
+    background-image: url(/img/jhilnbrand.jpg);
+    height: 1rem;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+
+// features
+
+.feature-posts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.feature-post {
+  display: inline-block;
+  width: calc(50% - 1.5rem);
+  margin-bottom: 3rem;
+}
+
+.feature-post-image {
+  width: 100%;
+  display: block;
+  height: 16.5rem;
+  margin-bottom: 2rem;
+  background: url(/img/landscape.jpg);
+  background-size: 100%;
+}
+
+.feature-post-title {
+  @extend .rich-before;
+  &:before {
+    content: "0";
+  }
+}
+
+
+// lists
+
+.posts-list {
+
+}
+
+.list {
+
+}
+
+.list-photo-circle {
+  li {
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.list-item {
+  width: 100%;
+  @extend .rich-before;
+  &:before {
+    content: "0";
+    @extend .h2;
+  }
+  @extend .rich-after;
+  &:after {
+    content: "→";
+    font-family: $mono;
+  }
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.list-title {
+}
+
+.list-image {
+  background: pink;
+  width: 3rem;
+  margin-right: 3rem;
+}
+
+
+// posts
+
+.post-title {
+  @extend .rich-before;
+  &:before {
+    content: "0";
+  }
+  @extend .rich-after;
+  &:after {
+    content: "08/16/2016";
+    font-family: $mono;
+    color: $light-gray;
+    font-size: 1rem;
+    float: right;
+    line-height: 4rem;
+    font-weight: $light;
+  }
+  font-weight: $medium;
+
+}
+
+.post-image {
+  height: 29.5rem;
+  width: 100%;
+  background: url(/img/landscape.jpg);
+  background-size: 100%;
+}
+
+.post-body {
+  width: 45rem;
+  margin-left: 6rem;
+  padding: 0;
+}

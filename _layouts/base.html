@@ -61,11 +61,9 @@
         ga('send', 'pageview');
     </script>
 </head>
-{% if page.body_class %}
-<body class="{{ page.body_class }}">
-{% else %}
 <body>
-{% endif %}
+
     {{ content }}
+
 </body>
 </html>
