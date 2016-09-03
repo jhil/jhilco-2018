@@ -1,12 +1,13 @@
 // Font weights
 $extra-bold: 800;
 $bold: 700;
+$demi: 600;
 $medium: 500;
 $regular: 400;
 $light: 300;
 
-$sans: 'Maison Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$mono: 'Source Code Pro', 'Inconsolata', monospace;
+$sans: 'Maison Neue', 'Maison', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$mono: 'Inconsolata', 'Source Code Pro', monospace;
 $serif: 'Merriweather', Georgia, serif;
 
 h1, %h1, .h1 {
@@ -66,9 +67,5 @@ a {
 @media screen and (max-width: $phone-landscape-max) {
   h1, %h1 {
     font-size: 1.75rem;
-  }
-
-  h4, %h4 {
-    font-size: 1.5rem;
   }
 }

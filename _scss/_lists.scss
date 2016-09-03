@@ -1,0 +1,66 @@
+.posts-list {
+}
+
+.list {
+}
+
+.list-numbered {
+  .list-row {
+    &:before {
+      content: counter(li);
+      @extend .h4;
+    }
+  }
+}
+
+.list-photo-circle {
+}
+
+.list-item {
+  counter-increment: li;
+  width: 100%;
+  margin-bottom: 3rem;
+  p {
+    margin-left: 12rem;
+  }
+}
+
+.list-row {
+  @extend .rich-before;
+  &:before {
+    content: "x";
+  }
+  h4 {
+    flex-grow: 1;
+    text-align: right;
+  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.list-title {
+  margin-bottom: 0;
+}
+
+.list-image {
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  margin-right: 3rem;
+}
+
+.list-score {
+  em {
+    color: $medium-gray;
+  }
+}
+
+.list-image {
+  transition: transform .3s ease;
+  // transform-origin: top;
+  &:hover {
+    transform: scale(1.75);
+    // transform-origin: top;
+  }
+}

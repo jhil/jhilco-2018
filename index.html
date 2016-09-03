@@ -6,8 +6,8 @@ title: Jeff Hilnbrand
 <section class="intro">
   <ul>
     <li class="h2">I like making cool things with cool people.</li>
-    <li class="h2 sub">Product Designer at Facebook.</li>
-    <li class="h2 subsub">Previously at Minimill, Startup Shell, Bitcamp, Autodesk, Venmo.</li>
+    <li class="h2 sub">Product Designer at <a href="https://www.facebook.com/design" target="_blank">Facebook</a>.</li>
+    <li class="h2 subsub">Previously at <a href="http://minimill.co" target="_blank">Minimill</a>, <a href="https://creativemarket.com" target="_blank">Autodesk</a>, <a href="https://venmo.com" target="_blank">Venmo</a>, <a href="http://startupshell.org" target="_blank">Startup Shell</a>, <a href="http://bitca.mp" target="_blank">Bitcamp</a>.</li>
   </ul>
 </section>
 
@@ -16,9 +16,11 @@ title: Jeff Hilnbrand
     {% for post in site.posts %}
     <li class="feature-post">
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <img class="feature-post-image" src="/img/{{ post.title | slugify }}_thumbnail.png">
+        <div class="feature-post-image">
+          <img src="/img/{{ post.title | slugify }}_thumbnail.jpg">
+        </div>
       </a>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="h2 feature-post-title">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}" data-type="{{ post.type }}" class="h2 feature-post-title">{{ post.title }}</a>
     </a>
   </li>
   {% endfor %}
