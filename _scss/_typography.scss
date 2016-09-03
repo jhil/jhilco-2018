@@ -27,12 +27,12 @@ h3, %h3, .h3 {
 }
 
 h4, %h4, .h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 0.5px;
   font-family: $mono;
   color: $light-gray;
   line-height: 1rem;
-  font-weight: $light;
+  // font-weight: $light;
 }
 
 h5, %h5, .h5 {
@@ -53,6 +53,14 @@ strong {
 
 a {
   font-weight: $medium;
+}
+
+.sub {
+  color: $medium-gray;
+}
+
+.subsub {
+  color: $light-gray;
 }
 
 @media screen and (max-width: $phone-landscape-max) {
