@@ -56,6 +56,7 @@
   height: 3rem;
   border: 0;
   margin-right: 3rem;
+  transition: transform .3s ease;
 }
 
 .list-detail {
@@ -64,11 +65,10 @@
   }
 }
 
-.list-image {
-  transition: transform .3s ease;
-  // transform-origin: top;
+.list-item {
   &:hover {
+.list-image {
     transform: scale(1.5);
-    // transform-origin: top;
   }
+}
 }

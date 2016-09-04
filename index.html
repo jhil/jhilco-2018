@@ -29,18 +29,16 @@ title: Jeff Hilnbrand
 
 <section class="posts-list">
   <ul class="list list-photo-circle">
-  {% for post in site.posts offset:4 %}
-    <li class="list-item">
-      <div data-type="{{ post.type }}" class="list-row before-icon">
-        <a href="{{ post.url | prepend: site.baseurl }}">
+    {% for post in site.posts offset:4 %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <li class="list-item">
+        <div data-type="{{ post.type }}" class="list-row before-icon">
           <img src="/img/{{ post.title | slugify }}_thumbnail.jpg" class="list-image">
-        </a>
-        <a href="{{ post.url | prepend: site.baseurl }}">
           <h2 data-type="{{ post.type }}" class="list-title">{{ post.title }}</h2>
-        </a>
-        <h4 class="list-detail">{{ post.date | date: "%m&#8202;/&#8202;%d&#8202;/&#8202;%Y" }}</h4>
-      </div>
-    </li>
-  {% endfor %}
+          <h4 class="list-detail">{{ post.date | date: "%b %Y" }}</h4>
+        </div>
+      </li>
+    </a>
+    {% endfor %}
   </ul>
 </section>
