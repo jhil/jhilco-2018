@@ -15,7 +15,7 @@ url: "http://jhil.co" # the base hostname & protocol for your site
 permalink: /:title/ # example: http://jhil.co/bitcamp
 
 name: "Jeff Hilnbrand"
-markdown: redcarpt
+markdown: kramdown
 highlighter: pygments
 exclude:
   - node_modules

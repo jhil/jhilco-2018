@@ -1,4 +1,5 @@
 .intro {
+  margin: 6rem 0;
   a {
     font-weight: $regular;
   }
@@ -11,6 +12,9 @@
 }
 
 .nav {
+  a {
+    font-weight: $regular;
+  }
   @extend .rich-before;
   &:before {
     content: " ";
@@ -57,7 +61,11 @@
   background-size: 1rem 1rem;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: .25;
+  background-color: $light-gray;
+  mask-size: 1rem;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-image: url(/img/icon-article.svg);
 }
 
 h1.before-icon:before {
@@ -66,30 +74,30 @@ h1.before-icon:before {
 
 *[data-type="article"] {
   &:before {
-    background-image: url(/img/icon-article.svg);
+    mask-image: url(/img/icon-article.svg);
   }
 }
 
 *[data-type="list"] {
   &:before {
-    background-image: url(/img/icon-list.svg);
+    mask-image: url(/img/icon-list.svg);
   }
 }
 
 *[data-type="project"] {
   &:before {
-    background-image: url(/img/icon-project.svg);
+    mask-image: url(/img/icon-project.svg);
   }
 }
 
 *[data-type="talk"] {
   &:before {
-    background-image: url(/img/icon-talk.svg);
+    mask-image: url(/img/icon-talk.svg);
   }
 }
 
 *[data-type="travel"] {
   &:before {
-    background-image: url(/img/icon-travel.svg);
+    mask-image: url(/img/icon-travel.svg);
   }
 }

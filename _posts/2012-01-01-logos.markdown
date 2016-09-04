@@ -1,0 +1,36 @@
+---
+layout:   post
+type:     article
+title:    "Logos"
+date:     2012-01-01
+scope:    brand
+excerpt:  Logos, marks, and icons over the years
+link:     dribbble.com/jhil
+color:    EA4C89
+hero:     false
+---
+
+![Logo](/img/logo_ampvita.jpg)
+![Logo](/img/logo_arcade-glass.jpg)
+![Logo](/img/logo_chum.jpg)
+![Logo](/img/logo_daemon-dash.jpg)
+![Logo](/img/logo_evlove.jpg)
+![Logo](/img/logo_highbrau.jpg)
+![Logo](/img/logo_hype.jpg)
+![Logo](/img/logo_kid-museum.jpg)
+![Logo](/img/logo_lead4life.jpg)
+![Logo](/img/logo_medprint.jpg)
+![Logo](/img/logo_nextor.jpg)
+![Logo](/img/logo_northstar.jpg)
+![Logo](/img/logo_parallel.jpg)
+![Logo](/img/logo_play.jpg)
+![Logo](/img/logo_polo-bobby.jpg)
+![Logo](/img/logo_rising-business-leaders.jpg)
+![Logo](/img/logo_route-one-apparel.jpg)
+![Logo](/img/logo_ses.jpg)
+![Logo](/img/logo_terpweather.jpg)
+![Logo](/img/logo_three-mountains.jpg)
+![Logo](/img/logo_union-series.jpg)
+![Logo](/img/logo_ventureboard.jpg)
+![Logo](/img/logo_wdiw.jpg)
+![Logo](/img/logo_whatwhy.jpg)
