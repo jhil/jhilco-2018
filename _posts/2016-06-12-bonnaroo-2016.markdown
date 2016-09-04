@@ -1,0 +1,25 @@
+---
+layout:   post
+type:     list
+title:    "Bonnaroo 2016"
+date:     2016-06-12
+color:    EA4C89
+---
+
+I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my <a href="https://www.boardgamegeek.com/user/jhilmd">BoardGameGeek profile</a> for more games and ratings.
+
+<ul class="list post-list list-photo-circle">
+{% for 2016-bonnaroo-band in site.data.2016-bonnaroo-bands %}
+  <li class="list-item">
+    <div class="list-row">
+      <a href="{{ 2016-bonnaroo-band.link }}">
+        <img src="/img/bands/{{ 2016-bonnaroo-band.band | slugify }}.jpg" class="list-image">
+      </a>
+      <a href="{{ 2016-bonnaroo-band.link }}">
+        <h2 class="list-title">{{ 2016-bonnaroo-band.band }}</h2>
+      </a>
+      <h4 class="list-detail"><em>{{ 2016-bonnaroo-band.rating }}</em>&#8202;/&#8202;10</h4>
+    </div>
+  </li>
+{% endfor %}
+</ul>

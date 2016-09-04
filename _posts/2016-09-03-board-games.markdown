@@ -19,7 +19,7 @@ I love collecting board games and sharing fun times with friends and family. The
       <a href="{{ boardgame.link }}">
         <h2 class="list-title">{{ boardgame.title }}</h2>
       </a>
-      <h4 class="list-score"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h4>
+      <h4 class="list-detail"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h4>
     </div>
     <p>{{ boardgame.description }}</p>
   </li>

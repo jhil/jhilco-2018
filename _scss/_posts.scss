@@ -37,11 +37,20 @@
   img {
     display: block;
   }
+  h2 {
+    margin: 3rem 0 2rem;
+    font-weight: $medium;
+  }
+  blockquote p {
+    padding: .5rem 0 .5rem 3rem;
+    border-left: .25rem $lighter-gray solid;
+    font-style: italic;
+    margin: 2rem 0;
+  }
 }
 
 .post-list {
   margin: 5rem 0;
-  margin-left: -6rem;
 }
 
 p img {
@@ -70,4 +79,9 @@ p img {
 p code {
   font-family: $mono;
   padding: 0 .25rem;
+}
+
+hr {
+  margin: 3rem 0;
+  border-color: $lighter-gray;
 }

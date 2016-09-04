@@ -1,19 +1,23 @@
 .posts-list {
+  margin-left: 6rem;
 }
 
 .list {
+  margin-left: -6rem;
 }
 
 .list-numbered {
   .list-row {
     &:before {
       content: counter(li);
-      @extend .h4;
     }
   }
 }
 
 .list-photo-circle {
+  .list-image {
+    border-radius: 50%;
+  }
 }
 
 .list-item {
@@ -28,7 +32,11 @@
 .list-row {
   @extend .rich-before;
   &:before {
-    content: "x";
+    content: "∙";
+    @extend .h4;
+  }
+  h2 {
+    margin: 0;
   }
   h4 {
     flex-grow: 1;
@@ -50,7 +58,7 @@
   margin-right: 3rem;
 }
 
-.list-score {
+.list-detail {
   em {
     color: $medium-gray;
   }
@@ -60,7 +68,7 @@
   transition: transform .3s ease;
   // transform-origin: top;
   &:hover {
-    transform: scale(1.75);
+    transform: scale(1.5);
     // transform-origin: top;
   }
 }
