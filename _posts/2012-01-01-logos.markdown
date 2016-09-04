@@ -1,12 +1,9 @@
 ---
 layout:   post
-type:     article
+type:     project
 title:    "Logos"
 date:     2012-01-01
-scope:    brand
-excerpt:  Logos, marks, and icons over the years
 link:     dribbble.com/jhil
-color:    EA4C89
 hero:     false
 ---
 
