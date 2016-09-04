@@ -1,0 +1,17 @@
+---
+layout: post
+type:   project
+title:  "Gorilla"
+date:   2014-12-08
+hero:   gorilla_side
+---
+
+I teamed up with Eileen McMahon and Brandon Gotwalt in UMD's Biologically Inspired Robotics course (ENME489L) to build a gorilla robot. The project involved studying a certain animal’s gait and building a robot that demonstrates that animal’s walk cycles.
+
+![Gorilla Robot Gait](/img/gorilla_gait.gif)
+
+![Gorilla Robot Team](/img/gorilla_team.jpg)
+
+![Gorilla Robot Whiteboard](/img/gorilla_whiteboard.jpg)
+
+![Gorilla Robot Sketch](/img/gorilla_sketch.jpg)

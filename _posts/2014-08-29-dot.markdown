@@ -1,0 +1,21 @@
+---
+layout: post
+type:   project
+title:  "Dot"
+date:   2014-08-29
+link:   getdot.io
+---
+
+Dot is a one-gesture payments app for iOS built with Venmo. [Neeraj Baid](http://neeraj.io) and I built Dot in a few weeks while we were working at Venmo. Our challenge was to make an app that experimented with a new payment experience for speed and fun. Users send money by dragging their friend the desired amount and releasing. A photo is snapped and sent on release, wrapping up the entire transaction in a second or two.
+
+![People](/img/dot_people.png)
+
+![Draw](/img/dot_draw.png)
+
+![Pay](/img/dot_pay.png)
+
+![Sending](/img/dot_sending.png)
+
+![Walkthrough](/img/dot_walkthrough.png)
+
+![Icon](/img/dot_icon.png)

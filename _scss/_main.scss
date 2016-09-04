@@ -102,3 +102,8 @@ h1.before-icon:before {
     mask-image: url(/img/icon-travel.svg);
   }
 }
+*[data-type="work"] {
+  &:before {
+    mask-image: url(/img/icon-work.svg);
+  }
+}

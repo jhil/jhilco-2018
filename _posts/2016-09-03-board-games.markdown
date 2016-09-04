@@ -7,7 +7,7 @@ excerpt:  Board games that I own
 color:    EA4C89
 ---
 
-<p>I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my <a href="https://www.boardgamegeek.com/user/jhilmd">BoardGameGeek profile</a> for more games and ratings.</p>
+I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my <a href="https://www.boardgamegeek.com/user/jhilmd">BoardGameGeek profile</a> for more games and ratings.
 
 <ul class="list post-list list-photo list-numbered">
 {% for boardgame in site.data.boardgames %}
@@ -22,6 +22,6 @@ color:    EA4C89
       <h4 class="list-score"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h4>
     </div>
     <p>{{ boardgame.description }}</p>
-  <li>
+  </li>
 {% endfor %}
 </ul>

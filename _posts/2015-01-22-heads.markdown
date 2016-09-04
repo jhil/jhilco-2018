@@ -1,0 +1,9 @@
+---
+layout:   post
+type:     project
+title:    "Heads"
+date:     2015-06-20
+link:     heads.cc
+---
+
+![](/img/heads_macbook.png)

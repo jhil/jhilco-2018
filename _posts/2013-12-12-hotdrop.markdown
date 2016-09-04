@@ -1,0 +1,11 @@
+---
+layout:   post
+type:     project
+title:    "Hotdrop"
+date:     2014-03-12
+link:     gethotdrop.com
+---
+
+Hotdrop is a location-based messaging app.
+
+![](/img/hotdrop_app.png)

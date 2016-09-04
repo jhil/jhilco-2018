@@ -1,0 +1,17 @@
+---
+layout: post
+type:   project
+title:  "Technica"
+date:   2015-07-19
+link:   gotechnica.org
+hero:   technica_logo-gradient
+---
+
+Technica is an all-ladies hackathon at the University of Maryland promoting women in tech.
+
+![Website](/img/technica_web-display.png)
+
+![Team](/img/technica_team.gif)
+
+![Logo on Black](/img/technica_logo-black.png)
+![Poster Image](/img/technica_poster.png)

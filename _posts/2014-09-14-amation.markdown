@@ -1,0 +1,23 @@
+---
+layout:   post
+type:     project
+title:    "Amation"
+date:     2014-09-14
+link:     amation.co
+---
+
+Amation is a browser-based SVG animation editor. Amation combines the extensive capabilities of SVG with the power of media tools and animation. Users animate vectors in a timeline-based editor suite (like After Effects) and can distribute them as native SVGs, in all their scalable glory.
+
+![Mockup](/img/amation_macbook.png)
+
+<div class="embed-container">
+  <div class="embed">
+      <iframe width="1280" height="720" src="//www.youtube.com/embed/pmm7UmDyQyE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+![Drag and Drop](/img/amation_drag.png)
+
+![Delete](/img/amation_delete.png)
+
+![Logo](/img/amation_logo.png)

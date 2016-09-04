@@ -11,7 +11,7 @@ layout: default
 
   {% unless page.hero == false %}
   <section class="post-hero-image">
-    <img src="/img/{% if page.hero %}{{ page.hero | }}{% else %}{{ page.title | slugify }}_thumbnail{% endif %}.jpg">
+    <img src="/img/{% if page.hero %}{{ page.hero }}{% else %}{{ page.title | slugify }}_thumbnail{% endif %}.jpg">
   </section>
   {% endunless %}
 
