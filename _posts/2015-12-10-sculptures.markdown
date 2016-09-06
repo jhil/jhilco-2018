@@ -3,9 +3,6 @@ layout:   post
 type:     project
 title:    "Sculptures"
 date:     2015-12-10
-scope:    sculpture, hardware
-hero:     sculptures_serial-black
-link:     
 ---
 
 ## Project 5 - Cross Polination

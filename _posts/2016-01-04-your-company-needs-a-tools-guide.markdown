@@ -1,73 +1,171 @@
-<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Your company needs a tools guide</title><meta name="description" content="Design, dev, and ops all in one doc"><style>
-      * {
-        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-      }
-      html, body {
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        font-size: 50px;
-        margin-bottom: 17px;
-        color: #333;
-      }
-      h2 {
-        font-size: 24px;
-        line-height: 1.6;
-        margin: 30px 0 0 0;
-        margin-bottom: 18px;
-        margin-top: 33px;
-        color: #333;
-      }
-      h3 {
-        font-size: 30px;
-        margin: 10px 0 20px 0;
-        color: #333;
-      }
-      header {
-        width: 640px;
-        margin: auto;
-      }
-      section {
-        width: 640px;
-        margin: auto;
-      }
-      section p {
-        margin-bottom: 27px;
-        font-size: 20px;
-        line-height: 1.6;
-        color: #333;
-      }
-      section img {
-        max-width: 640px;
-      }
-      footer {
-        padding: 0 20px;
-        margin: 50px 0;
-        text-align: center;
-        font-size: 12px;
-      }
-      .aspectRatioPlaceholder {
-        max-width: auto !important;
-        max-height: auto !important;
-      }
-      .aspectRatioPlaceholder-fill {
-        padding-bottom: 0 !important;
-      }
-      header,
-      section[data-field=subtitle] {
-        display: none;
-      }
-      </style></head><body><article class="h-entry">
-<header>
-<h1 class="p-name">Your company needs a tools guide</h1>
-</header>
-<section data-field="subtitle" class="p-summary">
-Design, dev, and ops all in one doc
-</section>
-<section data-field="body" class="e-content">
-<section name="1f4f" class=" section--body section--first"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--fullWidth"><figure name="bc53" id="bc53" class="graf--figure graf--layoutFillWidth graf--leading"><div class="aspectRatioPlaceholder is-locked"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 30%;"></div><img class="graf-image" data-image-id="1*8jEdDo6Q2xTl9vkfs78ZZg.png" data-width="2560" data-height="768" src="https://cdn-images-1.medium.com/max/2000/1*8jEdDo6Q2xTl9vkfs78ZZg.png"></div></figure></div><div class="section-inner layoutSingleColumn"><h3 name="00dc" id="00dc" class="graf--h3 graf-after--figure graf--title">Your company needs a tools guide</h3><h4 name="c940" id="c940" class="graf--h4 graf-after--h3 graf--subtitle">Design, dev, and ops all in one doc</h4><p name="c2df" id="c2df" class="graf--p graf-after--h4">Here at <a href="http://minimill.co" data-href="http://minimill.co" class="markup--anchor markup--p-anchor" target="_blank">Minimill</a>, we’ve only made one hire but have put significant consideration into our team onboarding — and it’s been one of our best time investments yet! My partner <a href="https://medium.com/u/59bbc929ff7a" data-href="https://medium.com/u/59bbc929ff7a" data-anchor-type="2" data-user-id="59bbc929ff7a" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Dan</a> and I spent an evening writing a tools guide so that <a href="https://medium.com/u/c204b00bf07a" data-href="https://medium.com/u/c204b00bf07a" data-anchor-type="2" data-user-id="c204b00bf07a" data-action="show-user-card" data-action-type="hover" class="markup--user markup--p-user" target="_blank">Amritha</a>, our new PM, could immediately acclimate to our ops and design-dev workflow. This gave us confidence that our new team member could perform seamlessly with existing processes. No more wasting time correcting mistakes caused by miscommunication!</p><p name="b601" id="b601" class="graf--p graf-after--p">I’ve been in jobs where I was only informed of certain tools weeks or months into my tenure — tools that could have made me more efficient. That’s the nature of a busy company, and exactly why creating a tools guide is essential for employee onboarding. It helps new team members pick up software at their own pace and provides a neat agenda for first-day walkthroughs. This is useful for experienced team members, as well, to learn about new tools outside of their immediate domain.</p><p name="d73b" id="d73b" class="graf--p graf-after--p">If you don’t already have a wiki, no problem — just take an hour to throw it all in a <a href="https://www.google.com/docs/about/" data-href="https://www.google.com/docs/about/" class="markup--anchor markup--p-anchor" target="_blank">Google Doc</a> (and maybe another hour every couple months to update it as workflows evolve).</p><p name="9ebc" id="9ebc" class="graf--p graf-after--p graf--last">Here is the content from our quick tools guide so you can see how one can be organized (and also get an inside peek at our setup).</p></div></div></section><section name="3eeb" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h3 name="0f2e" id="0f2e" class="graf--h3 graf--leading">Minimill Tools Guide</h3><figure name="f38a" id="f38a" class="graf--figure graf-after--h3"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 366px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 52.300000000000004%;"></div><img class="graf-image" data-image-id="0*P7MUjNUqdi_1qn-V." data-width="1200" data-height="627" src="https://cdn-images-1.medium.com/max/1600/0*P7MUjNUqdi_1qn-V."></div></figure><h3 name="c25c" id="c25c" class="graf--h3 graf-after--figure">Organizational Tools</h3><p name="d912" id="d912" class="graf--p graf-after--h3"><em class="markup--em markup--p-em">Everyone on the team uses these to stay in sync.</em></p><h4 name="c84b" id="c84b" class="graf--h4 graf-after--p"><a href="https://minimill.slack.com" data-href="https://minimill.slack.com" class="markup--anchor markup--h4-anchor" target="_blank">Slack</a></h4><p name="c7b1" id="c7b1" class="graf--p graf-after--h4">By default, all communication should happen over Slack in our various channels. All project channels begin with “p-”, and all side project channels begin with “sp-” so that they’re sorted nicely in the sidebar. We also might choose to invite clients as <a href="https://get.slack.help/hc/en-us/articles/202518103-Restricted-Account-and-Single-Channel-Guest-FAQ" data-href="https://get.slack.help/hc/en-us/articles/202518103-Restricted-Account-and-Single-Channel-Guest-FAQ" class="markup--anchor markup--p-anchor" target="_blank">Single-Channel Guests</a> to a private group in our Slack if we think it will make our communication more open and effective.</p><h4 name="b196" id="b196" class="graf--h4 graf-after--p"><a href="https://trello.com/" data-href="https://trello.com/" class="markup--anchor markup--h4-anchor" target="_blank">Trello</a></h4><p name="8964" id="8964" class="graf--p graf-after--h4">Trello stores our tasks. If someone has a task they should perform, it should be in Trello. The only exceptions to this are tasks related to the coding or design of a specific project. These tasks should be documented instead on GitHub and Zeplin respectively.</p><h4 name="91d3" id="91d3" class="graf--h4 graf-after--p"><a href="https://github.com/" data-href="https://github.com/" class="markup--anchor markup--h4-anchor" target="_blank">GitHub</a></h4><p name="8076" id="8076" class="graf--p graf-after--h4">GitHub stores all our code, and issues related to them. Use issues liberally, for anything and everything related to the code implementation of a project or side project. All public repositories should have an up-to-date README.md file.</p><h4 name="9ed2" id="9ed2" class="graf--h4 graf-after--p"><a href="https://apps.google.com/" data-href="https://apps.google.com/" class="markup--anchor markup--h4-anchor" target="_blank">Google Apps</a></h4><p name="cd93" id="cd93" class="graf--p graf-after--h4">We pay for Google Apps for Business, which allows us to log into @minimill.co emails. It also powers our Gmail, Google Calendar, and Google Drive.</p><h4 name="b2db" id="b2db" class="graf--h4 graf-after--p"><a href="http://calendar.google.com/" data-href="http://calendar.google.com/" class="markup--anchor markup--h4-anchor" target="_blank">Google Calendar</a></h4><p name="f4a8" id="f4a8" class="graf--p graf-after--h4">All meetings, both internal and with clients, should be on our Minimill Google Calendar.</p><h4 name="4164" id="4164" class="graf--h4 graf-after--p">Email</h4><p name="b446" id="b446" class="graf--p graf-after--h4">We should use email exclusively for interfacing with clients and for signing up for web services. In general, most all client interactions should CC <a href="mailto:team@minimill.co" data-href="mailto:team@minimill.co" class="markup--anchor markup--p-anchor" target="_blank">team@minimill.co</a>, which has our entire team on it. All intra-team communication should be sent over Slack.</p><h4 name="f27f" id="f27f" class="graf--h4 graf-after--p"><a href="https://drive.google.com/" data-href="https://drive.google.com/" class="markup--anchor markup--h4-anchor" target="_blank">Google Drive</a></h4><p name="1e2a" id="1e2a" class="graf--p graf-after--h4">All documents should live in Google Drive. This includes everything from our financial records to project brainstorms. Note that while we use Dropbox, all text documents should be kept on our Google Drive.</p><h4 name="b4c3" id="b4c3" class="graf--h4 graf-after--p"><a href="http://www.dropbox.com/" data-href="http://www.dropbox.com/" class="markup--anchor markup--h4-anchor" target="_blank">Dropbox</a></h4><p name="0617" id="0617" class="graf--p graf-after--h4">All design assets — for projects, side projects, or for our company — should be stored in Dropbox. Other things live here too, like contracts and other static files. Dropbox generally has better syncing and conflict management than Drive, which is why we use it for files, but <a href="https://www.dropbox.com/paper" data-href="https://www.dropbox.com/paper" class="markup--anchor markup--p-anchor" target="_blank">Dropbox Paper</a> isn’t quite ready for us to use with clients. All collaborative documents — notes, spreadsheets, call minutes — should be stored in Google Drive.</p><h4 name="d32e" id="d32e" class="graf--h4 graf-after--p"><a href="https://www.hellosign.com/" data-href="https://www.hellosign.com/" class="markup--anchor markup--h4-anchor" target="_blank">HelloSign</a></h4><p name="99de" id="99de" class="graf--p graf-after--h4">Whenever we need a client to sign a document, we use HelloSign. Simply log in, upload a document, mark the signature / date locations, and then HelloSign will send an email to all parties and update us as they view / sign the document.</p><h4 name="0b7d" id="0b7d" class="graf--h4 graf-after--p"><a href="https://products.office.com/en-us/word" data-href="https://products.office.com/en-us/word" class="markup--anchor markup--h4-anchor" target="_blank">Microsoft Word</a> / <a href="http://www.apple.com/mac/pages/" data-href="http://www.apple.com/mac/pages/" class="markup--anchor markup--h4-anchor" target="_blank">Apple Pages</a></h4><p name="480b" id="480b" class="graf--p graf-after--h4">We use Word or Pages to create and edit documents and contracts. This makes it easy for any team member to edit the documents. It also allows us to use our company typeface, <a href="https://klim.co.nz/retail-fonts/calibre/" data-href="https://klim.co.nz/retail-fonts/calibre/" class="markup--anchor markup--p-anchor" target="_blank">Calibre</a>, for additional branding in documents.</p><h4 name="f9e3" id="f9e3" class="graf--h4 graf-after--p"><a href="http://giphy.com/" data-href="http://giphy.com/" class="markup--anchor markup--h4-anchor" target="_blank">Giphy</a></h4><p name="855b" id="855b" class="graf--p graf-after--h4">GIFs are life. Have fun 😜</p><h3 name="8823" id="8823" class="graf--h3 graf-after--p">Design &amp; Development Pipeline</h3><p name="5ed1" id="5ed1" class="graf--p graf-after--h3"><em class="markup--em markup--p-em">We use custom internal tools and publicly available software to optimize the handoff between design and development. This is often the biggest bottleneck in any workflow, but with these tools we are able to move fast and collaborate effectively internally and with our clients.</em></p><h4 name="232d" id="232d" class="graf--h4 graf-after--p"><a href="https://zeplin.io/" data-href="https://zeplin.io/" class="markup--anchor markup--h4-anchor" target="_blank">Zeplin</a></h4><p name="90ca" id="90ca" class="graf--p graf-after--h4">Zeplin is where we host designs for feedback / development. Zeplin specs out designs by outlining dimensions, colors, fonts, and other details from Sketch to make development easier. Any issue related to a design should be logged in a comment directly on the design in Zeplin.</p><h4 name="7c79" id="7c79" class="graf--h4 graf-after--p"><a href="https://github.com/minimill/cerberus" data-href="https://github.com/minimill/cerberus" class="markup--anchor markup--h4-anchor" target="_blank">Cerberus</a></h4><p name="b9d3" id="b9d3" class="graf--p graf-after--h4">Cerberus is a static website hosting platform built by us, hosted at <a href="https://work.minimill.co" data-href="https://work.minimill.co" class="markup--anchor markup--p-anchor" target="_blank">work.minimill.co</a>. Every project will have it’s own link, which is password protected. We can use this link to share a project with a client, or to view the development progress.</p><h4 name="ace8" id="ace8" class="graf--h4 graf-after--p"><a href="https://spire.minimill.co" data-href="https://spire.minimill.co" class="markup--anchor markup--h4-anchor" target="_blank">Spire</a></h4><p name="eecf" id="eecf" class="graf--p graf-after--h4">Spire is an hyper-minimal inspiration board built by us, hosted at <a href="https://spire.minimill.co" data-href="https://spire.minimill.co" class="markup--anchor markup--p-anchor" target="_blank">spire.minimill.co</a> (still in Alpha). Use it to collect visual inspiration for a project and sync up around ideas for style.</p><h3 name="1ffe" id="1ffe" class="graf--h3 graf-after--p">Development Tools</h3><p name="4640" id="4640" class="graf--p graf-after--h3"><em class="markup--em markup--p-em">Dan leads development. Here are the tools for building the web front- and back-end of our projects.</em></p><h4 name="08ea" id="08ea" class="graf--h4 graf-after--p"><a href="http://www.sublimetext.com/" data-href="http://www.sublimetext.com/" class="markup--anchor markup--h4-anchor" target="_blank">Sublime Text</a></h4><p name="d959" id="d959" class="graf--p graf-after--h4">Sublime Text is the text editor we use for writing code.</p><h4 name="bcb0" id="bcb0" class="graf--h4 graf-after--p"><a href="http://gulpjs.com/" data-href="http://gulpjs.com/" class="markup--anchor markup--h4-anchor" target="_blank">Gulp</a></h4><p name="b5d8" id="b5d8" class="graf--p graf-after--h4">Gulp is the build tool we use for development of our website. It organizes all of the development tooling we use in one place.</p><p name="42c9" id="42c9" class="graf--p graf-after--p"><em class="markup--em markup--p-em">Why do we need Gulp?</em></p><p name="d800" id="d800" class="graf--p graf-after--p">Gulp is a tool that makes a developer’s life easier. Instead of editing each individual source file separately, it allow us to use SCSS and Handlebars.js to edit higher-level macros and abstractions. This allows for cleaner, more modular code that is easier for our clients to adapt to their needs.</p><p name="d183" id="d183" class="graf--p graf-after--p"><em class="markup--em markup--p-em">What is a build tool?</em></p><p name="e382" id="e382" class="graf--p graf-after--p">Build tools like Gulp transform source files into a static website. There are many tedious transformations that must happen in order to convert the easy-to-edit source files (.hbs and .scss) into their final form (.html and .css). With one command, all changes in source files will be carried over into the static website.</p><p name="886d" id="886d" class="graf--p graf-after--p"><em class="markup--em markup--p-em">What features does Gulp expose for us?</em></p><ul class="postList"><li name="a57d" id="a57d" class="graf--li graf-after--p">SCSS to CSS (see below)</li><li name="3714" id="3714" class="graf--li graf-after--li">Handlebars.js with Yaml data (see below)</li><li name="cb78" id="cb78" class="graf--li graf-after--li">CSS Auto-prefixing: ensures that all of our CSS is cross-browser compatible.</li><li name="2595" id="2595" class="graf--li graf-after--li">Browsersync: is a development tool that will reload the web browser automatically whenever source files are edited.</li><li name="ed95" id="ed95" class="graf--li graf-after--li">Imagemin: compresses and optimizes images for better performance.</li><li name="8978" id="8978" class="graf--li graf-after--li">Linting (SCSS, JS): ensures that our CSS and JavaScript is properly formatted and conforms to a common code style guide.</li><li name="4519" id="4519" class="graf--li graf-after--li">Minification (HTML, CSS, JS): automatically compresses all of our code, for faster page load times.</li></ul><h4 name="a499" id="a499" class="graf--h4 graf-after--li"><a href="http://sass-lang.com/" data-href="http://sass-lang.com/" class="markup--anchor markup--h4-anchor" target="_blank">SCSS</a></h4><p name="1756" id="1756" class="graf--p graf-after--h4">SCSS is a CSS extension language, that makes CSS easier to read and write. It encourages modularity and readability.</p><h4 name="9151" id="9151" class="graf--h4 graf-after--p"><a href="http://handlebarsjs.com/" data-href="http://handlebarsjs.com/" class="markup--anchor markup--h4-anchor" target="_blank">Handlebars.js</a></h4><p name="9d39" id="9d39" class="graf--p graf-after--h4">Handlebars.js is a templating language that makes writing HTML easier to read and write. It allows the creation of “partials”: small snippets of HTML that can be repeated around. For example, instead of writing out the same HTML for six different testimonials, Handlebars.js allows us to write a single partial for a testimonial, and paste it six different places.</p><h3 name="88d7" id="88d7" class="graf--h3 graf-after--p">Design Tools</h3><p name="581b" id="581b" class="graf--p graf-after--h3"><em class="markup--em markup--p-em">Jeff leads design. These help us build mockups and prototypes to share ideas with clients and inform development.</em></p><h4 name="d17b" id="d17b" class="graf--h4 graf-after--p"><a href="https://www.sketchapp.com/" data-href="https://www.sketchapp.com/" class="markup--anchor markup--h4-anchor" target="_blank">Sketch</a></h4><p name="ca7f" id="ca7f" class="graf--p graf-after--h4">Sketch is a new piece of design software from Bohemian Coding. We use this as the primary tool for user interface (UI) design. One of the great parts of Sketch is its plugin support. We use plugins for small workflow processes and notably Zeplin for speccing.</p><h4 name="f632" id="f632" class="graf--h4 graf-after--p"><a href="http://www.adobe.com/products/illustrator.html" data-href="http://www.adobe.com/products/illustrator.html" class="markup--anchor markup--h4-anchor" target="_blank">Illustrator</a></h4><p name="f39e" id="f39e" class="graf--p graf-after--h4">Adobe Illustrator CC is our primary tool for graphics. While Sketch is great at laying out elements, its vector software is less powerful than Adobe’s. Logo design and illustrations happen in Illustrator and are often imported into the other tools for further processing.</p><h4 name="6c0d" id="6c0d" class="graf--h4 graf-after--p"><a href="http://www.adobe.com/products/photoshop.html" data-href="http://www.adobe.com/products/photoshop.html" class="markup--anchor markup--h4-anchor" target="_blank">Photoshop</a></h4><p name="3e9c" id="3e9c" class="graf--p graf-after--h4">We use Adobe Photoshop CC primarily for making photorealistic mockups. For example, we can place a screenshot of an interface created in Sketch into a monitor to help clients visualize the final product. We also use it for photo editing, but UI design should never ever be done in PS! While software like Illustrator is a vector editing tool, Photoshop is a raster editing tool for files like PNG, JPG, and GIF.</p><h4 name="acc2" id="acc2" class="graf--h4 graf-after--p"><a href="http://www.adobe.com/products/aftereffects.html" data-href="http://www.adobe.com/products/aftereffects.html" class="markup--anchor markup--h4-anchor" target="_blank">After Effects</a></h4><p name="5895" id="5895" class="graf--p graf-after--h4">Adobe After Effects CC is used for motion graphics. This can help visualize web/mobile interactions or create animated GIFs of more static content for sharing on Dribbble and beyond.</p><h4 name="fd8c" id="fd8c" class="graf--h4 graf-after--p"><a href="http://www.adobe.com/products/indesign.html" data-href="http://www.adobe.com/products/indesign.html" class="markup--anchor markup--h4-anchor" target="_blank">InDesign</a></h4><p name="98f3" id="98f3" class="graf--p graf-after--h4">Adobe InDesign CC is a piece of software somewhere in between Illustrator and Photoshop in that it effectively manages vector and raster content. It is made for laying out content for publications like newspapers or e-books. We primarily use InDesign for making decks to present brands or make proposals.</p><h3 name="3e78" id="3e78" class="graf--h3 graf-after--p">Social Networks</h3><p name="05db" id="05db" class="graf--p graf-after--h3"><em class="markup--em markup--p-em">Our company has a few channels to share our work publicly.</em></p><h4 name="c7fa" id="c7fa" class="graf--h4 graf-after--p"><a href="https://dribbble.com/minimill" data-href="https://dribbble.com/minimill" class="markup--anchor markup--h4-anchor" target="_blank">Dribbble</a></h4><p name="92d1" id="92d1" class="graf--p graf-after--h4">Our public face in the design world. We’re <a href="https://dribbble.com/minimill" data-href="https://dribbble.com/minimill" class="markup--anchor markup--p-anchor" target="_blank">minimill</a> on Dribbble.</p><h4 name="611d" id="611d" class="graf--h4 graf-after--p"><a href="https://github.com/minimill" data-href="https://github.com/minimill" class="markup--anchor markup--h4-anchor" target="_blank">GitHub</a></h4><p name="d0da" id="d0da" class="graf--p graf-after--h4">Our public face in the dev world. We’re <a href="https://github.com/minimill" data-href="https://github.com/minimill" class="markup--anchor markup--p-anchor" target="_blank">minimill</a> on GitHub.</p><h4 name="7463" id="7463" class="graf--h4 graf-after--p"><a href="https://twitter.com/minimill_co" data-href="https://twitter.com/minimill_co" class="markup--anchor markup--h4-anchor" target="_blank">Twitter</a></h4><p name="fffb" id="fffb" class="graf--p graf-after--h4">We don’t tweet much, but we should! We’re <a href="https://twitter.com/minimill_co" data-href="https://twitter.com/minimill_co" class="markup--anchor markup--p-anchor" target="_blank">@minimill_co</a> on twitter.</p><h4 name="879e" id="879e" class="graf--h4 graf-after--p"><a href="https://www.facebook.com/minimillco" data-href="https://www.facebook.com/minimillco" class="markup--anchor markup--h4-anchor" target="_blank">Facebook</a></h4><p name="4dff" id="4dff" class="graf--p graf-after--h4">Great for making announcements to our friends / family, and important to keep up to date, but we don’t post much right now. We’re <a href="https://www.facebook.com/minimillco/?ref=br_rs" data-href="https://www.facebook.com/minimillco/?ref=br_rs" class="markup--anchor markup--p-anchor" target="_blank">minimillco</a> on Facebook.</p><h4 name="5287" id="5287" class="graf--h4 graf-after--p"><a href="http://minimill.co" data-href="http://minimill.co" class="markup--anchor markup--h4-anchor" target="_blank">Website</a></h4><p name="6fb8" id="6fb8" class="graf--p graf-after--h4 graf--last">We have a teaser page up now at <a href="http://minimill.co" data-href="http://minimill.co" class="markup--anchor markup--p-anchor" target="_blank">minimill.co</a>, but will be releasing our full portfolio in January. This will help us display our work and generate new leads.</p></div></div></section><section name="e5f4" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><p name="f4aa" id="f4aa" class="graf--p graf--leading graf--last"><em class="markup--em markup--p-em">I’m Jeff Hilnbrand — hit me up on </em><a href="http://twitter.com/jhilmd" data-href="http://twitter.com/jhilmd" class="markup--anchor markup--p-anchor" rel="nofollow" target="_blank"><em class="markup--em markup--p-em">Twitter</em></a><em class="markup--em markup--p-em"> and check out </em><a href="http://jhil.co" data-href="http://jhil.co" class="markup--anchor markup--p-anchor" rel="nofollow" target="_blank"><em class="markup--em markup--p-em">my portfolio</em></a><em class="markup--em markup--p-em">. Thanks!</em></p></div></div></section><section name="8e59" class=" section--body section--last"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><p name="a33f" id="a33f" data-align="center" class="graf--p graf--leading"><a href="https://medium.com/hh-design" data-href="https://medium.com/hh-design" class="markup--anchor markup--p-anchor" target="_blank"><em class="markup--em markup--p-em">HH Design</em></a><em class="markup--em markup--p-em"> is a </em><a href="https://www.facebook.com/groups/designxtech/" data-href="https://www.facebook.com/groups/designxtech/" class="markup--anchor markup--p-anchor" rel="nofollow" target="_blank"><em class="markup--em markup--p-em">community</em></a><em class="markup--em markup--p-em"> around design in the context of technology.</em></p><p name="7233" id="7233" data-align="center" class="graf--p graf-after--p graf--last"><a href="https://medium.com/p/ff4d4b899c60/" data-href="https://medium.com/p/ff4d4b899c60/" class="markup--anchor markup--p-anchor" target="_blank"><em class="markup--em markup--p-em">contribute</em></a></p></div></div></section>
-</section>
-<footer><p>By <a href="https://medium.com/@jhilmd" class="p-author h-card">Jeff Hilnbrand</a> on <a href="https://medium.com/p/f6c4f6971b8e"><time class="dt-published" datetime="2016-01-04T16:23:57.778Z">January 4, 2016</time></a>.</p><p>Exported from <a href="https://medium.com">Medium</a> on September 4, 2016.</p></footer></article>
+---
+layout:   post
+type:     article
+title:    "Your company needs a tools guide"
+date:     2016-01-04
+hero:     tools-header.png
+---
 
-</body></html>
+## Design, dev, and ops all in one doc
+
+Here at Minimill, we’ve only made one hire but have put significant consideration into our team onboarding — and it’s been one of our best time investments yet! My partner Dan and I spent an evening writing a tools guide so that Amritha, our new PM, could immediately acclimate to our ops and design-dev workflow. This gave us confidence that our new team member could perform seamlessly with existing processes. No more wasting time correcting mistakes caused by miscommunication!
+
+I’ve been in jobs where I was only informed of certain tools weeks or months into my tenure — tools that could have made me more efficient. That’s the nature of a busy company, and exactly why creating a tools guide is essential for employee onboarding. It helps new team members pick up software at their own pace and provides a neat agenda for first-day walkthroughs. This is useful for experienced team members, as well, to learn about new tools outside of their immediate domain.
+
+If you don’t already have a wiki, no problem — just take an hour to throw it all in a Google Doc (and maybe another hour every couple months to update it as workflows evolve).
+
+Here is the content from our quick tools guide so you can see how one can be organized (and also get an inside peek at our setup).
+
+# Minimill Tools Guide
+
+{% include i.html src="minimill-logo.png" %}
+
+## Organizational Tools
+
+Everyone on the team uses these to stay in sync.
+
+### Slack
+
+By default, all communication should happen over Slack in our various channels. All project channels begin with `“p-”`, and all side project channels begin with `“sp-”` so that they’re sorted nicely in the sidebar. We also might choose to invite clients as Single-Channel Guests to a private group in our Slack if we think it will make our communication more open and effective.
+
+### Trello
+
+Trello stores our tasks. If someone has a task they should perform, it should be in Trello. The only exceptions to this are tasks related to the coding or design of a specific project. These tasks should be documented instead on GitHub and Zeplin respectively.
+
+### GitHub
+
+GitHub stores all our code, and issues related to them. Use issues liberally, for anything and everything related to the code implementation of a project or side project. All public repositories should have an up-to-date README.md file.
+
+### Google Apps
+
+We pay for Google Apps for Business, which allows us to log into @minimill.co emails. It also powers our Gmail, Google Calendar, and Google Drive.
+
+### Google Calendar
+
+All meetings, both internal and with clients, should be on our Minimill Google Calendar.
+
+### Email
+
+We should use email exclusively for interfacing with clients and for signing up for web services. In general, most all client interactions should CC team@minimill.co, which has our entire team on it. All intra-team communication should be sent over Slack.
+
+### Google Drive
+
+All documents should live in Google Drive. This includes everything from our financial records to project brainstorms. Note that while we use Dropbox, all text documents should be kept on our Google Drive.
+
+### Dropbox
+
+All design assets — for projects, side projects, or for our company — should be stored in Dropbox. Other things live here too, like contracts and other static files. Dropbox generally has better syncing and conflict management than Drive, which is why we use it for files, but Dropbox Paper isn’t quite ready for us to use with clients. All collaborative documents — notes, spreadsheets, call minutes — should be stored in Google Drive.
+
+### HelloSign
+
+Whenever we need a client to sign a document, we use HelloSign. Simply log in, upload a document, mark the signature / date locations, and then HelloSign will send an email to all parties and update us as they view / sign the document.
+
+### Microsoft Word / Apple Pages
+
+We use Word or Pages to create and edit documents and contracts. This makes it easy for any team member to edit the documents. It also allows us to use our company typeface, Calibre, for additional branding in documents.
+
+### Giphy
+
+GIFs are life. Have fun 😜
+
+## Design & Development Pipeline
+
+We use custom internal tools and publicly available software to optimize the handoff between design and development. This is often the biggest bottleneck in any workflow, but with these tools we are able to move fast and collaborate effectively internally and with our clients.
+
+### Zeplin
+
+Zeplin is where we host designs for feedback / development. Zeplin specs out designs by outlining dimensions, colors, fonts, and other details from Sketch to make development easier. Any issue related to a design should be logged in a comment directly on the design in Zeplin.
+
+### Cerberus
+
+Cerberus is a static website hosting platform built by us, hosted at work.minimill.co. Every project will have it’s own link, which is password protected. We can use this link to share a project with a client, or to view the development progress.
+
+### Spire
+
+Spire is an hyper-minimal inspiration board built by us, hosted at spire.minimill.co (still in Alpha). Use it to collect visual inspiration for a project and sync up around ideas for style.
+
+## Development Tools
+
+Dan leads development. Here are the tools for building the web front- and back-end of our projects.
+
+### Sublime Text
+
+Sublime Text is the text editor we use for writing code.
+
+### Gulp
+
+Gulp is the build tool we use for development of our website. It organizes all of the development tooling we use in one place.
+
+*Why do we need Gulp?*
+
+Gulp is a tool that makes a developer’s life easier. Instead of editing each individual source file separately, it allow us to use SCSS and Handlebars.js to edit higher-level macros and abstractions. This allows for cleaner, more modular code that is easier for our clients to adapt to their needs.
+
+*What is a build tool?*
+
+Build tools like Gulp transform source files into a static website. There are many tedious transformations that must happen in order to convert the easy-to-edit source files (.hbs and .scss) into their final form (.html and .css). With one command, all changes in source files will be carried over into the static website.
+
+*What features does Gulp expose for us?*
+
+- SCSS to CSS (see below)
+- Handlebars.js with Yaml data (see below)
+- CSS Auto-prefixing: ensures that all of our CSS is cross-browser compatible.
+- Browsersync: is a development tool that will reload the web browser automatically whenever source files are edited.
+- Imagemin: compresses and optimizes images for better performance.
+- Linting (SCSS, JS): ensures that our CSS and JavaScript is properly formatted and conforms to a common code style guide.
+- Minification (HTML, CSS, JS): automatically compresses all of our code, for faster page load times.
+
+### SCSS
+
+SCSS is a CSS extension language, that makes CSS easier to read and write. It encourages modularity and readability.
+
+### Handlebars.js
+
+Handlebars.js is a templating language that makes writing HTML easier to read and write. It allows the creation of “partials”: small snippets of HTML that can be repeated around. For example, instead of writing out the same HTML for six different testimonials, Handlebars.js allows us to write a single partial for a testimonial, and paste it six different places.
+
+## Design Tools
+
+Jeff leads design. These help us build mockups and prototypes to share ideas with clients and inform development.
+
+### Sketch
+
+Sketch is a new piece of design software from Bohemian Coding. We use this as the primary tool for user interface (UI) design. One of the great parts of Sketch is its plugin support. We use plugins for small workflow processes and notably Zeplin for speccing.
+
+### Illustrator
+
+Adobe Illustrator CC is our primary tool for graphics. While Sketch is great at laying out elements, its vector software is less powerful than Adobe’s. Logo design and illustrations happen in Illustrator and are often imported into the other tools for further processing.
+
+### Photoshop
+
+We use Adobe Photoshop CC primarily for making photorealistic mockups. For example, we can place a screenshot of an interface created in Sketch into a monitor to help clients visualize the final product. We also use it for photo editing, but UI design should never ever be done in PS! While software like Illustrator is a vector editing tool, Photoshop is a raster editing tool for files like PNG, JPG, and GIF.
+
+### After Effects
+
+Adobe After Effects CC is used for motion graphics. This can help visualize web/mobile interactions or create animated GIFs of more static content for sharing on Dribbble and beyond.
+
+### InDesign
+
+Adobe InDesign CC is a piece of software somewhere in between Illustrator and Photoshop in that it effectively manages vector and raster content. It is made for laying out content for publications like newspapers or e-books. We primarily use InDesign for making decks to present brands or make proposals.
+
+### Social Networks
+
+Our company has a few channels to share our work publicly.
+
+### Dribbble
+
+Our public face in the design world. We’re minimill on Dribbble.
+
+### GitHub
+
+Our public face in the dev world. We’re minimill on GitHub.
+
+### Twitter
+
+We don’t tweet much, but we should! We’re @minimill_co on twitter.
+
+### Facebook
+
+Great for making announcements to our friends / family, and important to keep up to date, but we don’t post much right now. We’re minimillco on Facebook.
+
+### Website
+
+We have a teaser page up now at minimill.co, but will be releasing our full portfolio in January. This will help us display our work and generate new leads.

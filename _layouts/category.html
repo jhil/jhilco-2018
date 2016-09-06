@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="posts-feature">
+  <ul class="feature-posts">
+    {% for post in site.posts %}
+    {% if post.type == page.type %}
+    <li class="feature-post">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="feature-post-image">
+          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
+        </div>
+      </a>
+      <a href="{{ post.url | prepend: site.baseurl }}" data-type="{{ post.type }}" class="h2 feature-post-title">{{ post.title }}</a>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+</section>

@@ -1,0 +1,1 @@
+<a style="background:{{ page.color }};" class="button-link{% if include.dark %} button-link-dark{% endif %}" href="{% if include.url %}{{ include.url }}{% else %}http://{{ page.link }}{% endif %}">{% if include.text %}{{ include.text }}{% else %}Visit {{ page.link }}{% endif %}</a>

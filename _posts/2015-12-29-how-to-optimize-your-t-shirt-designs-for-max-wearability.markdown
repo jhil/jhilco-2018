@@ -1,70 +1,80 @@
-<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>How to Optimize Your T-Shirt Designs for Max Wearability</title><style>
-      * {
-        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-      }
-      html, body {
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        font-size: 50px;
-        margin-bottom: 17px;
-        color: #333;
-      }
-      h2 {
-        font-size: 24px;
-        line-height: 1.6;
-        margin: 30px 0 0 0;
-        margin-bottom: 18px;
-        margin-top: 33px;
-        color: #333;
-      }
-      h3 {
-        font-size: 30px;
-        margin: 10px 0 20px 0;
-        color: #333;
-      }
-      header {
-        width: 640px;
-        margin: auto;
-      }
-      section {
-        width: 640px;
-        margin: auto;
-      }
-      section p {
-        margin-bottom: 27px;
-        font-size: 20px;
-        line-height: 1.6;
-        color: #333;
-      }
-      section img {
-        max-width: 640px;
-      }
-      footer {
-        padding: 0 20px;
-        margin: 50px 0;
-        text-align: center;
-        font-size: 12px;
-      }
-      .aspectRatioPlaceholder {
-        max-width: auto !important;
-        max-height: auto !important;
-      }
-      .aspectRatioPlaceholder-fill {
-        padding-bottom: 0 !important;
-      }
-      header,
-      section[data-field=subtitle] {
-        display: none;
-      }
-      </style></head><body><article class="h-entry">
-<header>
-<h1 class="p-name">How to Optimize Your T-Shirt Designs for Max Wearability</h1>
-</header>
-<section data-field="body" class="e-content">
-<section name="a4f1" class=" section--body section--first"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h2 name="2f04" id="2f04" class="graf--h2 graf--leading">How to Optimize Your T-Shirt Designs for Max Wearability</h2></div><div class="section-inner sectionLayout--outsetColumn"><figure name="c224" id="c224" class="graf--figure graf--layoutOutsetCenter graf-after--h2"><div class="aspectRatioPlaceholder is-locked" style="max-width: 1020px; max-height: 699px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 68.60000000000001%;"></div><img class="graf-image" data-image-id="1*3tu5uGAzS1Ei4AlqFVvj3g.png" data-width="1960" data-height="1344" src="https://cdn-images-1.medium.com/max/2000/1*3tu5uGAzS1Ei4AlqFVvj3g.png"></div></figure></div><div class="section-inner layoutSingleColumn"><p name="32ac" id="32ac" class="graf--p graf-after--figure">We want people to wear the shirts we make. And sometimes, despite top-notch graphics, it’s subtle misfires that keep these shirts on the hangers (or boxed up at parents’ houses). While nobody may outwardly criticize your designs, there are subconscious preferences at play that may discourage people from wearing your tee (as outlined below).</p><p name="9d32" id="9d32" class="graf--p graf-after--p">Don’t burn your money on shirts that don’t get worn. Here are a few guidelines to screen your designs before hitting the screenprinters.</p><h3 name="3be4" id="3be4" class="graf--h3 graf-after--p">Design + Composition</h3><p name="e1c9" id="e1c9" class="graf--p graf-after--h3 graf--last">This is not talking about the content of the design, but rather the formatting, layout, and composition of the elements.</p></div></div></section><section name="1778" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="2441" id="2441" data-align="center" class="graf--h4 graf--leading"><strong class="markup--strong markup--h4-strong">No full-torso graphics.</strong></h4><figure name="d789" id="d789" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 394px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div><img class="graf-image" data-image-id="1*OnSnRoicDR_c_tGLMaLhJw.png" data-width="3333" data-height="1875" src="https://cdn-images-1.medium.com/max/1600/1*OnSnRoicDR_c_tGLMaLhJw.png"></div></figure><p name="bf40" id="bf40" class="graf--p graf-after--figure graf--last">Some people can rock large graphics on their torso. But graphics that pass the sternum draw the eye to the stomach and can discourage larger people from wearing them. Additionally, too much ink will make wearers sweaty. People will opt for other shirts that let their body breathe, especially on a hot day or at the gym.</p></div></div></section><section name="a691" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="9589" id="9589" data-align="center" class="graf--h4 graf--leading"><strong class="markup--strong markup--h4-strong">Don’t go too wide.</strong></h4><figure name="7cf5" id="7cf5" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 394px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div><img class="graf-image" data-image-id="1*DWLk7VCQ4FhmjdgVQNWUVA.png" data-width="3333" data-height="1875" src="https://cdn-images-1.medium.com/max/1600/1*DWLk7VCQ4FhmjdgVQNWUVA.png"></div></figure><p name="f2c7" id="f2c7" class="graf--p graf-after--figure graf--last">If your graphic is too wide, it’ll get lost in the armpit folds. I use the nipple-to-nipple longitudinal region (about 9 inches wide) as an easy rule of thumb. The human back is flatter than the chest, so this is less of an issue for the reverse side of the shirt. If you must use a back graphic, it can extend up to 12 inches wide.</p></div></div></section><section name="7480" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="545a" id="545a" data-align="center" class="graf--h4 graf--leading">Don’t go too high or too low.</h4><figure name="2016" id="2016" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 394px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div><img class="graf-image" data-image-id="1*jCNQSeUC8VXYZC9UjYRm7g.png" data-width="3333" data-height="1875" src="https://cdn-images-1.medium.com/max/1600/1*jCNQSeUC8VXYZC9UjYRm7g.png"></div></figure><p name="fefc" id="fefc" class="graf--p graf-after--figure graf--last">This is a precision exercise. Chest graphics that are too high make the body feel empty, while graphics that are too low appear saggy and run the risk of getting hidden underneath the downslope of breasts. To solve this, start by vertically centering graphics on the nipples. If that doesn’t look optically correct, raise it an inch or so.</p></div></div></section><section name="fb9b" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="9c3a" id="9c3a" data-align="center" class="graf--h4 graf--leading">Don’t touch the shoulders.</h4><figure name="960d" id="960d" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 394px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div><img class="graf-image" data-image-id="1*qFGD1b5m7kOspDYbj-AYvg.png" data-width="3333" data-height="1875" src="https://cdn-images-1.medium.com/max/1600/1*qFGD1b5m7kOspDYbj-AYvg.png"></div></figure><p name="e721" id="e721" class="graf--p graf-after--figure graf--last">Only TapouT is allowed to do this. And only assholes wear <a href="https://www.google.com/search?q=tapout+shirt&amp;safe=off&amp;es_sm=91&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0CAcQ_AUoAWoVChMI8IL_ibGSxwIVhKKICh1BTgic&amp;biw=1920&amp;bih=962#safe=off&amp;tbm=isch&amp;q=people+who+wear+tapout+shirts" data-href="https://www.google.com/search?q=tapout+shirt&amp;safe=off&amp;es_sm=91&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0CAcQ_AUoAWoVChMI8IL_ibGSxwIVhKKICh1BTgic&amp;biw=1920&amp;bih=962#safe=off&amp;tbm=isch&amp;q=people+who+wear+tapout+shirts" class="markup--anchor markup--p-anchor" target="_blank">TapouT</a>.</p></div></div></section><section name="8401" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="fd1b" id="fd1b" data-align="center" class="graf--h4 graf--leading"><strong class="markup--strong markup--h4-strong">Don’t forget about boobs.</strong></h4><figure name="658e" id="658e" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 394px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div><img class="graf-image" data-image-id="1*-B0zw08d69CIiCNZhcCh6Q.png" data-width="3333" data-height="1875" src="https://cdn-images-1.medium.com/max/1600/1*-B0zw08d69CIiCNZhcCh6Q.png"></div></figure><p name="404a" id="404a" class="graf--p graf-after--figure graf--last">You can’t really avoid placing your design on the chest, but do try to avoid elements that emphasize the breasts. It’s a rare occurrence, but you’ll want to be conscious of, say, a graphic of a face with two precariously placed eyeballs. Be considerate. And remember, women aren’t the only people with potentially large breasts.</p></div></div></section><section name="fbc8" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h3 name="f0c5" id="f0c5" class="graf--h3 graf--leading">Garment Selection</h3><p name="4fa2" id="4fa2" class="graf--p graf-after--h3">Choosing the right base product to print on is just as important as the design itself, so don’t let it become an afterthought. Here’s are my favorites, sorted by price to help match your budget.</p><p name="6e3d" id="6e3d" class="graf--p graf-after--p graf--last">All styles shown are unisex short sleeve, the most common shirt for general audiences. That said, each product below is part of a family of styles with women’s fits, youth, long sleeve, v-neck, etc. Check links for alternatives.</p></div></div></section><section name="2510" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="032e" id="032e" class="graf--h4 graf--leading"><a href="http://www.americanapparel.net/wholesaleresources/ExpressOrder/Catalog/Product.aspx?s=BB401" data-href="http://www.americanapparel.net/wholesaleresources/ExpressOrder/Catalog/Product.aspx?s=BB401" class="markup--anchor markup--h4-anchor" target="_blank">American Apparel 50/50</a> ($$$)</h4><figure name="9fce" id="9fce" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 933px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 133.29999999999998%;"></div><img class="graf-image" data-image-id="1*hMiJ9Frmqci7wk7-_Sbk-A.png" data-width="1035" data-height="1380" src="https://cdn-images-1.medium.com/max/1600/1*hMiJ9Frmqci7wk7-_Sbk-A.png"></div></figure><p name="8b31" id="8b31" class="graf--p graf-after--figure"><em class="markup--em markup--p-em">Product ID: BB401<br>50% Polyester, 50% Cotton<br>aka Poly-Cotton Crew Neck</em></p><p name="c20c" id="c20c" class="graf--p graf-after--p">This is the tech world’s favorite skin shield.</p><p name="1bbb" id="1bbb" class="graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Pros</strong>: Good fit for most people. Lightweight. Wide color selection. Subtle <a href="https://www.google.com/search?q=heather&amp;safe=off&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjYnbfe-YHKAhWFdh4KHTJvDBEQ_AUIBygB&amp;biw=1440&amp;bih=742#safe=off&amp;tbm=isch&amp;q=heather+shirt+texture" data-href="https://www.google.com/search?q=heather&amp;safe=off&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjYnbfe-YHKAhWFdh4KHTJvDBEQ_AUIBygB&amp;biw=1440&amp;bih=742#safe=off&amp;tbm=isch&amp;q=heather+shirt+texture" class="markup--anchor markup--p-anchor" target="_blank">heathered look</a>.</p><p name="e903" id="e903" class="graf--p graf-after--p graf--last"><strong class="markup--strong markup--p-strong">Cons</strong>: Expensive. Gets <a href="http://pad2.whstatic.com/images/thumb/0/0d/Remove-Pilling-From-Clothing-Step-1.jpg/670px-Remove-Pilling-From-Clothing-Step-1.jpg" data-href="http://pad2.whstatic.com/images/thumb/0/0d/Remove-Pilling-From-Clothing-Step-1.jpg/670px-Remove-Pilling-From-Clothing-Step-1.jpg" class="markup--anchor markup--p-anchor" target="_blank">pilly</a> after a while. Runs a bit small. Somewhat inconsistent sizing and construction.</p></div></div></section><section name="d36b" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="a970" id="a970" class="graf--h4 graf--leading"><a href="http://www.nextlevelapparel.com/Prod-24-1-29-2/men39s-polycotton-crew.htm" data-href="http://www.nextlevelapparel.com/Prod-24-1-29-2/men39s-polycotton-crew.htm" class="markup--anchor markup--h4-anchor" target="_blank">Next Level Poly/Cotton Crew</a> ($$)</h4><figure name="eb2a" id="eb2a" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 1011px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 144.4%;"></div><img class="graf-image" data-image-id="1*EKo8BUulx7InXrPWflcxWA.png" data-width="750" data-height="1083" src="https://cdn-images-1.medium.com/max/1600/1*EKo8BUulx7InXrPWflcxWA.png"></div></figure><p name="51a2" id="51a2" class="graf--p graf-after--figure"><em class="markup--em markup--p-em">Product ID: 6200<br>50% Polyester, 50% Cotton</em></p><p name="6e25" id="6e25" class="graf--p graf-after--p">This it the tech world’s favorite knock-off American Apparel.</p><p name="885b" id="885b" class="graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Pro</strong>: Moderate pricing. Rising in popularity (and availability). Tear-out tag for max brand ownership.</p><p name="9767" id="9767" class="graf--p graf-after--p graf--last"><strong class="markup--strong markup--p-strong">Con</strong>: Baggier fit. Limited color selection.</p></div></div></section><section name="383c" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h4 name="0487" id="0487" class="graf--h4 graf--leading"><a href="http://www.mygildan.com/p/64000" data-href="http://www.mygildan.com/p/64000" class="markup--anchor markup--h4-anchor" target="_blank">Gildan Softstyle</a> ($)</h4><figure name="dcc5" id="dcc5" class="graf--figure graf-after--h4"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 875px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 125%;"></div><img class="graf-image" data-image-id="1*pkjMSjm7COZX2k_CKSiZLQ.jpeg" data-width="1000" data-height="1250" src="https://cdn-images-1.medium.com/max/1600/1*pkjMSjm7COZX2k_CKSiZLQ.jpeg"></div></figure><p name="60c7" id="60c7" class="graf--p graf-after--figure"><em class="markup--em markup--p-em">Product ID: 64000<br>65% Polyester, 35% Cotton (* heather styles only!)</em></p><p name="1ab1" id="1ab1" class="graf--p graf-after--p">Passable as a knock-off American Apparel. I confidently endorse this product for the budget-conscious.</p><p name="eea0" id="eea0" class="graf--p graf-after--p"><strong class="markup--strong markup--p-strong">Pros</strong>: Super inexpensive. Comfortable fit. Thicker weight (longer life).</p><p name="09e2" id="09e2" class="graf--p graf-after--p graf--last"><strong class="markup--strong markup--p-strong">Cons</strong>: Annoying tag. Slightly lengthy. (*) Non-heather shirts have a different material composition and are not as soft.</p></div></div></section><section name="cc96" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><h3 name="4fd9" id="4fd9" class="graf--h3 graf--leading">Epilogue</h3><p name="1cf6" id="1cf6" class="graf--p graf-after--h3">There is certainly space for experimental design and breaking the norm in t-shirt graphics. Some of my own <a href="https://vibranteyeclothing.com/shop/mens-shirts/nautilus/" data-href="https://vibranteyeclothing.com/shop/mens-shirts/nautilus/" class="markup--anchor markup--p-anchor" target="_blank">favorite</a> shirts don’t conform to these standards. But when your goal is to attain mass-wearitude and universal appreciation, these are good measures to follow.</p><p name="1381" id="1381" class="graf--p graf-after--p">I’ve been making shirt designs for almost ten years, but only recently began learning about screenprinting. It introduces a whole world of nuance and craft to apparel — I recommend trying it out! My buddy <a href="https://twitter.com/jaxgeller" data-href="https://twitter.com/jaxgeller" class="markup--anchor markup--p-anchor" target="_blank">Jackson</a> and I ran <a href="http://pantschanger.com" data-href="http://pantschanger.com" class="markup--anchor markup--p-anchor" target="_blank">Pantschanger Prints</a>, a small batch shirt co, for fun out of our house.</p></div><div class="section-inner sectionLayout--outsetColumn"><figure name="d50c" id="d50c" class="graf--figure graf--layoutOutsetCenter graf-after--p graf--last"><div class="aspectRatioPlaceholder is-locked" style="max-width: 1020px; max-height: 574px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 56.3%;"></div><img class="graf-image" data-image-id="1*MpLu7c4QI7R_m583lrCwTA.jpeg" data-width="2048" data-height="1152" src="https://cdn-images-1.medium.com/max/2000/1*MpLu7c4QI7R_m583lrCwTA.jpeg"></div><figcaption class="imageCaption">Here’s Jackson, all messy in our living room.</figcaption></figure></div></div></section><section name="1000" class=" section--body"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><p name="a0a7" id="a0a7" class="graf--p graf--leading graf--last"><em class="markup--em markup--p-em">I’m Jeff Hilnbrand — hit me up on </em><a href="http://twitter.com/jhilmd" data-href="http://twitter.com/jhilmd" class="markup--anchor markup--p-anchor" target="_blank"><em class="markup--em markup--p-em">Twitter</em></a><em class="markup--em markup--p-em"> and check out </em><a href="http://jhil.co" data-href="http://jhil.co" class="markup--anchor markup--p-anchor" target="_blank"><em class="markup--em markup--p-em">my portfolio</em></a><em class="markup--em markup--p-em">. Thanks!</em></p></div></div></section><section name="0f43" class=" section--body section--last"><div class="section-divider layoutSingleColumn"><hr class="section-divider"></div><div class="section-content"><div class="section-inner layoutSingleColumn"><p name="221c" id="221c" class="graf--p graf--leading">HH Design is a community around design in the context of technology.</p><p name="7233" id="7233" class="graf--p graf-after--p graf--last"><a href="https://medium.com/p/ff4d4b899c60/" data-href="https://medium.com/p/ff4d4b899c60/" class="markup--anchor markup--p-anchor" target="_blank"><em class="markup--em markup--p-em">contribute</em></a></p></div></div></section>
-</section>
-<footer><p>By <a href="https://medium.com/@jhilmd" class="p-author h-card">Jeff Hilnbrand</a> on <a href="https://medium.com/p/8903b8435dd"><time class="dt-published" datetime="2015-12-29T21:02:07.665Z">December 29, 2015</time></a>.</p><p>Exported from <a href="https://medium.com">Medium</a> on September 4, 2016.</p></footer></article>
+---
+layout:   post
+type:     article
+title:    "How to Optimize Your T-Shirt Designs for Max Wearability"
+date:     2016-01-04
+---
 
-</body></html>
+We want people to wear the shirts we make. And sometimes, despite top-notch graphics, it’s subtle misfires that keep these shirts on the hangers (or boxed up at parents’ houses). While nobody may outwardly criticize your designs, there are subconscious preferences at play that may discourage people from wearing your tee (as outlined below).
+
+Don’t burn your money on shirts that don’t get worn. Here are a few guidelines to screen your designs before hitting the screenprinters.
+
+## Design + Composition
+
+This is not talking about the content of the design, but rather the formatting, layout, and composition of the elements.
+
+### No full-torso graphics.
+
+Some people can rock large graphics on their torso. But graphics that pass the sternum draw the eye to the stomach and can discourage larger people from wearing them. Additionally, too much ink will make wearers sweaty. People will opt for other shirts that let their body breathe, especially on a hot day or at the gym.
+
+### Don’t go too wide.
+
+If your graphic is too wide, it’ll get lost in the armpit folds. I use the nipple-to-nipple longitudinal region (about 9 inches wide) as an easy rule of thumb. The human back is flatter than the chest, so this is less of an issue for the reverse side of the shirt. If you must use a back graphic, it can extend up to 12 inches wide.
+
+### Don’t go too high or too low.
+
+This is a precision exercise. Chest graphics that are too high make the body feel empty, while graphics that are too low appear saggy and run the risk of getting hidden underneath the downslope of breasts. To solve this, start by vertically centering graphics on the nipples. If that doesn’t look optically correct, raise it an inch or so.
+
+### Don’t touch the shoulders.
+
+Only TapouT is allowed to do this. And only assholes wear TapouT.
+
+### Don’t forget about boobs.
+
+You can’t really avoid placing your design on the chest, but do try to avoid elements that emphasize the breasts. It’s a rare occurrence, but you’ll want to be conscious of, say, a graphic of a face with two precariously placed eyeballs. Be considerate. And remember, women aren’t the only people with potentially large breasts.
+
+## Garment Selection
+
+Choosing the right base product to print on is just as important as the design itself, so don’t let it become an afterthought. Here’s are my favorites, sorted by price to help match your budget.
+
+All styles shown are unisex short sleeve, the most common shirt for general audiences. That said, each product below is part of a family of styles with women’s fits, youth, long sleeve, v-neck, etc. Check links for alternatives.
+
+### American Apparel 50/50 ($$$)
+
+- Product ID: BB401
+- 50% Polyester, 50% Cotton
+- aka Poly-Cotton Crew Neck
+
+This is the tech world’s favorite skin shield.
+
+- *Pros*: Good fit for most people. Lightweight. Wide color selection. Subtle heathered look.
+
+- *Cons*: Expensive. Gets pilly after a while. Runs a bit small. Somewhat inconsistent sizing and construction.
+
+### Next Level Poly/Cotton Crew ($$)
+
+- Product ID: 6200
+- 50% Polyester, 50% Cotton
+
+This it the tech world’s favorite knock-off American Apparel.
+
+- *Pro*: Moderate pricing. Rising in popularity (and availability). Tear-out tag for max brand ownership.
+- *Con*: Baggier fit. Limited color selection.
+
+### Gildan Softstyle ($)
+
+- Product ID: 64000
+- 65% Polyester, 35% Cotton (* heather styles only!)
+
+Passable as a knock-off American Apparel. I confidently endorse this product for the budget-conscious.
+
+- *Pros*: Super inexpensive. Comfortable fit. Thicker weight (longer life).
+- *Cons*: Annoying tag. Slightly lengthy. (*) Non-heather shirts have a different material composition and are not as soft.
+
+---
+
+### Epilogue
+
+There is certainly space for experimental design and breaking the norm in t-shirt graphics. Some of my own favorite shirts don’t conform to these standards. But when your goal is to attain mass-wearitude and universal appreciation, these are good measures to follow.
+
+I’ve been making shirt designs for almost ten years, but only recently began learning about screenprinting. It introduces a whole world of nuance and craft to apparel — I recommend trying it out! My buddy Jackson and I ran Pantschanger Prints, a small batch shirt co, for fun out of our house.

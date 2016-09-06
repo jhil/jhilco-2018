@@ -3,23 +3,88 @@ layout:   post
 type:     list
 title:    "Bonnaroo 2016"
 date:     2016-06-12
-color:    EA4C89
+link:     lineup.bonnaroo.com/bands
+color:    "#D84996"
 ---
 
-I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my <a href="https://www.boardgamegeek.com/user/jhilmd">BoardGameGeek profile</a> for more games and ratings.
+## Thursday
 
 <ul class="list post-list list-photo-circle">
-{% for 2016-bonnaroo-band in site.data.2016-bonnaroo-bands %}
+  {% for bonnaroo-2016-artist in site.data.bonnaroo-2016-artists  %}
+  {% if bonnaroo-2016-artist.day == "Thursday" %}
   <li class="list-item">
     <div class="list-row">
-      <a href="{{ 2016-bonnaroo-band.link }}">
-        <img src="/img/bands/{{ 2016-bonnaroo-band.band | slugify }}.jpg" class="list-image">
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2016-artist.artist | slugify }}.jpg" class="list-image">
       </a>
-      <a href="{{ 2016-bonnaroo-band.link }}">
-        <h2 class="list-title">{{ 2016-bonnaroo-band.band }}</h2>
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <h3 class="list-title">{{ bonnaroo-2016-artist.artist }}</h3>
       </a>
-      <h4 class="list-detail"><em>{{ 2016-bonnaroo-band.rating }}</em>&#8202;/&#8202;10</h4>
+      <h4 class="list-detail"><em>{{ bonnaroo-2016-artist.rating }}</em>&#8202;/&#8202;10</h4>
     </div>
   </li>
-{% endfor %}
+  {% endif %}
+  {% endfor %}
 </ul>
+
+## Friday
+
+<ul class="list post-list list-photo-circle">
+  {% for bonnaroo-2016-artist in site.data.bonnaroo-2016-artists  %}
+  {% if bonnaroo-2016-artist.day == "Friday" %}
+  <li class="list-item">
+    <div class="list-row">
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2016-artist.artist | slugify }}.jpg" class="list-image">
+      </a>
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <h3 class="list-title">{{ bonnaroo-2016-artist.artist }}</h3>
+      </a>
+      <h4 class="list-detail"><em>{{ bonnaroo-2016-artist.rating }}</em>&#8202;/&#8202;10</h4>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+## Saturday
+
+<ul class="list post-list list-photo-circle">
+  {% for bonnaroo-2016-artist in site.data.bonnaroo-2016-artists  %}
+  {% if bonnaroo-2016-artist.day == "Saturday" %}
+  <li class="list-item">
+    <div class="list-row">
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2016-artist.artist | slugify }}.jpg" class="list-image">
+      </a>
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <h3 class="list-title">{{ bonnaroo-2016-artist.artist }}</h3>
+      </a>
+      <h4 class="list-detail"><em>{{ bonnaroo-2016-artist.rating }}</em>&#8202;/&#8202;10</h4>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+## Sunday
+
+<ul class="list post-list list-photo-circle">
+  {% for bonnaroo-2016-artist in site.data.bonnaroo-2016-artists  %}
+  {% if bonnaroo-2016-artist.day == "Sunday" %}
+  <li class="list-item">
+    <div class="list-row">
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2016-artist.artist | slugify }}.jpg" class="list-image">
+      </a>
+      <a href="{{ bonnaroo-2016-artist.link }}">
+        <h3 class="list-title">{{ bonnaroo-2016-artist.artist }}</h3>
+      </a>
+      <h4 class="list-detail"><em>{{ bonnaroo-2016-artist.rating }}</em>&#8202;/&#8202;10</h4>
+    </div>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+{% include button-link.html text="See the full lineup" %}

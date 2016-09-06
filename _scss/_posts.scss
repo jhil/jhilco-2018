@@ -17,14 +17,10 @@
 }
 
 .post-hero-image {
-  display: flex;
-  align-items: center;
-  height: 29.5rem;
   width: 100%;
-  overflow: hidden;
-  img {
-    width: 100%;
-  }
+  // height: 29.5rem;
+  margin-bottom: 6rem;
+  @extend .image-fill;
 }
 
 .post-body {
@@ -37,9 +33,17 @@
   img {
     display: block;
   }
+  h1 {
+    margin: 3rem 0;
+    font-size: 2rem;
+    font-weight: $medium;
+  }
   h2 {
     margin: 3rem 0 2rem;
     font-weight: $medium;
+  }
+  h3 {
+    margin: 3rem 0 2rem;
   }
   blockquote p {
     padding: .5rem 0 .5rem 3rem;
@@ -47,10 +51,27 @@
     font-style: italic;
     margin: 2rem 0;
   }
+  p em {
+    font-style: italic;
+  }
+  ul {
+    margin-bottom: 2rem;
+    li {
+      display: list-item;
+      list-style-type: disc;
+      list-style-position: inside;
+      @extend .p;
+      margin-bottom: 1rem;
+    }
+  }
 }
 
-.post-list {
-  margin: 5rem 0;
+ul.post-list {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  h3 {
+    margin: 0;
+  }
 }
 
 p img {
@@ -76,13 +97,37 @@ p img {
   }
 }
 
-p code {
-  font-family: $mono;
-  padding: 0 .25rem;
-}
-
 hr {
   margin: 3rem 0;
   border: 0;
-  border-bottom: 1px $light-gray solid;
+  border-bottom: 1px $lighter-gray solid;
+}
+
+.button-link {
+  color: $white;
+  border-radius: 3px;
+  width: 100%;
+  display: block;
+  padding: 1rem 0;
+  transition: $t;
+  text-align: center;
+  text-decoration: none !important;
+  font-family: $mono;
+  margin: 6rem 0;
+  &:after {
+    content: "→";
+    margin-left: 1rem;
+  }
+  &:hover {
+    background: $dark-gray !important;
+    color: white;
+  }
+}
+
+.button-link-dark {
+  color: $dark-gray;
+  &:hover {
+    background: $lighter-gray !important;
+    color: $dark-gray;
+  }
 }

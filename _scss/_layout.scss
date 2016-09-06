@@ -1,5 +1,7 @@
 $content-width: 69rem;
 
+$t: color .3s ease, background .3s ease, transform .15s ease;
+
 .content {
   @include clearfix;
   margin: 0 auto 6rem;
@@ -41,3 +43,14 @@ section {
   }
 }
 
+.image-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
+}

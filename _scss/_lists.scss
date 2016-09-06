@@ -20,7 +20,14 @@
   }
 }
 
-.list-item {
+.list-shadow {
+  .list-image {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  }
+}
+
+ul li.list-item {
+  list-style-type: none;
   counter-increment: li;
   width: 100%;
   margin-bottom: 3rem;
@@ -56,7 +63,7 @@
   height: 3rem;
   border: 0;
   margin-right: 3rem;
-  transition: transform .3s ease;
+  transition: $t;
 }
 
 .list-detail {
@@ -66,9 +73,10 @@
 }
 
 .list-item {
+  background: attr(data-color);
   &:hover {
-.list-image {
-    transform: scale(1.5);
+    .list-image {
+      transform: scale(1.5);
+    }
   }
-}
 }

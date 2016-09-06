@@ -17,7 +17,7 @@ title: Jeff Hilnbrand
     <li class="feature-post">
       <a href="{{ post.url | prepend: site.baseurl }}">
         <div class="feature-post-image">
-          <img src="/img/{{ post.title | slugify }}_thumbnail.jpg">
+          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
         </div>
       </a>
       <a href="{{ post.url | prepend: site.baseurl }}" data-type="{{ post.type }}" class="h2 feature-post-title">{{ post.title }}</a>
@@ -27,13 +27,25 @@ title: Jeff Hilnbrand
 </ul>
 </section>
 
+<!-- <section>
+  <ul class="filters">
+  {% for post-type in site.data.post-types  %}
+    <a href="/{{ post-type.url }}">
+      <li class="filter-item h4" data-type="{{ post-type.type }}">
+        {{ post-type.url }}
+      </li>
+    </a>
+  {% endfor %}  
+  </ul>
+</section>
+ -->
 <section class="posts-list">
   <ul class="list list-photo-circle">
     {% for post in site.posts offset:4 %}
     <a href="{{ post.url | prepend: site.baseurl }}">
       <li class="list-item">
         <div data-type="{{ post.type }}" class="list-row before-icon">
-          <img src="/img/{{ post.title | slugify }}_thumbnail.jpg" class="list-image">
+          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg"  class="list-image">
           <h2 data-type="{{ post.type }}" class="list-title">{{ post.title }}</h2>
           <h4 class="list-detail">{{ post.date | date: "%b %Y" }}</h4>
         </div>

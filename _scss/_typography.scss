@@ -14,26 +14,31 @@ h1, %h1, .h1 {
   font-size: 2.5rem;
   letter-spacing: 0.5px;
   margin-bottom: 3rem;
+  font-family: $sans;
+  font-weight: $medium;
 }
 
 h2, %h2, .h2 {
   font-size: 1.5rem;
   line-height: 1.5;
   margin-bottom: 1rem;
+  font-family: $sans;
+  font-weight: $medium;
 }
 
 h3, %h3, .h3 {
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  font-family: $sans;
+  font-weight: $medium;
 }
 
 h4, %h4, .h4 {
   font-size: 1rem;
   letter-spacing: 0.5px;
   font-family: $mono;
+  font-weight: $regular;
   color: $light-gray;
   line-height: 1;
-  // font-weight: $light;
 }
 
 h5, %h5, .h5 {
@@ -49,11 +54,21 @@ p, .p {
 }
 
 strong {
-  font-weight: $medium;
+  font-weight: $bold;
 }
 
 a {
   font-weight: $medium;
+  &:hover {
+    color: attr(data-color);
+  }
+}
+
+p code {
+  font-family: $mono;
+  padding: .5rem .5rem;
+  background: $lightest-gray;
+  margin: 0 .125rem;
 }
 
 .sub {
