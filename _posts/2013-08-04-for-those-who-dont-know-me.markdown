@@ -5,31 +5,16 @@ title:    "For those who don't know me"
 date:     2013-08-04
 ---
 
-It’s healthy to take time to yourself to calm down. I keep a list of a few topics that get me in that zone, helping me quickly switch from the intense work grind to relaxing or getting ready for sleep.
+It really grinds my gears when people intro speeches with “For those who don’t know me, my name is …”. While seemingly casual or comforting, this phrase is merely noise to the real meat of what you’re saying: who you are. It is distracting, and hints at a lack of confidence.
 
-I call this the Arsenal of Calm 😌.
+Let’s do some A/B testing.
 
-Here are some of the search terms that I plug into YouTube when selecting relaxation videos. I encourage you to assemble an arsenal of your own.
+“For those who don’t know me, my name is Bruce Wayne and I am the owner of Wayne Enterprises.” *Wait, how do I know him? Why don’t I know him? Does he know me? …*
 
-## Woodworking 🛠
+“My name is Bruce Wayne and I am the owner of Wayne Enterprises.” *His name is Bruce Wayne and he is the owner of Wayne Enterprises.*
 
-The steady motions and earthy noises that go into woodworking are quite soothing. And you might even learn a new craft while doing it!
+Furthermore, this intro phrase suggests confidence issues or weak networks. Public figures hardly even introduce themselves at all because they command the stage and safely assume familiarity. While we can’t all have that recognition (or necessarily desire it), we can strive to mimic the certainty and poise of our favorite public speakers.
 
-## Massage 👐
+The same goes for “If you didn't already know, …”. This phrase is equally distracting as “For those who don’t know me”, but instead of affecting your own perceived confidence, it affects your audience’s. “If you didn't already know” often comes off condescending and ostracizes those who actually don’t know whatever fact follows.
 
-I’ve been watching instructional massage videos for a few years now. Not only is it perfect backdrop for chillaxing, but you can pick up interesting tips to try out yourself with self-massage.
-
-## Butchery 🍖
-
-This might surprise you… But I swear, the smooth strokes of a skilled knife are absolutely hypnotizing.
-
-## Glass Blowing 🔥
-
-Another artsy trade on the list! Watching gooey hot silicon magic is the best.
-
-A few tips for building your arsenal.
-
-- Try to select long videos. Finding the next video to watch actually causes stress, so I’m looking for 8+ minute clips. Or make a playlist!
-- A lot of these interests originated from exploring the r/ArtisanVideos subreddit. There’s some calming gold in there — check it out!
-- Music always helps, too! I’ve got my go-to “Calm Down” Spotify playlist.
-- Don’t tell your friends about your strange calming habits. They will tease you. Definitely don’t write a Medium post about it. They’ll see it.
+It’s easy! Just be conscious of the subtle psychological effects certain filler phrases may have on listeners, as well as the actual content of what you’re trying to communicate.

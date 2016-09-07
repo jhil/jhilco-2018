@@ -4,11 +4,11 @@ type:     project
 title:    "Anjoyd"
 date:     2013-10-06
 link:     anjoyd.org
-hero:     anjoyd_eyes
+hero:     anjoyd_eyes.jpg
 ---
 
 Anjoyd is a truck driven by an Android joystick and Google Glass.
 
-![Stack](/img/anjoyd_stack.png)
-![Car](/img/anjoyd_car.jpg)
-![Logo](/img/anjoyd_logo.png)
+{% include i.html src="anjoyd_stack.png" %}
+{% include i.html src="anjoyd_car.jpg" %}
+{% include i.html src="anjoyd_logo.png" %}

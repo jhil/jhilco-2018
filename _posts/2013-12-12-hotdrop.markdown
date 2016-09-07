@@ -8,4 +8,4 @@ link:     gethotdrop.com
 
 Hotdrop is a location-based messaging app.
 
-![](/img/hotdrop_app.png)
+{% include i.html src="hotdrop_app.png" %}

@@ -9,6 +9,7 @@
   @extend .rich-before;
   @extend .before-icon;
   font-weight: $medium;
+  display: inline-flex;
 }
 
 .post-date {
