@@ -6,12 +6,40 @@ $medium: 500;
 $regular: 400;
 $light: 300;
 
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/fonts/MaisonNeueWEB-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/fonts/MaisonNeueWEB-Medium.woff') format('woff');
+  font-weight: $medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('/fonts/MaisonNeueWEB-Demi.woff') format('woff');
+  font-weight: $demi;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Mono';
+  src: url('/fonts/MaisonNeueWEB-Mono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 $sans: 'Maison Neue', 'Maison', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$mono: 'Inconsolata', 'Source Code Pro', monospace;
+$mono: 'Maison Neue Mono', 'Inconsolata', 'Source Code Pro', monospace;
 $serif: 'Merriweather', Georgia, serif;
 
 h1, %h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   letter-spacing: 0.5px;
   margin-bottom: 3rem;
   font-family: $sans;
@@ -33,17 +61,12 @@ h3, %h3, .h3 {
 }
 
 h4, %h4, .h4 {
-  font-size: 1rem;
-  letter-spacing: 0.5px;
+  font-size: .75rem;
   font-family: $mono;
   font-weight: $regular;
   color: $light-gray;
   line-height: 1;
-}
-
-h5, %h5, .h5 {
-  font-size: 0.75rem;
-  text-transform: uppercase;
+  letter-spacing: -.5px;
 }
 
 p, .p {

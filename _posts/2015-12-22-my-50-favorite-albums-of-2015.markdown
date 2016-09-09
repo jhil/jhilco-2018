@@ -18,6 +18,8 @@ A few quick and cursory observations:
 
 *<span class="sub">Note. This isn’t the People’s Choice Awards, just what I enjoyed the most :)</span>*
 
+---
+
 <ul class="list post-list list-photo list-shadow list-numbered">
 {% for 2015-album in site.data.2015-albums %}
   <li class="list-item">

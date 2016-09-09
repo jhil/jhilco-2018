@@ -56,7 +56,7 @@ We secured facetoaster.com, and while we disappointingly did not win Namecheapâ€
 After picking the name, we went backwards to justify our branding. Facetoaster. Well. Face = interface. Ok good start. Toaster: when you put something in, it comes out more well done. Cheesy? Check. Justifiable? Checkâ€¦ ish. Makes everyone smile when they hear it? Check plus.
 From here, I worked on the logo. As a designer, this is often the most fun part of any project: pulling together all the different components (technical, semantic, etc.) into a concise visual style. Introducing, Facetoaster.
 
-dsfasdhttp://dribbble.com/shots/1383357-Facetoaster
+http://dribbble.com/shots/1383357-Facetoaster
 I drew back to my interactions with reddit founder Alexis Ohanian when he visited Maryland. He talked about how much fun it is to sketch mascots to represent web products. I went all in. After sending him a .png to look at on Twitter, I received an approval of silliness.
 
 https://twitter.com/alexisohanian/status/424802034533941248

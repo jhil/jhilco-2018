@@ -27,6 +27,8 @@ color:    "#00FF00"
   {% endfor %}
 </ul>
 
+---
+
 ## Friday
 
 <ul class="list post-list list-photo-circle">
@@ -47,6 +49,8 @@ color:    "#00FF00"
   {% endfor %}
 </ul>
 
+---
+
 ## Saturday
 
 <ul class="list post-list list-photo-circle">
@@ -66,6 +70,8 @@ color:    "#00FF00"
   {% endif %}
   {% endfor %}
 </ul>
+
+---
 
 ## Sunday
 

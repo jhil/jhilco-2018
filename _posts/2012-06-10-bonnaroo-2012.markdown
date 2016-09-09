@@ -28,6 +28,8 @@ hero:     bonnaroo-2012_hero.jpg
   {% endfor %}
 </ul>
 
+---
+
 ## Friday
 
 <ul class="list post-list list-photo-circle">
@@ -48,6 +50,8 @@ hero:     bonnaroo-2012_hero.jpg
   {% endfor %}
 </ul>
 
+---
+
 ## Saturday
 
 <ul class="list post-list list-photo-circle">
@@ -67,6 +71,8 @@ hero:     bonnaroo-2012_hero.jpg
   {% endif %}
   {% endfor %}
 </ul>
+
+---
 
 ## Sunday
 

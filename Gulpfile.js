@@ -6,6 +6,7 @@ var cache = require('gulp-cached');
 var cp = require('child_process');
 var cssnano = require('gulp-cssnano');
 var cache = require('gulp-cache');
+var changed = require('gulp-changed');
 var del = require('del');
 var es = require('event-stream');
 var foreach = require('gulp-foreach');
@@ -15,6 +16,7 @@ var imagemin = require('gulp-imagemin');
 var imageResize = require('gulp-image-resize');
 var jscs = require('gulp-jscs');
 var jshint = require('gulp-jshint');
+var parallel = require('concurrent-transform');
 var path = require('path');
 var plumber = require('gulp-plumber');
 var reload = browserSync.reload;
@@ -32,7 +34,7 @@ var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
   jekyllBuild: '<span style="color: grey">Running: </span> $ jekyll build'
 };
-var responsiveSizes = [20, 200, 800, 1600];
+var responsiveSizes = [20, 400, 800, 1600];
 
 /************
  **  SCSS  **
@@ -106,19 +108,19 @@ gulp.task('js:lint', function() {
  ** Optimized Images **
  **********************/
 
-gulp.task('images', /* ['responsive'], */ function() {
+gulp.task('images', ['responsive'], function() {
   return gulp.src('./_img/**/*')
     .pipe(plumber())
-    .pipe(cache(imagemin({
-      progressive: true,
-    })))
+    // .pipe(cache(imagemin({
+    //   progressive: true,
+    // })))
     .pipe(gulp.dest('./_site/img/'))
     .pipe(reload({stream: true}))
     .pipe(gulp.dest('./img/'));
 });
 
-gulp.task('images:optimized',  /* ['responsive'], */ function() {
-  return gulp.src('./img/res/**/*')
+gulp.task('images:optimized',  ['responsive'], function() {
+  return gulp.src('./_img/**/*')
     .pipe(plumber())
     .pipe(cache(imagemin({
       interlaced: true,
@@ -136,13 +138,15 @@ gulp.task('images:optimized',  /* ['responsive'], */ function() {
  ***********************/
 
 gulp.task('responsive', function (cb) {
-  return runSequence('responsive:clean', ['responsive:resize', 'responsive:metadata'], cb);
+  return runSequence(['responsive:resize', 'responsive:metadata'], cb);
 });
 
 gulp.task('responsive:resize', function() {
   return es.merge(responsiveSizes.map(function(size) {
+    var dest = './_img/res/' + size + '/';
     return gulp.src('./_img/res/raw/**/*')
       .pipe(plumber())
+      .pipe(changed(dest))
       .pipe(imageResize({
         height: size,
         width: 0,
@@ -150,7 +154,7 @@ gulp.task('responsive:resize', function() {
         upscale: false,
         imageMagick: true
       }))
-      .pipe(gulp.dest('./_img/res/' + size + '/'));
+      .pipe(gulp.dest(dest));
   }));
 });
 
@@ -160,7 +164,7 @@ gulp.task('responsive:metadata', function() {
     aspectRatios: {},
     sizes: responsiveSizes,
   };
-  return gulp.src('./_img/res/raw/**/*.{jpg,png,JPG,PNG}')
+  return gulp.src('./_img/res/raw/**/*.{jpg,JPG,png,PNG,jpeg,JPEG,gif,GIF}')
     .pipe(foreach(function(stream, file) {
       var key = file.path.replace(/.*\/_img\/res\/raw\//, '');
       var dimensions = sizeOf(file.path);
@@ -170,10 +174,6 @@ gulp.task('responsive:metadata', function() {
     .on('finish', function() {
       fs.writeFileSync('./_data/responsiveMetadata.json', JSON.stringify(metadata, null, 2));
     });
-});
-
-gulp.task('responsive:clean', function(cb) {
-  return del(['_img/res/*', '!_img/res/raw/', '!_img/res/raw/**'], cb);
 });
 
 /************
@@ -195,21 +195,28 @@ gulp.task('jekyll:rebuild', ['jekyll:build'], function() {
  ** Global Tasks **
  ******************/
 
-gulp.task('clean', function(cb) {
+gulp.task('clean', ['clean:jekyll'/*, 'clean:responsive'*/]);
+
+gulp.task('clean:jekyll',function(cb) {
   return del(['./_site/', './css/', './js/', './img/'], cb);
 });
 
+gulp.task('clean:responsive', function(cb) {
+  return del(['_img/res/*', '!_img/res/raw/', '!_img/res/raw/**'], cb);
+});
+
 gulp.task('deploy', ['build:optimized'], function() {
-  gulp.src('')
-    .pipe(shell('scp -r _site/* root@minimill.co:/srv/work/private_html/TITLE/'))
+  return gulp.src('')
+    .pipe(shell('scp -r _site/* dan:/srv/beta.schlosser.io/public_html/'))
     .on('finish', function() {
-      process.stdout.write('Deployed to work.minimill.co/TITLE/');
+      process.stdout.write('Deployed to beta.schlosser.io\n');
     });
 });
 
 gulp.task('watch', function() {
   gulp.watch([
-    './*.html',
+    './**/*.html',
+    '!./_site/**/*.html',
     './_layouts/*.html',
     './_includes/*.html',
     './_drafts/*.html',
@@ -222,12 +229,13 @@ gulp.task('watch', function() {
 });
 
 gulp.task('build', function (cb) {
-  return runSequence('clean', ['scss', 'images', 'js', 'jekyll'], cb);
+  return runSequence('clean', ['scss', 'images', 'js'], 'jekyll', cb);
 });
 
 gulp.task('build:optimized', function(cb) {
   return runSequence('clean',
-    ['scss:optimized', 'images:optimized', /*'responsive',*/ 'js', 'jekyll'],
+    ['scss:optimized', 'images:optimized', 'js'],
+    'jekyll',
     cb);
 });
 

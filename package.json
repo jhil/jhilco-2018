@@ -8,13 +8,14 @@
   "devDependencies": {
     "browser-sync": "^2.11.2",
     "child_process": "^1.0.2",
+    "concurrent-transform": "^1.0.0",
     "del": "^2.2.2",
     "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-cache": "^0.4.5",
     "gulp-cached": "^1.1.0",
-    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-changed": "^1.3.2",
     "gulp-cssnano": "^2.1.1",
     "gulp-foreach": "^0.1.0",
     "gulp-image-resize": "^0.10.0",
@@ -31,6 +32,7 @@
     "gulp-uglify": "^1.5.3",
     "image-size": "^0.5.0",
     "jshint": "^2.9.1",
+    "os-utils": "0.0.14",
     "run-sequence": "^1.1.5"
   },
   "engines": {

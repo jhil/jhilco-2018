@@ -10,6 +10,8 @@ hero:     false
 
 I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my [BoardGameGeek profile](https://www.boardgamegeek.com/user/jhilmd) for more games and ratings.
 
+---
+
 <ul class="list post-list list-photo list-numbered">
 {% for boardgame in site.data.boardgames %}
   <li class="list-item">

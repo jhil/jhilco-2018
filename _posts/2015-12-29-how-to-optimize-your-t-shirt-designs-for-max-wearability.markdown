@@ -73,7 +73,7 @@ Passable as a knock-off American Apparel. I confidently endorse this product for
 
 ---
 
-### Epilogue
+## Epilogue
 
 There is certainly space for experimental design and breaking the norm in t-shirt graphics. Some of my own favorite shirts don’t conform to these standards. But when your goal is to attain mass-wearitude and universal appreciation, these are good measures to follow.
 
