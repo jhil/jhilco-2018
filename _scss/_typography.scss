@@ -39,7 +39,7 @@ $mono: 'Maison Neue Mono', 'Inconsolata', 'Source Code Pro', monospace;
 $serif: 'Merriweather', Georgia, serif;
 
 h1, %h1, .h1 {
-  font-size: 2.75rem;
+  font-size: 3rem;
   letter-spacing: 0.5px;
   margin-bottom: 3rem;
   font-family: $sans;
@@ -47,7 +47,7 @@ h1, %h1, .h1 {
 }
 
 h2, %h2, .h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.5;
   margin-bottom: 1rem;
   font-family: $sans;
@@ -61,7 +61,7 @@ h3, %h3, .h3 {
 }
 
 h4, %h4, .h4 {
-  font-size: .75rem;
+  font-size: 1rem;
   font-family: $mono;
   font-weight: $regular;
   color: $light-gray;
@@ -74,10 +74,11 @@ p, .p {
   font-family: $serif;
   line-height: 2;
   margin-bottom: 2rem;
+  font-weight: $light;
 }
 
 strong {
-  font-weight: $bold;
+  font-weight: $regular;
 }
 
 a {

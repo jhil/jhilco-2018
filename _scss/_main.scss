@@ -59,11 +59,16 @@
   margin-bottom: 3rem;
 }
 
+.feature-post-quarter {
+  width: calc(25% - 1.5rem);
+}
+
 .feature-post-image {
   width: 100%;
   height: 16.5rem;
   margin-bottom: 2rem;
   @extend .image-fill;
+  border-radius: 2px;
 }
 
 .feature-post-title {
