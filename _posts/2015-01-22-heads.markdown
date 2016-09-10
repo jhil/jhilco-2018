@@ -6,4 +6,4 @@ date:     2015-06-20
 link:     heads.cc
 ---
 
-![](/img/heads_macbook.png)
+{% include i.html src="heads_macbook.png" %}

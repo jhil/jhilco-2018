@@ -8,6 +8,6 @@ link:     adicu.com
 
 The Application Development Initiative is a community for student developers at Columbia University.
 
-![](/img/adi_thumbnail.png)
+{% include i.html src="adi_thumbnail.png" %}
 
-![](/img/adi_logo.gif)
+{% include i.html src="adi_logo.gif" %}

@@ -6,4 +6,4 @@ date:     2015-06-20
 link:     challengepost.com/software/blitz-3j4iy
 ---
 
-![](/img/blitz_app.png)
+{% include i.html src="blitz_app.png" %}

@@ -7,53 +7,53 @@ date:     2015-12-10
 
 ## Project 5 - Cross Polination
 
-![](/img/sculptures_lights.JPG)
-![](/img/sculptures_lights-hand.jpg)
+{% include i.html src="sculptures_lights.JPG" %}
+{% include i.html src="sculptures_lights-hand.jpg" %}
 
 ## Project 4 - Serial Planes
 
-![](/img/sculptures_serial-shadow.jpg)
-![](/img/sculptures_serial-wall.jpg)
-![](/img/sculptures_serial-label.JPG)
-![](/img/sculptures_serial-wood.jpg)
-![](/img/sculptures_serial-stack.JPG)
-![](/img/sculptures_serial-paint.JPG)
-![](/img/sculptures_serial-black.JPG)
+{% include i.html src="sculptures_serial-shadow.jpg" %}
+{% include i.html src="sculptures_serial-wall.jpg" %}
+{% include i.html src="sculptures_serial-label.JPG" %}
+{% include i.html src="sculptures_serial-wood.jpg" %}
+{% include i.html src="sculptures_serial-stack.JPG" %}
+{% include i.html src="sculptures_serial-paint.JPG" %}
+{% include i.html src="sculptures_serial-black.JPG" %}
 
 ## Project 3 - Pop Culture
 
-![](/img/sculptures_legs.jpg)
-![](/img/sculptures_legs-noga.JPG)
-![](/img/sculptures_legs-bandages.JPG)
-![](/img/sculptures_legs-paint.JPG)
-![](/img/sculptures_legs-saw.JPG)
-![](/img/sculptures_legs-enclosure.JPG)
-![](/img/sculptures_legs-drops.JPG)
-![](/img/sculptures_legs-drops-painted.JPG)
-![](/img/sculptures_legs-dry.JPG)
-![](/img/sculptures_legs-car.JPG)
+{% include i.html src="sculptures_legs.jpg" %}
+{% include i.html src="sculptures_legs-noga.JPG" %}
+{% include i.html src="sculptures_legs-bandages.JPG" %}
+{% include i.html src="sculptures_legs-paint.JPG" %}
+{% include i.html src="sculptures_legs-saw.JPG" %}
+{% include i.html src="sculptures_legs-enclosure.JPG" %}
+{% include i.html src="sculptures_legs-drops.JPG" %}
+{% include i.html src="sculptures_legs-drops-painted.JPG" %}
+{% include i.html src="sculptures_legs-dry.JPG" %}
+{% include i.html src="sculptures_legs-car.JPG" %}
 
 ## Project 2 - Repetition
 
-![](/img/sculptures_pingpong.JPG)
-![](/img/sculptures_pingpong-closeup.JPG)
-![](/img/sculptures_pingpong-top.JPG)
+{% include i.html src="sculptures_pingpong.JPG" %}
+{% include i.html src="sculptures_pingpong-closeup.JPG" %}
+{% include i.html src="sculptures_pingpong-top.JPG" %}
 
 ## Project 1 - Cardboard Portrait
 
-![](/img/sculptures_cardboard.jpg)
-![](/img/sculptures_cardboard-back.jpg)
-![](/img/sculptures_cardboard-beard.JPG)
-![](/img/sculptures_cardboard-keys.JPG)
-![](/img/sculptures_cardboard-template.jpg)
-![](/img/sculptures_cardboard-face.jpg)
+{% include i.html src="sculptures_cardboard.jpg" %}
+{% include i.html src="sculptures_cardboard-back.jpg" %}
+{% include i.html src="sculptures_cardboard-beard.JPG" %}
+{% include i.html src="sculptures_cardboard-keys.JPG" %}
+{% include i.html src="sculptures_cardboard-template.jpg" %}
+{% include i.html src="sculptures_cardboard-face.jpg" %}
 
 ## Digital Fabrication 2 - Castle
 
-![](/img/sculptures_castle-sink.jpg)
-![](/img/sculptures_castle-print.jpg)
-![](/img/sculptures_castle-crit.JPG)
+{% include i.html src="sculptures_castle-sink.jpg" %}
+{% include i.html src="sculptures_castle-print.jpg" %}
+{% include i.html src="sculptures_castle-crit.JPG" %}
 
 ## Digital Fabrication 1 - GoPro
 
-![](/img/sculptures_gopro.JPG)
+{% include i.html src="sculptures_gopro.JP" %}
