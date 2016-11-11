@@ -6,6 +6,7 @@
   a {
     font-weight: $regular;
   }
+  @extend .h4;
 }
 
 .nav-avatar {
@@ -89,7 +90,7 @@
   min-width: 9rem;
   width: 9rem;
   height: 6rem;
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .post-title-feature {
@@ -104,6 +105,7 @@
 
 .post-title-small {
   margin-bottom: .5rem;
+  padding-right: 1rem;
 }
 
 .post-metadata-small {

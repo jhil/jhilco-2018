@@ -8,12 +8,12 @@ layout: default
 
 <section>
   <ul class="post-list-feature">
-    {% for post in site.posts %}
-    {% if post.type == page.type %}
+  {% for post in site.posts %}
+  {% if post.type == page.type %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
       <li class="post-item-feature">
         <div class="post-image post-image-feature">
-          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
+          <img src="/img/{{ post.url | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
         </div>
         <h3 class="post-title-feature">{{ post.title }}</h3>
       </li>

@@ -1,7 +1,7 @@
 ---
 layout:   post
 type:     talk
-title:    "Shell Talk 037: On Pitching, Speaking, Writing, Presenting, Composing, Persuading, and Inspiring"
+title:    "Shell Retreat: Failure vs. Risk"
 date:     2015-12-03
 hero:     false
 ---
