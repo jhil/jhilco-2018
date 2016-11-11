@@ -8,8 +8,13 @@
   font-weight: $medium;
 }
 
-.article-date {
-  margin-bottom: 3rem;
+.article-metadata {
+  margin: 6rem 0;
+  color: $medium-gray;
+  a:hover {
+    color: $dark-gray;
+    text-decoration: underline;
+  }
 }
 
 .article-image-hero {

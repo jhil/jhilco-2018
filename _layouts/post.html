@@ -16,7 +16,7 @@ layout: default
 
   <section class="article-body">
     {{ content }}
-    <h5 class="article-date">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.type == "work" %}<a href= "/work">{% else %}<a href="/{{ page.type }}s">{% endif %}#{{ page.type }}</a></h5>
+    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.type == "work" %}<a href= "/work">{% else %}<a href="/{{ page.type }}s">{% endif %}#{{ page.type }}</a></h5>
   </section>
 
 </article>
