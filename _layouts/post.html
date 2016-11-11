@@ -10,7 +10,7 @@ layout: default
 
   {% unless page.hero == false %}
   <section class="full-width article-image-hero">
-    <img src="/img/{{ page.title | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.title | slugify }}_thumbnail.jpg{% endif %}"">
+    <img src="/img/{{ page.url | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.url | slugify }}_thumbnail.jpg{% endif %}"">
   </section>
   {% endunless %}
 
