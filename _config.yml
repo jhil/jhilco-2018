@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site
 permalink: /:title/ # example: http://jhil.co/bitcamp
 
-i: "/img/{{ page.title | slugify }}"
+i: "/img/{{ page.url | slugify }}"
 
 name: "Jeff Hilnbrand"
 markdown: kramdown
