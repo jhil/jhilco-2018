@@ -78,11 +78,14 @@
 
 .post-image-feature {
   width: 100%;
-  height: 13.5rem;
   margin-bottom: 2rem;
+  @extend .ratio;
+  @extend .ratio-2_1;
 }
 
 .post-image-small {
+  @extend .ratio;
+  @extend .ratio-3_2;
   min-width: 9rem;
   width: 9rem;
   height: 6rem;
