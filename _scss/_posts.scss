@@ -1,50 +1,35 @@
-.post-header {
+.article-header {
   display: flex;
   align-items: center;
 }
 
-.post-title {
-  width: 51rem;
-  margin: 0;
-  @extend .rich-before;
-  @extend .before-icon;
+.article-title {
+  width: 57rem;
   font-weight: $medium;
-  display: inline-flex;
 }
 
-.post-date {
-  flex-grow: 1;
-  text-align: right;
+.article-date {
+  margin-bottom: 3rem;
 }
 
-.post-hero-image {
+.article-image-hero {
   width: 100%;
-  // height: 29.5rem;
   margin-bottom: 6rem;
   @extend .image-fill;
 }
 
-.post-body {
+.article-body {
   max-width: 45rem;
   margin-left: 6rem;
+  @media screen and (max-width: $tablet-portrait-max) {
+    margin-left: 0;
+  }
   padding: 0;
   p a {
     text-decoration: underline;
   }
   img {
     display: block;
-  }
-  h1 {
-    margin: 3rem 0;
-    font-size: 2rem;
-    font-weight: $medium;
-  }
-  h2 {
-    margin: 3rem 0 2rem;
-    font-weight: $medium;
-  }
-  h3 {
-    margin: 3rem 0 2rem;
   }
   blockquote p {
     padding: .5rem 0 .5rem 3rem;
@@ -67,17 +52,17 @@
   }
 }
 
-ul.post-list {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+ul.article-list {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   h3 {
     margin: 0;
   }
 }
 
 p img {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   width: 100%;
 }
 
@@ -89,7 +74,7 @@ p img {
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  margin: 3rem 0;
+  margin: 6rem 0;
   iframe, object, embed {
     position: absolute;
     top: 0;
@@ -100,7 +85,7 @@ p img {
 }
 
 hr {
-  margin: 3rem 0;
+  margin: 4rem 0;
   border: 0;
   border-bottom: 1px $lighter-gray solid;
 }

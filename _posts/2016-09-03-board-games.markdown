@@ -12,7 +12,7 @@ I love collecting board games and sharing fun times with friends and family. The
 
 ---
 
-<ul class="list post-list list-photo list-numbered">
+<ul class="list article-list list-photo list-numbered">
 {% for boardgame in site.data.boardgames %}
   <li class="list-item">
     <div class="list-row">
@@ -20,9 +20,9 @@ I love collecting board games and sharing fun times with friends and family. The
         <img src="/img/board-games/{{ boardgame.title | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ boardgame.link }}">
-        <h3 class="list-title">{{ boardgame.title }}</h3>
+        <h4 class="list-title">{{ boardgame.title }}</h4>
       </a>
-      <h4 class="list-detail"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h4>
+      <h5 class="list-detail"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
     <p>{{ boardgame.description }}</p>
   </li>

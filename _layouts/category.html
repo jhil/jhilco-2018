@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<section class="posts-feature">
-  <ul class="feature-posts">
+<section>
+  <h1>{{ page.url | slugify | capitalize }}</h1>
+</section>
+
+<section>
+  <ul class="post-list-feature">
     {% for post in site.posts %}
     {% if post.type == page.type %}
-    <li class="feature-post">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="feature-post-image">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
+      <li class="post-item-feature">
+        <div class="post-image post-image-feature">
           <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
         </div>
-      </a>
-      <a href="{{ post.url | prepend: site.baseurl }}" data-type="{{ post.type }}" class="h2 feature-post-title">{{ post.title }}</a>
+        <h3 class="post-title-feature">{{ post.title }}</h3>
+      </li>
     </a>
-  </li>
-  {% endif %}
-  {% endfor %}
-</ul>
+    {% endif %}
+    {% endfor %}
+  </ul>
 </section>

@@ -40,12 +40,12 @@ ul li.list-item {
   @extend .rich-before;
   &:before {
     content: "∙";
-    @extend .h4;
+    @extend .h5;
   }
   h2 {
     margin: 0;
   }
-  h4 {
+  h5 {
     flex-grow: 1;
     text-align: right;
   }

@@ -4,46 +4,41 @@ title: Jeff Hilnbrand
 ---
 
 <section class="intro">
-  <h2>I like making cool things with cool people. Product Designer at <a href="https://www.facebook.com/design" target="_blank">Facebook</a>. Previously at <a href="http://minimill.co" target="_blank">Minimill</a>, <a href="https://creativemarket.com" target="_blank">Autodesk</a>, <a href="https://venmo.com" target="_blank">Venmo</a>, <a href="http://startupshell.org" target="_blank">Startup Shell</a>, <a href="http://bitca.mp" target="_blank">Bitcamp</a>.</h2>
+  <h2>
+    I like making cool things with cool people.
+    <span class="sub">Product Designer at <a href="https://www.facebook.com/design" target="_blank">Facebook</a>. </span>
+    <span class="subsub">Previously at <a href="http://minimill.co" target="_blank">Minimill</a>, <a href="https://creativemarket.com" target="_blank">Autodesk</a>, <a href="https://venmo.com" target="_blank">Venmo</a>, <a href="http://startupshell.org" target="_blank">Startup Shell</a>, <a href="http://bitca.mp" target="_blank">Bitcamp</a>.</span>
+  </h2>
 </section>
 
-<section class="posts-feature">
-  <ul class="feature-posts">
+<section>
+  <ul class="post-list-feature">
     {% for post in site.posts limit:4 %}
-    <li class="feature-post">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="feature-post-image">
-          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
+      <li class="post-item-feature">
+        <div class="post-image post-image-feature">
+          <img src="/img/{{ post.url | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
         </div>
-      </a>
-      <a href="{{ post.url | prepend: site.baseurl }}" data-type="{{ post.type }}" class="h2 feature-post-title">{{ post.title }}</a>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-</section>
-
-<!-- <section>
-  <ul class="filters">
-  {% for post-type in site.data.post-types  %}
-    <a href="/{{ post-type.url }}">
-      <li class="filter-item h4" data-type="{{ post-type.type }}">
-        {{ post-type.url }}
+        <h3 class="post-title-feature">{{ post.title }}</h3>
       </li>
     </a>
-  {% endfor %}  
+    {% endfor %}
   </ul>
-</section> -->
+</section>
 
-<section class="posts-list">
-  <ul class="list list-photo-circle">
+<section>
+  <ul class="post-list-small">
     {% for post in site.posts offset:4 %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <li class="list-item">
-        <div data-type="{{ post.type }}" class="list-row before-icon">
-          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg"  class="list-image">
-          <h2 data-type="{{ post.type }}" class="list-title">{{ post.title }}</h2>
-          <h4 class="list-detail">{{ post.date | date: "%b %Y" }}</h4>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
+      <li class="post-item-small">
+        <div class="post-image post-image-small">
+          <img src="/img/{{ post.url | slugify }}/{{ post.url | slugify }}_thumbnail.jpg">
+        </div>
+        <div class="post-info-wrapper">
+        <div class="post-info">
+          <h4 class="post-title-small">{{ post.title }}</h4>
+          <h5 class="post-metadata-small">{{ post.date | date: "%Y" }}&ensp;·&ensp;#{{ post.type}}</h5>
+        </div>
         </div>
       </li>
     </a>

@@ -4,19 +4,19 @@ layout: default
 
 <article class="post post-article">
 
-  <section class="post-header">
+  <section class="article-header">
     <h1 data-type="{{ page.type }}" class="post-title">{{ page.title }}</h1>
-    <h4 class="post-date">{{ page.date | date: "%b %d, %Y" }}</h4>
   </section>
 
   {% unless page.hero == false %}
-  <section class="post-hero-image">
+  <section class="full-width article-image-hero">
     <img src="/img/{{ page.title | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.title | slugify }}_thumbnail.jpg{% endif %}"">
   </section>
   {% endunless %}
 
-  <section class="post-body">
+  <section class="article-body">
     {{ content }}
+    <h5 class="article-date">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;#{{ page.type }}</h5>
   </section>
 
 </article>

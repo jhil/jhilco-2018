@@ -10,16 +10,15 @@
 
 .nav-avatar {
   background-image: url(/img/jhilnbrand.jpg);
-  height: 1rem;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   display: block;
   background-size: cover;
   border-radius: 50%;
-  margin: 0 1rem;
-  transform: scale(1.5);
+  margin: 0 .75rem;
   transition: $t;
   &:hover {
-    transform: scale(2.5);
+    transform: scale(2);
   }
 }
 
@@ -31,15 +30,14 @@
 // home
 
 .intro {
-  margin: 6rem 0;
-  a {
+  margin: 4rem 0;
+  h2 {
     font-weight: $regular;
   }
-  li {
+  a {
     font-weight: $regular;
-    &:before {
-      @extend .rich-before;
-      content: "∙";
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
@@ -47,104 +45,63 @@
 
 // features
 
-.feature-posts {
+.post-list-feature, .post-list-small {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 
-.feature-post {
-  display: inline-block;
+.post-item-wrapper {
   width: calc(50% - 1.5rem);
-  margin-bottom: 3rem;
-}
+  margin-bottom: 4rem;
+  text-align: center;
 
-.feature-post-quarter {
-  width: calc(25% - 1.5rem);
-}
-
-.feature-post-image {
-  width: 100%;
-  height: 16.5rem;
-  margin-bottom: 2rem;
-  @extend .image-fill;
-  border-radius: 2px;
-}
-
-.feature-post-title {
-  @extend .rich-before;
-  @extend .before-icon;
-}
-
-.before-icon:before {
-  content: " ";
-  height: 1rem;
-  background-size: 1rem 1rem;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: $light-gray;
-  mask-size: 1rem;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-image: url(/img/icon-article.svg);
-}
-
-h1.before-icon:before {
-  height: 3.5rem;
-}
-
-*[data-type="article"] {
-  &:before {
-    mask-image: url(/img/icon-article.svg);
+  @media screen and (max-width: $tablet-portrait-max) {
+    width: 100%;
   }
+
 }
 
-*[data-type="list"] {
-  &:before {
-    mask-image: url(/img/icon-list.svg);
-  }
-}
-
-*[data-type="project"] {
-  &:before {
-    mask-image: url(/img/icon-project.svg);
-  }
-}
-
-*[data-type="talk"] {
-  &:before {
-    mask-image: url(/img/icon-talk.svg);
-  }
-}
-
-*[data-type="travel"] {
-  &:before {
-    mask-image: url(/img/icon-travel.svg);
-  }
-}
-
-*[data-type="work"] {
-  &:before {
-    mask-image: url(/img/icon-work.svg);
-  }
-}
-
-*[data-type="writing"] {
-  &:before {
-    mask-image: url(/img/icon-writing.svg);
-  }
-}
-
-.filters {
+.post-item-small {
   display: flex;
-  li {
-    margin-right: 3rem;
-    &:before {
-      display: inline-block;
-      width: 3rem;
-      text-align: center;
-      margin-right: 1rem;
+  &:hover {
+    .post-metadata-small {
+      color: $medium-gray;
     }
-    @extend .before-icon;
   }
+}
+
+.post-image {
+  @extend .image-fill;
+  background: $lightest-gray;
+}
+
+.post-image-feature {
+  width: 100%;
+  height: 13.5rem;
+  margin-bottom: 2rem;
+}
+
+.post-image-small {
+  min-width: 9rem;
+  width: 9rem;
+  height: 6rem;
+  margin-right: 3rem;
+}
+
+.post-title-feature {
+  text-align: center;
+}
+
+.post-info-wrapper {
+  text-align: left;
+  align-items: center;
+  display: flex;
+}
+
+.post-title-small {
+  margin-bottom: .5rem;
+}
+
+.post-metadata-small {
 }

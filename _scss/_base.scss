@@ -5,8 +5,9 @@ html, body {
   font-size: 16px;
   font-weight: $regular;
   height: 100%;
-  line-height: 1.5;
+  line-height: 2;
   position: relative;
+  padding: 0 1rem;
 }
 
 a, a:hover {
@@ -16,6 +17,7 @@ a, a:hover {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 @mixin clearfix {
@@ -23,5 +25,57 @@ img {
     clear: both;
     content: ' ';
     display: block;
+  }
+}
+
+$content-width: 69rem;
+
+$t: color .3s ease, background .3s ease, transform .15s ease;
+
+.content {
+  @include clearfix;
+  margin: 0 auto 6rem;
+  max-width: $content-width;
+}
+
+section {
+  margin-top: 4rem;
+  padding: 0 6rem;
+  @media screen and (max-width: $tablet-portrait-max) {
+    padding: 0rem;
+  }
+}
+
+.full-width {
+  padding: 0;
+}
+
+.rich-before {
+  &:before {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+  }
+}
+
+.rich-after {
+  &:after {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    margin-left: 3rem;
+  }
+}
+
+.image-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
   }
 }

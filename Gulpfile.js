@@ -40,7 +40,7 @@ var responsiveSizes = [20, 400, 800, 1600];
  **  SCSS  **
  ************/
 
-gulp.task('scss', ['scss:lint', 'scss:build']);
+gulp.task('scss', ['scss:build']); // 'scss:lint', 
 
 gulp.task('scss:lint', function() {
   gulp.src(['./_scss/**/*.scss', '!./_scss/lib/**/*.scss'])

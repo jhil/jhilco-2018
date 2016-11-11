@@ -9,7 +9,7 @@ color:    "#F90D1B"
 
 ## Thursday
 
-<ul class="list post-list list-photo-circle">
+<ul class="list article-list list-photo-circle">
   {% for bonnaroo-2015-artist in site.data.bonnaroo-2015-artists  %}
   {% if bonnaroo-2015-artist.day == "Thursday" %}
   <li class="list-item">
@@ -18,9 +18,9 @@ color:    "#F90D1B"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2015-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2015-artist.link }}">
-        <h3 class="list-title">{{ bonnaroo-2015-artist.artist }}</h3>
+        <h4 class="list-title">{{ bonnaroo-2015-artist.artist }}</h4>
       </a>
-      <h4 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h4>
+      <h5 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
   </li>
   {% endif %}
@@ -31,7 +31,7 @@ color:    "#F90D1B"
 
 ## Friday
 
-<ul class="list post-list list-photo-circle">
+<ul class="list article-list list-photo-circle">
   {% for bonnaroo-2015-artist in site.data.bonnaroo-2015-artists  %}
   {% if bonnaroo-2015-artist.day == "Friday" %}
   <li class="list-item">
@@ -40,9 +40,9 @@ color:    "#F90D1B"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2015-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2015-artist.link }}">
-        <h3 class="list-title">{{ bonnaroo-2015-artist.artist }}</h3>
+        <h4 class="list-title">{{ bonnaroo-2015-artist.artist }}</h4>
       </a>
-      <h4 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h4>
+      <h5 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
   </li>
   {% endif %}
@@ -53,7 +53,7 @@ color:    "#F90D1B"
 
 ## Saturday
 
-<ul class="list post-list list-photo-circle">
+<ul class="list article-list list-photo-circle">
   {% for bonnaroo-2015-artist in site.data.bonnaroo-2015-artists  %}
   {% if bonnaroo-2015-artist.day == "Saturday" %}
   <li class="list-item">
@@ -62,9 +62,9 @@ color:    "#F90D1B"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2015-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2015-artist.link }}">
-        <h3 class="list-title">{{ bonnaroo-2015-artist.artist }}</h3>
+        <h4 class="list-title">{{ bonnaroo-2015-artist.artist }}</h4>
       </a>
-      <h4 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h4>
+      <h5 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
   </li>
   {% endif %}
@@ -75,7 +75,7 @@ color:    "#F90D1B"
 
 ## Sunday
 
-<ul class="list post-list list-photo-circle">
+<ul class="list article-list list-photo-circle">
   {% for bonnaroo-2015-artist in site.data.bonnaroo-2015-artists  %}
   {% if bonnaroo-2015-artist.day == "Sunday" %}
   <li class="list-item">
@@ -84,9 +84,9 @@ color:    "#F90D1B"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2015-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2015-artist.link }}">
-        <h3 class="list-title">{{ bonnaroo-2015-artist.artist }}</h3>
+        <h4 class="list-title">{{ bonnaroo-2015-artist.artist }}</h4>
       </a>
-      <h4 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h4>
+      <h5 class="list-detail"><em>{{ bonnaroo-2015-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
   </li>
   {% endif %}

@@ -22,7 +22,7 @@ This portion was inspired by an article I read on LinkedIn: “10 Things MBAs Do
 
 >It helps not to call people “human resources”. They’re people. And, as it turns out, people like to be treated like people. Go figure.
 
-Your employees or co-workers aren't just members of the HR department. They’re people, people who like going out to dinner, playing racquetball, and taking days off to spend with their loved ones. This of course goes a bit more specific than humans, where getting to know a personality is key. Understanding character and improving your relationships with those around you will ultimately lead to much better workflows in and out of the office (or hipster collaborative workspace lab… whatever you want to call it).
+Your employees or co-workers aren't just members of the  department. They’re people, people who like going out to dinner, playing racquetball, and taking days off to spend with their loved ones. This of course goes a bit more specific than humans, where getting to know a personality is key. Understanding character and improving your relationships with those around you will ultimately lead to much better workflows in and out of the office (or hipster collaborative workspace lab… whatever you want to call it).
 People as family
 
 There are certain persons who probably merit even one level further. Co-founders and partners can be one-upped again. Consider them as people who you don’t just work with, but truly care about.

@@ -20,7 +20,7 @@ A few quick and cursory observations:
 
 ---
 
-<ul class="list post-list list-photo list-shadow list-numbered">
+<ul class="list article-list list-photo list-shadow list-numbered">
 {% for 2015-album in site.data.2015-albums %}
   <li class="list-item">
     <div class="list-row">
@@ -28,9 +28,9 @@ A few quick and cursory observations:
         <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpg" class="list-image">
       </a>
       <a href="{{ 2015-album.link }}">
-        <h3 class="list-title">{{ 2015-album.album }}<span class="subsub"> – </span><span class="sub">{{ 2015-album.artist }}</span></h3>
+        <h4 class="list-title">{{ 2015-album.album }}<span class="subsub"> – </span><span class="sub">{{ 2015-album.artist }}</span></h4>
       </a>
-      <h4 class="list-detail">{{ 2015-album.genre }}</h4>
+      <h5 class="list-detail">{{ 2015-album.genre }}</h5>
     </div>
     <!-- <p>{{ boardgame.description }}</p> -->
   </li>

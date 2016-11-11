@@ -35,38 +35,45 @@ $light: 300;
 }
 
 $sans: 'Maison Neue', 'Maison', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$mono: 'Maison Neue Mono', 'Inconsolata', 'Source Code Pro', monospace;
+$mono: 'Inconsolata', 'Source Code Pro', monospace;
 $serif: 'Merriweather', Georgia, serif;
 
 h1, %h1, .h1 {
   font-size: 3rem;
   letter-spacing: 0.5px;
-  margin-bottom: 3rem;
   font-family: $sans;
   font-weight: $medium;
+  line-height: 1.5;
 }
 
 h2, %h2, .h2 {
-  font-size: 1.75rem;
-  line-height: 1.5;
+  font-size: 1.5rem;
+  line-height: 2;
   margin-bottom: 1rem;
   font-family: $sans;
   font-weight: $medium;
 }
 
 h3, %h3, .h3 {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   font-family: $sans;
   font-weight: $medium;
+  line-height: 1.5;
 }
 
 h4, %h4, .h4 {
+  font-size: 1.125rem;
+  font-family: $sans;
+  font-weight: $medium;
+  line-height: 1.5;
+}
+
+h5, %h5, .h5 {
   font-size: 1rem;
   font-family: $mono;
   font-weight: $regular;
+  line-height: 1.5;
   color: $light-gray;
-  line-height: 1;
-  letter-spacing: -.5px;
 }
 
 p, .p {
@@ -77,15 +84,13 @@ p, .p {
   font-weight: $light;
 }
 
+
 strong {
   font-weight: $regular;
 }
 
 a {
   font-weight: $medium;
-  &:hover {
-    color: attr(data-color);
-  }
 }
 
 p code {
@@ -101,10 +106,4 @@ p code {
 
 .subsub {
   color: $light-gray;
-}
-
-@media screen and (max-width: $phone-landscape-max) {
-  h1, %h1 {
-    font-size: 1.75rem;
-  }
 }
