@@ -1,33 +1,3 @@
-// nav
-
-.nav {
-  display: flex;
-  margin-bottom: 6rem;
-  a {
-    font-weight: $regular;
-  }
-  @extend .h4;
-}
-
-.nav-avatar {
-  background-image: url(/img/jhilnbrand.jpg);
-  height: 1.5rem;
-  width: 1.5rem;
-  display: block;
-  background-size: cover;
-  border-radius: 50%;
-  margin: 0 .75rem;
-  transition: $t;
-  &:hover {
-    transform: scale(2);
-  }
-}
-
-.nav-title {
-  margin-left: 3rem;
-}
-
-
 // home
 
 .intro {
@@ -53,6 +23,11 @@
 }
 
 .post-item-wrapper {
+  &:hover {
+    h3 {
+      text-decoration: underline;
+    }
+  }
   width: calc(50% - 1.5rem);
   margin-bottom: 4rem;
   text-align: center;
@@ -106,7 +81,4 @@
 .post-title-small {
   margin-bottom: .5rem;
   padding-right: 1rem;
-}
-
-.post-metadata-small {
 }

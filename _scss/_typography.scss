@@ -36,7 +36,7 @@ $light: 300;
 
 $sans: 'Maison Neue', 'Maison', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $mono: 'Inconsolata', 'Source Code Pro', monospace;
-$serif: 'Merriweather', Georgia, serif;
+$serif: Georgia, serif;
 
 h1, %h1, .h1 {
   font-size: 3rem;
@@ -78,7 +78,7 @@ h5, %h5, .h5 {
 
 p, .p {
   font-size: 1rem;
-  font-family: $serif;
+  font-family: $sans;
   line-height: 2;
   margin-bottom: 2rem;
   font-weight: $light;

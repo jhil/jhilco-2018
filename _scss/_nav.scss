@@ -1,0 +1,61 @@
+// nav
+
+.nav {
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    font-weight: $regular;
+  }
+  @extend .h4;
+  & > * {
+    display: flex;
+  }
+}
+
+.nav-avatar {
+  background-image: url(/img/jhilnbrand.jpg);
+  height: 1.5rem;
+  width: 1.5rem;
+  display: block;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 .75rem;
+  transition: $t;
+  &:hover {
+    transform: scale(2);
+  }
+}
+
+.nav-title {
+  margin-left: 3rem;
+}
+
+.nav-left {
+}
+
+.nav-right {
+}
+
+.nav-social {
+  display: flex;
+}
+
+.nav-social-item {
+  width: 1rem;
+  height: 1rem;
+  padding: .5rem;
+  margin-left: 1rem;
+  svg {
+    display: block;
+    path {
+      fill: $light-gray;
+    }
+  }
+  &:hover {
+    svg path {
+      fill: $medium-gray;
+    }
+  }
+}

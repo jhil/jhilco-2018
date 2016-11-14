@@ -1,20 +1,19 @@
 ---
 layout: default
-title: Jeff Hilnbrand - All
+title: All
 ---
 
-<section class="posts-feature">
-  <ul class="feature-posts">
+<section>
+  <ul class="post-list-feature">
     {% for post in site.posts %}
-    <li class="feature-post">
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="feature-post-image">
-          <img src="/img/{{ post.title | slugify }}/{{ post.title | slugify }}_thumbnail.jpg">
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
+      <li class="post-item-feature">
+        <div class="post-image post-image-feature">
+          <img src="/img/{{ post.url | slugify }}/{{ post.url | slugify }}_thumbnail.jpg">
         </div>
-      </a>
-      <a href="{{ post.url | prepend: site.baseurl }}" data-type="{{ post.type }}" class="h2 feature-post-title">{{ post.title }}</a>
+        <h3 class="post-title-feature">{{ post.title }}</h3>
+      </li>
     </a>
-  </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
 </section>

@@ -33,6 +33,15 @@
   p a {
     text-decoration: underline;
   }
+  h1 {
+    margin: 4rem 0;
+  }
+  h2 {
+    margin: 4rem 0 2rem;
+  }
+  h3 {
+    margin: 1rem 0;
+  }
   img {
     display: block;
   }
@@ -66,8 +75,7 @@ ul.article-list {
 }
 
 p img {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin: 4rem 0;
   width: 100%;
 }
 
@@ -106,6 +114,7 @@ hr {
   text-decoration: none !important;
   font-family: $mono;
   margin: 6rem 0;
+  font-size: 1rem;
   &:after {
     content: "→";
     margin-left: 1rem;
