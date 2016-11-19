@@ -12,6 +12,10 @@
   & > * {
     display: flex;
   }
+  h1 {
+    @extend .p;
+    margin-bottom: 0;
+  }
 }
 
 .nav-avatar {
