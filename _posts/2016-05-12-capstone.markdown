@@ -1,0 +1,10 @@
+---
+layout:   post
+type:     project
+title:    "Capstone: Design For All"
+date:     2016-05-12
+---
+
+{% include i.html src="capstone_about.png" %}
+{% include i.html src="capstone_workshops.png" %}
+{% include i.html src="capstone_poster.png" %}
