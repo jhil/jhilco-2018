@@ -59,12 +59,12 @@
   width: 100%;
   margin-bottom: 2rem;
   @extend .ratio;
-  @extend .ratio-2_1;
+  @extend .ratio-16_9;
 }
 
 .post-image-small {
   @extend .ratio;
-  @extend .ratio-3_2;
+  @extend .ratio-4_3;
   min-width: 9rem;
   width: 9rem;
   height: 6rem;

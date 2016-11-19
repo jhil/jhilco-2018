@@ -100,11 +100,23 @@ section {
   right: 0;
 }
 
+.ratio-16_9:before {
+  padding-top: 56.25%;
+}
+
 .ratio-2_1:before {
   padding-top: 50%;
 }
 
+.ratio-16_9:before {
+  padding-top: 56.25%;
+}
+
 .ratio-3_2:before {
   padding-top: 33%;
+}
+
+.ratio-4_3:before {
+  padding-top: 25%;
 }
 

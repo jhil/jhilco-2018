@@ -1,0 +1,14 @@
+---
+layout:   post
+type:     project
+title:    "Go-Too"
+date:     2016-02-04
+link:     gotoo.io
+color:    "#7C15CE"
+---
+
+{% include i.html src="gotoo_home.png" %}
+
+{% include i.html src="gotoo_list.png" %}
+
+{% include button-link.html %}
