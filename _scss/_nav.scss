@@ -18,6 +18,14 @@
   }
 }
 
+.nav-left {
+  &:hover {
+    .nav-avatar {
+    transform: scale(1.5);
+  }
+  }
+}
+
 .nav-avatar {
   background-image: url(/img/jhilnbrand.jpg);
   height: 1.5rem;
@@ -25,15 +33,11 @@
   display: block;
   background-size: cover;
   border-radius: 50%;
-  margin: 0 .75rem;
+  margin-right: 2rem;
   transition: $t;
-  &:hover {
-    transform: scale(2);
-  }
 }
 
 .nav-title {
-  margin-left: 3rem;
 }
 
 .nav-left {

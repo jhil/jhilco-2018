@@ -9,7 +9,7 @@
 }
 
 .article-metadata {
-  margin: 6rem 0;
+  margin: 4rem 0;
   color: $medium-gray;
   a:hover {
     color: $dark-gray;
@@ -47,9 +47,9 @@
   }
   blockquote p {
     padding: .5rem 0 .5rem 3rem;
-    border-left: .25rem $lighter-gray solid;
-    font-style: italic;
-    margin: 2rem 0;
+    border-left: 2px $lighter-gray solid;
+    margin: 3rem 0;
+    color: $medium-gray;
   }
   p em {
     font-style: italic;
@@ -100,7 +100,7 @@ p img {
 hr {
   margin: 4rem 0;
   border: 0;
-  border-bottom: 1px $lighter-gray solid;
+  border-bottom: 1px $light-gray solid;
 }
 
 .button-link {
