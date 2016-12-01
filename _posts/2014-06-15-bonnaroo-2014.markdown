@@ -18,7 +18,7 @@ color:    "#00FF00"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2014-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2014-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2014-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2014-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2014-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
@@ -40,7 +40,7 @@ color:    "#00FF00"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2014-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2014-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2014-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2014-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2014-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
@@ -62,7 +62,7 @@ color:    "#00FF00"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2014-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2014-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2014-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2014-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2014-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
@@ -84,7 +84,7 @@ color:    "#00FF00"
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2014-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2014-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2014-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2014-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2014-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>

@@ -2,20 +2,22 @@
 layout: default
 ---
 
-<article class="post post-article">
+<article class="post post-article post-{{ page.type }}">
 
   <section class="article-header">
-    <h1 data-type="{{ page.type }}" class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.type == "work" %}<a href= "/work">{% else %}<a href="/{{ page.type }}s">{% endif %}#{{ page.type }}</a></h5>
   </section>
 
-  {% unless page.hero == false %}
+  {% if page.hero == false %}
+  <section><hr></section>
+  {% else %}
   <section class="full-width article-image-hero">
     <img src="/img/{{ page.url | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.url | slugify }}_thumbnail.jpg{% endif %}"">
   </section>
-  {% endunless %}
+  {% endif %}
 
   <section class="article-body">
-    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.type == "work" %}<a href= "/work">{% else %}<a href="/{{ page.type }}s">{% endif %}#{{ page.type }}</a></h5>
     {{ content }}
   </section>
 

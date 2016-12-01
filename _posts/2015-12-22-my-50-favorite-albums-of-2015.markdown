@@ -28,7 +28,7 @@ A few quick and cursory observations:
         <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpg" class="list-image">
       </a>
       <a href="{{ 2015-album.link }}">
-        <h4 class="list-title">{{ 2015-album.album }}<span class="subsub"> – </span><span class="sub">{{ 2015-album.artist }}</span></h4>
+        <h3 class="list-title">{{ 2015-album.album }}<span class="subsub"> – </span><span class="sub">{{ 2015-album.artist }}</span></h3>
       </a>
       <h5 class="list-detail">{{ 2015-album.genre }}</h5>
     </div>

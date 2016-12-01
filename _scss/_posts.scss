@@ -1,5 +1,4 @@
 .article-header {
-  display: flex;
   align-items: center;
 }
 
@@ -9,7 +8,7 @@
 }
 
 .article-metadata {
-  margin: 4rem 0;
+  margin: 2rem 0 4rem;
   color: $medium-gray;
   a:hover {
     color: $dark-gray;
@@ -24,11 +23,11 @@
 }
 
 .article-body {
+  width: 57rem;
+  padding: 0 6rem;
   max-width: 45rem;
-  margin-left: 6rem;
-  @media screen and (max-width: $tablet-portrait-max) {
-    margin-left: 0;
-  }
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   p a {
     text-decoration: underline;
@@ -40,7 +39,7 @@
     margin: 4rem 0 2rem;
   }
   h3 {
-    margin: 1rem 0;
+    margin: 3rem 0 2rem 0;
   }
   img {
     display: block;
@@ -64,6 +63,11 @@
       margin-bottom: 1rem;
     }
   }
+}
+
+.post-talk .article-body {
+  padding: 0 0;
+
 }
 
 ul.article-list {
@@ -100,7 +104,7 @@ p img {
 hr {
   margin: 4rem 0;
   border: 0;
-  border-bottom: 1px $light-gray solid;
+  border-bottom: 1px $lighter-gray solid;
 }
 
 .button-link {

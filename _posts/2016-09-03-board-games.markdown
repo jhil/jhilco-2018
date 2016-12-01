@@ -20,7 +20,7 @@ I love collecting board games and sharing fun times with friends and family. The
         <img src="/img/board-games/{{ boardgame.title | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ boardgame.link }}">
-        <h4 class="list-title">{{ boardgame.title }}</h4>
+        <h3 class="list-title">{{ boardgame.title }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h5>
     </div>

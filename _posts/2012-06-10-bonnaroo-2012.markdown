@@ -19,7 +19,7 @@ hero:     bonnaroo-2012_hero.jpg
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2012-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2012-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2012-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2012-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2012-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
@@ -41,7 +41,7 @@ hero:     bonnaroo-2012_hero.jpg
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2012-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2012-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2012-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2012-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2012-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
@@ -63,7 +63,7 @@ hero:     bonnaroo-2012_hero.jpg
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2012-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2012-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2012-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2012-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2012-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
@@ -85,7 +85,7 @@ hero:     bonnaroo-2012_hero.jpg
         <img src="/img/{{ page.title | slugify }}/{{ bonnaroo-2012-artist.artist | slugify }}.jpg" class="list-image">
       </a>
       <a href="{{ bonnaroo-2012-artist.link }}">
-        <h4 class="list-title">{{ bonnaroo-2012-artist.artist }}</h4>
+        <h3 class="list-title">{{ bonnaroo-2012-artist.artist }}</h3>
       </a>
       <h5 class="list-detail"><em>{{ bonnaroo-2012-artist.rating }}</em>&#8202;/&#8202;10</h5>
     </div>
