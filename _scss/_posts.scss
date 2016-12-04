@@ -1,9 +1,14 @@
 .article-header {
-  align-items: center;
+  width: 57rem;
+}
+
+.article-header-tight {
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-title {
-  width: 57rem;
   font-weight: $medium;
 }
 
@@ -34,12 +39,14 @@
   }
   h1 {
     margin: 4rem 0;
+    line-height: 2;
   }
   h2 {
     margin: 4rem 0 2rem;
   }
   h3 {
     margin: 3rem 0 2rem 0;
+    line-height: 2;
   }
   img {
     display: block;

@@ -5,6 +5,7 @@
   h2 {
     font-weight: $regular;
     font-size: 1.625rem;
+    line-height: 2;
   }
   a {
     font-weight: $regular;
@@ -17,7 +18,7 @@
 
 // features
 
-.post-list-feature, .post-list-small {
+.post-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -27,6 +28,9 @@
   &:hover {
     h3 {
       text-decoration: underline;
+    }
+    .post-metadata {
+      color: $medium-gray;
     }
   }
   width: calc(50% - 1.5rem);
@@ -41,10 +45,8 @@
 
 .post-item-small {
   display: flex;
+  padding-bottom: 2rem;
   &:hover {
-    .post-metadata-small {
-      color: $medium-gray;
-    }
     // .post-image {
     //   transform: scale(1.05);
     // }
@@ -52,19 +54,20 @@
 }
 
 .post-image {
+  @extend .ratio;
   @extend .image-fill;
   background: $lightest-gray;
+  background-size: cover;
+  background-position: center;
 }
 
 .post-image-feature {
   width: 100%;
   margin-bottom: 2rem;
-  @extend .ratio;
   @extend .ratio-16_9;
 }
 
 .post-image-small {
-  @extend .ratio;
   @extend .ratio-4_3;
   min-width: 9rem;
   width: 9rem;
@@ -72,17 +75,24 @@
   margin-right: 2rem;
 }
 
-.post-title-feature {
+.post-info-feature {
   text-align: center;
 }
 
-.post-info-wrapper {
+.post-info-small {
   text-align: left;
+}
+
+.post-info-wrapper {
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .post-title-small {
-  margin-bottom: .5rem;
   padding-right: 1rem;
+}
+
+.post-metadata {
+  margin-top: .5rem;
 }

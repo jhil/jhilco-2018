@@ -1,0 +1,18 @@
+<ul class="post-list post-list-{{ include.style }}">
+  {% for post in site.posts limit:include.limit offset:include.offset%}
+  {% if include.filter == null or post.type == page.type %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
+    <li class="post-item-{{ include.style }}">
+      <div class="post-image post-image-{{ include.style }}" style="background-image:url(/img/{{ post.url | slugify }}/{{ post.url | slugify }}_thumbnail.jpg); background-color:{{ post.color }};">
+      </div>
+      <div class="post-info-wrapper">
+        <div class="post-info post-info-{{ include.style }}">
+          <h3 class="post-title post-title-{{ include.style }}">{{ post.title }}</h3>
+          <h5 class="post-metadata">{{ post.date | date: "%Y" }}&ensp;·&ensp;#{{ post.type }}</h5>
+        </div>
+      </div>
+    </li>
+  </a>
+  {% endif %}
+  {% endfor %}
+</ul>

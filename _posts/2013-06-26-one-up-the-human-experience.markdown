@@ -8,7 +8,7 @@ date:     2013-06-26
 Business, and all fields for that matter, hinge on interactions and relationships. In the tech scene, we value UX to create the best possible experience for someone using your product or service. But it’s defining that someone that is especially important.
 
 Many people already take the preliminary steps, something along the lines of “they’re not just numbers, they’re users”. Well I’d like to propose an easy method for pushing that notion even further.
-Embrace the one-up. Consider ways to always think of the someones as a tier higher, more human than how you’re already viewing them.
+**Embrace the one-up**. Consider ways to always think of the someones as a tier higher, more human than how you’re already viewing them.
 
 ## Users as humans
 
@@ -18,7 +18,7 @@ For example, I embraced this notion to spin our contact page on a restaurant pro
 
 ## Humans as people
 
-This portion was inspired by an article I read on LinkedIn: “10 Things MBAs Don’t Learn About Startups.” Dharmesh Shah writes…
+This portion was inspired by an article I read on LinkedIn: “[10 Things MBAs Don’t Learn About Startups](http://www.linkedin.com/today/post/article/20130624172310-658789-10-things-mbas-don-t-learn-about-startups).” Dharmesh Shah writes…
 
 >It helps not to call people “human resources”. They’re people. And, as it turns out, people like to be treated like people. Go figure.
 
@@ -32,7 +32,7 @@ It may be a bit idealistic to assume that everyone on this level just gets along
 
 If these steps are helpful, try going a step further: the two-up. View customers as people or employees as family may lead to even more discoveries. See what clicks. Adapt the system.
 
-My buddy Eric Rosenberg backed up this idea in big tech, too.
+My buddy [Eric Rosenberg](https://twitter.com/DrJorts) backed up this idea in big tech, too.
 
 >This concept was important to us at Amazon and Atlassian. We went even further and created “user personalities” based on talking to customers and research. Like “Sam, mother of two kids from North Jersey”. We then tried to frame features and ideas from the perspective of these personalities, too.
 At Atlassian, we were on the phone or meeting with customers and users all the time. Knowing that Jon from the office around the corner uses your software is way more motivating than x-thousand users.

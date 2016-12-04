@@ -4,21 +4,40 @@ layout: default
 
 <article class="post post-article post-{{ page.type }}">
 
-  <section class="article-header">
+  <section class="article-header{% if page.hero == false %} article-header-tight{% endif %}">
     <h1 class="post-title">{{ page.title }}</h1>
     <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.type == "work" %}<a href= "/work">{% else %}<a href="/{{ page.type }}s">{% endif %}#{{ page.type }}</a></h5>
   </section>
 
-  {% if page.hero == false %}
-  <section><hr></section>
-  {% else %}
+  {% unless page.hero == false %}
   <section class="full-width article-image-hero">
     <img src="/img/{{ page.url | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.url | slugify }}_thumbnail.jpg{% endif %}"">
   </section>
-  {% endif %}
+  {% endunless %}
 
   <section class="article-body">
     {{ content }}
   </section>
 
+<!--   <section>
+    {% if page.previous.url or page.next.url %}
+    <div class="related-nav">
+
+      {% if page.next.url %} 
+      <a class="related-item related-prev" href="{{ page.next.url }}">
+        <h2 class="related-title">{{ page.next.title }}</h2>
+      </a> 
+      {% endif %}
+
+      {% if page.previous.url %}
+      <a class="related-item related-next" href="{{ page.previous.url }}">
+        <h2 class="related-title">{{ page.previous.title }}</h2>
+      </a> 
+      {% endif %}
+
+    </div>
+    {% endif %}
+
+  </section>
+ -->
 </article>

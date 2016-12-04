@@ -12,36 +12,9 @@ title: Jeff Hilnbrand
 </section>
 
 <section>
-  <ul class="post-list-feature">
-    {% for post in site.posts limit:4 %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
-      <li class="post-item-feature">
-        <div class="post-image post-image-feature">
-          <img src="/img/{{ post.url | slugify }}/{{ post.url | slugify }}_thumbnail.jpg">
-        </div>
-        <h3 class="post-title-feature">{{ post.title }}</h3>
-      </li>
-    </a>
-    {% endfor %}
-  </ul>
+  {% include post-index.html limit="4" style="feature" %}
 </section>
 
 <section>
-  <ul class="post-list-small">
-    {% for post in site.posts offset:4 %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
-      <li class="post-item-small">
-        <div class="post-image post-image-small">
-          <img src="/img/{{ post.url | slugify }}/{{ post.url | slugify }}_thumbnail.jpg">
-        </div>
-        <div class="post-info-wrapper">
-        <div class="post-info">
-          <h3 class="post-title-small">{{ post.title }}</h3>
-          <h5 class="post-metadata-small">{{ post.date | date: "%Y" }}&ensp;·&ensp;#{{ post.type }}</h5>
-        </div>
-        </div>
-      </li>
-    </a>
-    {% endfor %}
-  </ul>
+  {% include post-index.html style="small" offset="4" %}
 </section>

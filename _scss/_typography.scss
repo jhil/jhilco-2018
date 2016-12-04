@@ -34,7 +34,7 @@ h1, %h1, .h1 {
 
 h2, %h2, .h2 {
   font-size: 1.75rem;
-  line-height: 2;
+  line-height: 1.75;
   margin-bottom: 1rem;
   font-family: $sans;
   font-weight: $medium;
@@ -65,7 +65,7 @@ p, .p {
 
 
 strong {
-  font-weight: $regular;
+  font-weight: $medium;
 }
 
 a {
