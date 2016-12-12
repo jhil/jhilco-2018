@@ -3,8 +3,9 @@ layout: post
 type:   project
 title:  "Technica"
 date:   2015-07-19
+thumb:  technica_logo-gradient.png
 link:   gotechnica.org
-hero:   technica_logo-gradient
+color:  "#E285AC"
 ---
 
 Technica is an all-ladies hackathon at the University of Maryland promoting women in tech.
@@ -16,3 +17,5 @@ Technica is an all-ladies hackathon at the University of Maryland promoting wome
 {% include i.html src="technica_logo-black.png" %}
 
 {% include i.html src="technica_poster.png" %}
+
+{% include button-link.html %}

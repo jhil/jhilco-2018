@@ -3,6 +3,8 @@ layout:   post
 type:     writing
 title:    "The Thrills"
 date:     2014-02-28
+thumb:    the-thrills_thumbnail.jpg
+color:    "#804738"
 ---
 
 My mind races as I slowly ascend the lift hill of the roller coaster, the rhythmic clash of metal and wood echoing in my ears. To either side of me sit my favorite strangers, my loyal companions, my two-minute family.

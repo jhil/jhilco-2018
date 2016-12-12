@@ -1,14 +1,14 @@
 meta:
   title: "Jeff Hilnbrand"
   description: "I like making cool things with cool people. Product Designer at Facebook. Previously at Minimill, Startup Shell, Bitcamp, Autodesk, Venmo."
-  facebook_image: "/img/jhilnbrand.jpg"  # /img/facebook.png
-  twitter_image: "/img/jhilnbrand.jpg"  # /img/twitter.png
-  image: "/img/jhilnbrand.jpg"  # /img/share.png
-  twitter_handle: "@jhilmd"  # @minimill_co
-  domain: "jhil.co"  # minimill.co
-  url: "http://jhil.co"  # https://minimill.co
-  google_analytics_id: "UA-46817894-1" # UA-66637918-1
-  theme_color: "#666666" # #FFFFFF
+  facebook_image: "/img/jhilnbrand.jpg"
+  twitter_image: "/img/jhilnbrand.jpg"
+  image: "/img/jhilnbrand.jpg"
+  twitter_handle: "@jhilmd"
+  domain: "jhil.co"
+  url: "http://jhil.co"
+  google_analytics_id: "UA-46817894-1"
+  theme_color: "#666666"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site

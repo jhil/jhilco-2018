@@ -4,6 +4,7 @@ type:     work
 title:    "Creative Market"
 date:     2015-08-11
 link:     creativemarket.com
+thumb:    creative-market_thumbnail.jpg
 ---
 
 <a target="_blank" href="https://creativemarket.com/">Creative Market</a> is a platform for handcrafted, mousemade design content from independent creatives. I interned here in the summer of 2015, following their acquisition to <a target="_blank" href="http://www.autodesk.com/">Autodesk</a>.

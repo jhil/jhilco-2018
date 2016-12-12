@@ -1,9 +1,9 @@
 <ul class="post-list post-list-{{ include.style }}">
   {% for post in site.posts limit:include.limit offset:include.offset%}
   {% if include.filter == null or post.type == page.type %}
-  <a href="{{ post.url | prepend: site.baseurl }}" class="post-item-wrapper">
+  <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper">
     <li class="post-item-{{ include.style }}">
-      <div class="post-image post-image-{{ include.style }}" style="background-image:url(/img/{{ post.url | slugify }}/{{ post.url | slugify }}_thumbnail.jpg); background-color:{{ post.color }};">
+      <div class="post-image post-image-{{ include.style }}" style="background-image:url(/img/{{ post.url | slugify }}/{{ post.thumb }})">
       </div>
       <div class="post-info-wrapper">
         <div class="post-info post-info-{{ include.style }}">

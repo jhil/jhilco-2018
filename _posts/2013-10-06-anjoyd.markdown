@@ -3,9 +3,10 @@ layout:   post
 type:     project
 title:    "Anjoyd"
 date:     2013-10-06
-link:     anjoyd.org
+thumb:    anjoyd_thumbnail.jpg
 hero:     anjoyd_eyes.jpg
-color:  "#99cc00"
+color:    "#99CC00"
+link:     anjoyd.org
 ---
 
 ### Anjoyd is a truck driven by an Android joystick and Google Glass.

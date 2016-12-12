@@ -3,6 +3,8 @@ layout:   post
 type:     project
 title:    "Redspread"
 date:     2015-07-20
+thumb:    redspread_thumbnail.png
+color:    "#DC4E24"
 link:     redspread.com
 ---
 
@@ -11,3 +13,5 @@ Redspread is creating a product for seamless backend development and deployment 
 {% include i.html src="redspread_home-display.png" %}
 
 {% include i.html src="redspread_colors.png" %}
+
+{% include button-link.html %}

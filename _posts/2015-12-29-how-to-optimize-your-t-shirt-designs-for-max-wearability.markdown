@@ -3,6 +3,8 @@ layout:   post
 type:     article
 title:    "How to Optimize Your T-Shirt Designs for Max Wearability"
 date:     2016-01-04
+thumb:    how-to-optimize-your-t-shirt-designs-for-max-wearability.jpg
+color:    "#99E19E"
 ---
 
 We want people to wear the shirts we make. And sometimes, despite top-notch graphics, it’s subtle misfires that keep these shirts on the hangers (or boxed up at parents’ houses). While nobody may outwardly criticize your designs, there are subconscious preferences at play that may discourage people from wearing your tee (as outlined below).

@@ -3,7 +3,10 @@ layout:   post
 type:     project
 title:    "Facetoaster"
 date:     2014-01-20
+thumb:    facetoaster_thumbnail.png
+color:    "#3C414C"
 link:     facetoaster.com
+external: https://medium.com/hh-design/facetoasted-reflections-from-mhacks-5a718169b6b#.jhagxr9by
 ---
 
 ## Facetoaster is a webapp to showcase design iterations.
@@ -63,17 +66,27 @@ After picking the name, we went backwards to justify our branding. Facetoaster. 
 From here, I worked on the logo. As a designer, this is often the most fun part of any project: pulling together all the different components (technical, semantic, etc.) into a concise visual style. Introducing, Facetoaster.
 
 http://dribbble.com/shots/1383357-Facetoaster
+
 I drew back to my interactions with reddit founder Alexis Ohanian when he visited Maryland. He talked about how much fun it is to sketch mascots to represent web products. I went all in. After sending him a .png to look at on Twitter, I received an approval of silliness.
 
-https://twitter.com/alexisohanian/status/424802034533941248
-Development
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/jhilmd">@jhilmd</a> <a href="https://twitter.com/mhacks">@mhacks</a> LOL. Nice. It makes almost no sense and I love it for that.</p>&mdash; Alexis Ohanian (@alexisohanian) <a href="https://twitter.com/alexisohanian/status/424802034533941248">January 19, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Development
+
 We were certainly learning as we went along, and would like to thank Waj, Jacko, and Zach for helping in bits along the way. We employed a few awesome libraries and APIs, including impress.js for our keyboard sliding effect and dropzone.js for our drag-n-drop upload page. Luis was really close to implementing a pixel diff overlay feature using resemble.js, but we had to table that for post-hackathon improvements. A few more details, especially on Jaren’s back-end, can be found on our ChallengePost submission page: http://mhackswinter2014.challengepost.com/submissions/20088-facetoaster.
 It’s important to remember that at a hackathon, you’re working on building a proof of concept. Our back-end was not fully built out and would not be ready for demonstration. So we focused on getting the front-end polished in a way that we could convey the purpose of Facetoaster without distractions from holes in the code. This is huge: if you can’t communicate what your project does, the demo is off, regardless of how close-to-complete your code is. We are continuing development back here in College Park to get Facetoaster out in the wild and ready for public use.
-Beauty
+
+## Beauty
+
 Conventional wisdom of hackathons says that you’re only hacking code. From our point of view, we hacked the design, too. There is no shame in banging out some mockups or putting an hour into your logo. These are just on my priority list as any coding tasks.
-Design can be hacked.
+
+> Design can be hacked.
+
 Every member on the Facetoaster team put particular attention towards our design and front-end. This was not polish, it was our goal.
-Shirts
+
+## Shirts
+
 In the wee hours of the final night-morning, we decided to whip up a Teespring t-shirt campaign in an attempt to immortalize the Facetoaster logo that we had all come to love. teespring.com/facetoaster. Within 24 hours, we had reached our sales goal and received word that the shirts would be put into production. What a great way to seal off a great time. Can’t wait to wear my Facetoaster tee across campus, giggling to myself.
 
 Facetoaster Teespring campaign. Props to Teespring on the awesome user experience. teespring.com/facetoaster

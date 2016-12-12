@@ -3,6 +3,9 @@ layout:   post
 type:     project
 title:    "Amation"
 date:     2014-09-14
+thumb:    amation_thumbnail.png
+hero:     amation_macbook.png
+color:    "#99F967"
 link:     amation.co
 ---
 

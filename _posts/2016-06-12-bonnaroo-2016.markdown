@@ -3,8 +3,10 @@ layout:   post
 type:     list
 title:    "Bonnaroo 2016"
 date:     2016-06-12
-link:     lineup.bonnaroo.com/bands
-color:    "#D84996"
+tag:      music
+thumb:    bonnaroo-2016.jpg
+color:    "#5C117E"
+link:     https://www.bonnaroo.com/
 ---
 
 ## Thursday

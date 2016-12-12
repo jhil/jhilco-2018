@@ -3,6 +3,8 @@ layout:   post
 type:     article
 title:    "Self Hacks"
 date:     2013-11-18
+thumb:    self-hacks_thumbnail.jpg
+color:    "#B85443"
 ---
 
 Here at the Startup Shell, we are big fans of hacking. We had a blast traveling across the country with the [Terrapin Hackers](http://www.terrapinhackers.com/) to PennApps, MHacks, HackMIT, and so on. It was super swell to contribute towards the winning of the Major League Hacking’s [Hacker Cup](http://mlh.io/blog/umd-wins-the-fall-2013-hackathon-season-10-15-2013/), an auspicious validation of Maryland’s hacker community.

@@ -3,7 +3,8 @@ layout:   post
 type:     article
 title:    "Picking Colors"
 date:     2015-01-05
-color:    "#2ebd59"
+thumb:    picking-colors_thumbnail.jpg
+color:    "#99F83E"
 ---
 
 Color is so cool. As a designer, how you use color directs the use of a product. Color choices define your personal style, just look at the vibrant hues of Paul Rand. Here are a few techniques I use when picking colors.
