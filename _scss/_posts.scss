@@ -65,9 +65,9 @@
     li {
       display: list-item;
       list-style-type: disc;
-      list-style-position: inside;
-      @extend .p;
       margin-bottom: 1rem;
+      margin-left: 1.5rem;
+      padding-left: .5rem;
     }
   }
 }

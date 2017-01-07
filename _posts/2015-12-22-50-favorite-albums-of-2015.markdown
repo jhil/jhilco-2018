@@ -17,7 +17,7 @@ A few quick and cursory observations:
 - Based on the nature of these playlists, I listen to the first few tracks of an album way more than the last few tracks. But my favorites-of-favorites are all albums where I can groove with each and every song.
 - EPs, mixtapes, and unofficial releases make up much of my top picks. Maybe these outlets reduce the pressure on artists to meet studio expectations and ultimately increase creativity.
 
-*<span class="sub">Note. This isn’t the People’s Choice Awards, just what I enjoyed the most :)</span>*
+<span class="sub">Note. This isn’t the People’s Choice Awards, just what I enjoyed the most :)</span>
 
 ---
 
