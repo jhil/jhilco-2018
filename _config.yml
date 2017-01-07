@@ -12,7 +12,7 @@ meta:
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site
-permalink: /:title # example: http://jhil.co/bitcamp
+permalink: /:title/ # example: http://jhil.co/bitcamp
 
 i: "/img/{{ page.url | slugify }}"
 
