@@ -207,7 +207,7 @@ gulp.task('clean:responsive', function(cb) {
 
 gulp.task('deploy', ['build:optimized'], function() {
   return gulp.src('')
-    .pipe(shell('rsync -avuzh _site/* jeff:/srv/jhil.co/public_html/'))
+    .pipe(shell('rsync -auzh _site/* jeff:/srv/jhil.co/public_html/'))
     .on('finish', function() {
       process.stdout.write('Deployed to jhil.co\n');
     });
