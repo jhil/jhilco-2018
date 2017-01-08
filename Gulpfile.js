@@ -209,7 +209,7 @@ gulp.task('deploy', ['build:optimized'], function() {
   return gulp.src('')
     .pipe(shell('scp -r _site/* jeff:/srv/jhil.co/public_html/'))
     .on('finish', function() {
-      process.stdout.write('Deployed to schlosser.io\n');
+      process.stdout.write('Deployed to jhil.co\n');
     });
 });
 
