@@ -10,7 +10,7 @@ color:    "#FEEE35"
 link:     https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU
 ---
 
-<ul class="list article-list list-photo list-shadow list-numbered">
+<ul class="list article-list list-photo list-photo-big list-shadow list-numbered">
 {% for 2016-album in site.data.2016-albums limit:50 %}
   <li class="list-item">
     <div class="list-row">

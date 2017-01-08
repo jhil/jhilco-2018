@@ -47,9 +47,10 @@
   display: flex;
   padding-bottom: 2rem;
   &:hover {
-    // .post-image {
-    //   transform: scale(1.05);
-    // }
+    .post-image {
+      transform: scale(1.05);
+      // transition: $t;
+    }
   }
 }
 

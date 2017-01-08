@@ -20,6 +20,13 @@
   }
 }
 
+.list-photo-big {
+  .list-image {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
 .list-shadow {
   .list-image {
     @extend .shadow;
@@ -31,6 +38,8 @@ ul li.list-item {
   counter-increment: li;
   width: 100%;
   margin-bottom: 3rem;
+  margin-left: 0;
+  padding-left: 0;
   p {
     margin-left: 12rem;
   }
@@ -63,7 +72,8 @@ ul li.list-item {
   height: 3rem;
   border: 0;
   margin-right: 3rem;
-  transition: $t;
+  // transition: $t;
+  background-size: cover;
 }
 
 .list-detail {
@@ -76,7 +86,7 @@ ul li.list-item {
   background: attr(data-color);
   &:hover {
     .list-image {
-      transform: scale(1.5);
+      transform: scale(1.25);
     }
   }
 }

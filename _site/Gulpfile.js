@@ -207,7 +207,7 @@ gulp.task('clean:responsive', function(cb) {
 
 gulp.task('deploy', ['build:optimized'], function() {
   return gulp.src('')
-    .pipe(shell('scp -r _site/* jeff:/srv/jhil.co/public_html/'))
+    .pipe(shell('rsync -avuzh _site/* jeff:/srv/jhil.co/public_html/'))
     .on('finish', function() {
       process.stdout.write('Deployed to jhil.co\n');
     });
@@ -233,9 +233,9 @@ gulp.task('build', function (cb) {
   return runSequence('clean', ['scss', 'images', 'js'], 'jekyll', cb);
 });
 
-gulp.task('build:optimized', function(cb) {
+gulp.task('build:optimized', function (cb) {
   return runSequence('clean',
-    ['scss:optimized', 'images:optimized', 'js'],
+    ['scss:optimized', 'images', 'js'],
     'jekyll',
     cb);
 });

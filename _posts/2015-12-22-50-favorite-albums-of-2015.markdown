@@ -21,7 +21,7 @@ A few quick and cursory observations:
 
 ---
 
-<ul class="list article-list list-photo list-shadow list-numbered">
+<ul class="list article-list list-photo list-photo-big list-shadow list-numbered">
 {% for 2015-album in site.data.2015-albums limit:50 %}
   <li class="list-item">
     <div class="list-row">
