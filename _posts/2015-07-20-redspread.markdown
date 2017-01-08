@@ -2,7 +2,7 @@
 layout:   post
 type:     project
 title:    "Redspread"
-date:     2015-07-20
+date:     2016-10-16
 thumb:    redspread_thumbnail.png
 color:    "#FF351A"
 link:     redspread.com
