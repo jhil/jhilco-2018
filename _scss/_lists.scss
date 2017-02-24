@@ -74,6 +74,7 @@ ul li.list-item {
   margin-right: 3rem;
   transition: $t;
   background-size: cover;
+  object-fit: cover;
 }
 
 .list-detail {
