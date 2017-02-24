@@ -57,7 +57,6 @@
 .post-image {
   @extend .ratio;
   @extend .image-fill;
-  // background: $lightest-gray;
   background-size: cover;
   background-position: center;
 }
