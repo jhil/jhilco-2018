@@ -1,9 +1,13 @@
 ---
 layout:   post
 type:     talk
-title:    "Hacktorial: Design For Devs"
-date:     2015-12-03
+title:    "Design For Devs"
+date:     2014-10-01
 hero:     false
+thumb:    design-for-devs.png
+hero:     false
+external: https://youtu.be/gaUzufrkEqM
+
 ---
 
 {% include embed.html url="www.youtube.com/embed/gaUzufrkEqM?rel=0&amp;showinfo=0" %}

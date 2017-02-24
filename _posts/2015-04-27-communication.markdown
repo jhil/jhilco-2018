@@ -1,9 +1,10 @@
 ---
 layout:   post
 type:     talk
-title:    "Shell Talk 037: On Pitching, Speaking, Writing, Presenting, Composing, Persuading, and Inspiring"
-date:     2015-04-27
+title:    "Communication"
+thumb:    communication.png
 hero:     false
+external: https://youtu.be/VKZlBAcNINU?t=3m49s
 ---
 
 {% include embed.html url="www.youtube.com/embed/VKZlBAcNINU?rel=0&amp;showinfo=0" %}

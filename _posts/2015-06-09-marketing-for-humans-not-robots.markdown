@@ -1,9 +1,13 @@
 ---
 layout:   post
 type:     talk
-title:    "Hackcon III: How to Diff"
-date:     2015-12-03
+title:    "Marketing For Humans, Not Robots"
+date:     2015-06-09
 hero:     false
+thumb:    marketing-for-humans-not-robots.png
+hero:     false
+external: https://youtu.be/VSFN9P1bZtM
+
 ---
 
 {% include embed.html url="www.youtube.com/embed/VSFN9P1bZtM?rel=0&amp;showinfo=0" %}

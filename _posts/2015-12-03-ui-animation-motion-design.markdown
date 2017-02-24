@@ -1,9 +1,11 @@
 ---
 layout:   post
 type:     talk
-title:    "Hacktorial: UI Animation + Motion Design"
+title:    "UI Animation + Motion Design"
 date:     2015-12-03
+thumb:    ui-animation-motion-design.jpg
 hero:     false
+external: https://youtu.be/ubKiOVqsM-o?t=4m10s
 ---
 
 {% include embed.html url="www.youtube.com/embed/ubKiOVqsM-o?rel=0&amp;showinfo=0" %}

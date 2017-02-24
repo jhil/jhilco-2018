@@ -1,9 +1,13 @@
 ---
 layout:   post
 type:     talk
-title:    "Hackcon I: Hackathon Branding"
-date:     2015-12-03
+title:    "Hackathon Branding"
+date:     2014-02-02
 hero:     false
+thumb:    hackathon-branding.png
+hero:     false
+external: https://youtu.be/cwJNYXlOuYo
+
 ---
 
 {% include embed.html url="www.youtube.com/embed/cwJNYXlOuYo?rel=0&amp;showinfo=0" %}
