@@ -41,7 +41,7 @@ $t: color .3s ease, background .3s ease, transform .15s ease;
 section {
   margin-top: 4rem;
   padding: 0 6rem;
-  @media screen and (max-width: $tablet-portrait-max) {
+  @media screen and (max-width: $laptop-max) {
     padding: 0rem;
   }
 }
