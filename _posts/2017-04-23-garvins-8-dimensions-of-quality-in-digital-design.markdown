@@ -15,7 +15,7 @@ This article will introduce the eight principles and adapt them to digital desig
 
 ## 1. Performance 🏎
 
-Performance refers to a product's primary operating characteristics. This dimension of quality involves measurable attributes; brands can usually be ranked objectively on individual aspects of performance.
+> Performance refers to a product's primary operating characteristics. This dimension of quality involves measurable attributes; brands can usually be ranked objectively on individual aspects of performance.
 
 Performance is often more visible in physical design (think speed of a sports car) than digital design (think conversion on a call-to-action button). Nevertheless, the rise of data has brought tools that help us better understand how effective our digital products are in completing their goals. You can create top-line metrics that get to the root of what we are trying to achieve through a certain design decision, be it number of app signups or successful transactions.
 
@@ -26,7 +26,7 @@ Plus, there's always good ol' performance performance in things like loading spe
 
 ## 2. Features 🛠
 
-Features are additional characteristics that enhance the appeal of the product or service to the user.
+> Features are additional characteristics that enhance the appeal of the product or service to the user.
 
 "Features" is a word we know well and good in this space. Still, this dimension can be misleading. The goal is not to have more features, but to have good features that differentiate from other products. Avoid feature creep by accomplishing this as minimally as possible.
 
@@ -36,7 +36,7 @@ Features are additional characteristics that enhance the appeal of the product o
 
 ## 3. Reliability ⏱
 
-Reliability is the likelihood that a product will not fail within a specific time period. This is a key element for users who need the product to work without fail.
+> Reliability is the likelihood that a product will not fail within a specific time period. This is a key element for users who need the product to work without fail.
 
 At first look, this might appear as a focus of an infrastructure team. But reliability is an area that designers can have real impact. Simple, concise models mean fewer edge cases and lower risk of one-off bugs.
 
@@ -47,7 +47,7 @@ We can stretch this definition further to include consistency. This is a key to 
 
 ## 4. Conformance 🚨
 
-Conformance is the precision with which the product or service meets the specified standards.
+> Conformance is the precision with which the product or service meets the specified standards.
 
 Conformance is the rule that so many designers love to break. In app design, we adhere to platform guidelines like Android's [Material Design guidelines](https://material.io/guidelines/) or iOS's [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/) so that new users can quickly understand how a product works. This is possible because over time, users understand a set of well-defined UX patterns.
 
@@ -58,7 +58,7 @@ Breaking these guidelines with one's style or interaction pattern is acceptable,
 
 ## 5. Durability 👵🏼
 
-Durability measures the length of a product’s life. When the product can be repaired, estimating durability is more complicated. The item will be used until it is no longer economical to operate it. This happens when the repair rate and the associated costs increase significantly.
+> Durability measures the length of a product’s life. When the product can be repaired, estimating durability is more complicated. The item will be used until it is no longer economical to operate it. This happens when the repair rate and the associated costs increase significantly.
 
 Digital products don't really break down or wear with use. Instead, they become outdated. Let's redefine this dimension as Longevity: the ability for a product to remain timely, relevant, and modern over time.
 
@@ -68,7 +68,7 @@ Digital products don't really break down or wear with use. Instead, they become 
 
 ## 6. Serviceability 👷🏾
 
-Serviceability is the speed with which the product can be put into service when it breaks down, as well as the competence and the behavior of the serviceperson.
+> Serviceability is the speed with which the product can be put back into service (repaired) when it breaks down, as well as the competence and the behavior of the serviceperson.
 
 I've worked with developers in the past who use proprietary software that is so complex that nobody can collaborate with them. Serviceability says that good products do not rely on exclusive or restrictive systems, but rather have the foresight to build in a scalable way—for the user and the internal team.
 Similar to any mainstream car part can be swapped out for another, product teams should think about what effect swapping a teammate out for someone of comparable skill would have on the product. Red flags might include undocumented build systems or unscalable illustration styles.
@@ -79,7 +79,7 @@ Similar to any mainstream car part can be swapped out for another, product teams
 
 ## 7. Aesthetics ✨
 
-Aesthetics is the subjective dimension indicating the kind of response a user has to a product. It represents the individual’s personal preference.
+> Aesthetics is the subjective dimension indicating the kind of response a user has to a product. It represents the individual’s personal preference.
 
 This is what everyone thinks design is yada yada... Clearly aesthetics are important in providing a unique experience and delight to users, but it should be weighed up against the other dimensions to properly assess tradeoffs. Visual designers are key to retaining users in a successful product. While subjective, if a product's aesthetic doesn't look modern, it might indicate that other aspects are not being improved either.
 
@@ -88,7 +88,7 @@ This is what everyone thinks design is yada yada... Clearly aesthetics are impor
 
 ## 8. Perceived Quality 👀
 
-Perceived Quality is the quality attributed to a good or service based on indirect measures.
+> Perceived Quality is the quality attributed to a good or service based on indirect measures.
 
 This dimension goes hand-in-hand with branding. No matter how performant your product is, nobody will touch it if they don't perceive it to be good. Brand appearance and reputation carry a ton of weight in the digital space, as products are often fueled by referrals and organic discovery.
 
