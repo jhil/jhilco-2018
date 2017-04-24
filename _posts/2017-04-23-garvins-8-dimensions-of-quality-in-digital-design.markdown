@@ -49,7 +49,7 @@ We can stretch this definition further to include consistency. This is a key to 
 
 Conformance is the precision with which the product or service meets the specified standards.
 
-Conformance is the rule that so many designers love to break. In app design, we adhere to platform guidelines like Android's Material Design guidelines or iOS's Human Interface Guidelines so that new users can quickly understand how a product works. This is possible because over time, users understand a set of well-defined UX patterns.
+Conformance is the rule that so many designers love to break. In app design, we adhere to platform guidelines like Android's [Material Design guidelines](https://material.io/guidelines/) or iOS's [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/) so that new users can quickly understand how a product works. This is possible because over time, users understand a set of well-defined UX patterns.
 
 Breaking these guidelines with one's style or interaction pattern is acceptable, but only if there is good reason to do so. If nobody challenged the norms, design would not progress. If nobody followed them, users would be thrown into a confusing wild wild west of interface chaos.
 
