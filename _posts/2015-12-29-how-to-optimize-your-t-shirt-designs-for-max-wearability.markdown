@@ -1,7 +1,7 @@
 ---
 layout:   post
 type:     article
-title:    "How to Optimize Your T-Shirt Designs for Max Wearability"
+title:    "Optimize Your T-Shirt Designs for Max Wearability"
 date:     2016-01-04
 thumb:    how-to-optimize-your-t-shirt-designs-for-max-wearability.jpg
 color:    "#99E19E"

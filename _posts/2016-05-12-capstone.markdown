@@ -27,4 +27,4 @@ I led a series of design workshops targeted at people of different communities a
 
 {% include i.html src="capstone_workshops.png" %}
 
-{% include i.html src="capstone_poster.png" %}
+{% include i.html src="capstone_poster.png" class="shadow" %}
