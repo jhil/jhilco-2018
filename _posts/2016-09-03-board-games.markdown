@@ -12,7 +12,7 @@ I love collecting board games and sharing fun times with friends and family. The
 
 ---
 
-<ul class="list article-list list-photo list-numbered">
+<ul class="list article-list list-photo list-photo-big list-numbered">
 {% for boardgame in site.data.boardgames %}
   <li class="list-item">
     <div class="list-row">
