@@ -48,10 +48,12 @@
   padding-bottom: 2rem;
   &:hover {
     .post-image {
-      transform: scale(1.1);
-      transition: $t;
+      transform: scale(1.05);
     }
   }
+}
+
+.post-item-feature {
 }
 
 .post-image {
