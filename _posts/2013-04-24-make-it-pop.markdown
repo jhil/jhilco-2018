@@ -2,8 +2,8 @@
 layout:   post
 type:     talk
 title:    "Make It Pop"
-date:     2015-12-03
-hero:     false
+date:     2013-04-24
+thumb:    makeitpop-thumb.png
 external: https://docs.google.com/presentation/d/1bDmPs5cuEkvm2Xc0LmgozLl_YWLFJEvDCGQHQCgXQ-4/embed?start=false&loop=false&delayms=3000&slide=id.p4
 ---
 
