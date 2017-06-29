@@ -89,7 +89,7 @@ sub > a.intro-link {
     }
   }
   width: calc(50% - 1.5rem);
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
   text-align: center;
 
   @media screen and (max-width: $tablet-portrait-max) {
@@ -100,7 +100,7 @@ sub > a.intro-link {
 
 .post-item-small {
   display: flex;
-  padding-bottom: 2rem;
+  // padding-bottom: 2rem;
   &:hover {
     .post-image {
       transform: scale(1.05);
