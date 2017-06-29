@@ -1,6 +1,6 @@
 <ul class="post-list post-list-{{ include.style }}">
   {% for post in site.posts limit:include.limit offset:include.offset%}
-  {% if include.filter == null or post.type == page.type %}
+  {% if include.filter == null or post.type == include.type %}
   <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper">
     <li class="post-item-{{ include.style }}">
       <div class="post-image post-image-{{ include.style }}">
