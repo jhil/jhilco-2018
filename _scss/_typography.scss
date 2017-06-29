@@ -79,10 +79,6 @@ p code {
   margin: 0 .125rem;
 }
 
-.sub {
-  color: $medium-gray;
-}
-
-.subsub {
+sub, .sub {
   color: $light-gray;
 }
