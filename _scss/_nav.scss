@@ -12,24 +12,26 @@
     display: flex;
   }
   h1 {
-    font-size: 1rem;
+    @extend p;
     letter-spacing: 0;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: $medium;
+    line-height: 2rem;
   }
 }
 
 .nav-left {
   &:hover {
     .nav-avatar {
-    transform: scale(1.25);
-  }
+      transform: scale(1.25);
+    }
+    text-decoration: underline;
   }
 }
 
 .nav-avatar {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
   display: block;
   background-size: cover;
   margin-right: 2rem;
