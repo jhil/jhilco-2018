@@ -118,6 +118,7 @@ hr {
 }
 
 .button-link {
+  @extend .h5;
   color: $white;
   border-radius: 3px;
   width: 100%;
@@ -126,9 +127,7 @@ hr {
   transition: $t;
   text-align: center;
   text-decoration: none !important;
-  font-family: $mono;
   margin: 6rem 0;
-  font-size: 1rem;
   &:after {
     content: "→";
     margin-left: 1rem;
