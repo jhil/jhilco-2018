@@ -58,8 +58,8 @@
     display: block;
   }
   blockquote p {
-    padding: .5rem 0 .5rem 3rem;
-    border-left: 2px $lighter-gray solid;
+    padding: .25rem 0 .25rem 2rem;
+    border-left: 4px $lighter-gray solid;
     margin: 3rem 0;
     color: $medium-gray;
   }
@@ -69,6 +69,7 @@
   ul {
     margin-bottom: 2rem;
     li {
+      @extend p;
       display: list-item;
       list-style-type: disc;
       margin-bottom: 1rem;
