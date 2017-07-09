@@ -116,16 +116,6 @@ p img {
   }
 }
 
-hr {
-  margin: 4rem 0;
-  border: 0;
-  border-bottom: 1px $light-gray solid;
-}
-
-hr.section-divider {
-  margin: 8rem 0;
-}
-
 .button-link {
   @extend .h5;
   color: $white;

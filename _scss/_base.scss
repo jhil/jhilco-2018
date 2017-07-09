@@ -34,6 +34,16 @@ img {
   }
 }
 
+hr {
+  margin: 4rem 0;
+  border: 0;
+  border-bottom: 1px $light-gray solid;
+}
+
+hr.section-divider {
+  margin: 8rem 0;
+}
+
 $content-width: 69rem;
 
 $t: color .3s ease, background .3s ease, transform .15s ease;
