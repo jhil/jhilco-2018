@@ -25,3 +25,7 @@ exclude:
   - package.json
   - README.md
   - LICENSE.md
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"

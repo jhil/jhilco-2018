@@ -5,7 +5,7 @@ title:    "50 Favorite Albums of 2015"
 date:     2015-12-22
 thumb:    Currents.png
 hero:     false
-color:    "#6D8D3D"
+color:    "#1ED760"
 ---
 
 I keep a tight playlist on Spotify called "[Albums To Listen To](https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU)." I drop in new and new-found albums to… well… listen to. Here are my favorite picks from the list that were released in 2015. Scroll all the way to the bottom to see my top choices!
@@ -21,18 +21,17 @@ A few quick and cursory observations:
 
 ---
 
-<ul class="list article-list list-photo list-photo-big list-shadow list-numbered">
-{% for 2015-album in site.data.2015-albums limit:50 %}
+<ul class="list article-list list-grid list-shadow">
+  {% for 2015-album in site.data.2015-albums limit:50 %}
   <li class="list-item">
-    <div class="list-row">
-      <a href="{{ 2015-album.link }}">
-        <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpg" class="list-image">
-      </a>
-      <a href="{{ 2015-album.link }}">
-        <h3 class="list-title">{{ 2015-album.album }}<span class="subsub"> - </span><span class="sub">{{ 2015-album.artist }}</span></h3>
-      </a>
-      <h5 class="list-detail">{{ 2015-album.genre }}</h5>
-    </div>
+    <a href="{{ 2015-album.link }}">
+      <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpeg" class="list-image">
+      <h3 class="list-title">{{ 2015-album.album }}</h3>
+      <h5>{{ 2015-album.artist }}</h5>
+      <!-- <h5 class="list-detail">{{ 2015-album.genre }}</h5> -->
+    </a>
   </li>
-{% endfor %}
+  {% endfor %}
 </ul>
+
+{% include button-link.html text="Spotify Playlist" %}

@@ -1,5 +1,6 @@
 .article-header {
   width: 57rem;
+  max-width: 100%;
 }
 
 .article-header-tight {
@@ -79,6 +80,9 @@
   }
 }
 
+.article-body-full {
+  width: 57rem;
+}
 
 .post-talk .article-body {
   padding: 0 0;
@@ -86,7 +90,6 @@
 }
 
 ul.article-list {
-  margin-top: 4rem;
   margin-bottom: 4rem;
   h3 {
     margin: 0;
@@ -120,27 +123,26 @@ p img {
   @extend .h5;
   color: $white;
   border-radius: 3px;
-  width: 100%;
   display: block;
+  width: 50%;
+  max-width: 100% !important;
   padding: 1rem 0;
   transition: $t;
   text-align: center;
   text-decoration: none !important;
-  margin: 6rem 0;
+  margin: 6rem auto;
   &:after {
     content: "→";
     margin-left: 1rem;
   }
   &:hover {
-    background: $dark-gray !important;
-    color: white;
+    color: $white !important;
   }
 }
 
 .button-link-dark {
   color: $dark-gray;
   &:hover {
-    background: $lighter-gray !important;
-    color: $dark-gray;
+    color: $dark-gray !important;
   }
 }

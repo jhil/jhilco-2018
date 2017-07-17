@@ -26,6 +26,10 @@ $sans: 'Maison Neue', 'Maison', 'SF UI Text', 'Helvetica Neue', Helvetica, Arial
 $mono: 'Inconsolata', 'Source Code Pro', monospace;
 $serif: Georgia, serif;
 
+.mono {
+  font-family: $mono;
+}
+
 h1, %h1, .h1 {
   font-size: 3rem;
   letter-spacing: 0.5px;
