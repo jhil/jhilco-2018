@@ -5,9 +5,10 @@ title:    "50 Favorite Albums of 2015"
 date:     2015-12-22
 thumb:    Currents.png
 hero:     false
+full:     true
 color:    "#1ED760"
 ---
-
+<!-- 
 I keep a tight playlist on Spotify called "[Albums To Listen To](https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU)." I drop in new and new-found albums to… well… listen to. Here are my favorite picks from the list that were released in 2015. Scroll all the way to the bottom to see my top choices!
 
 A few quick and cursory observations:
@@ -20,12 +21,12 @@ A few quick and cursory observations:
 <span class="sub">Note. This isn’t the People’s Choice Awards, just what I enjoyed the most :)</span>
 
 ---
-
+ -->
 <ul class="list article-list list-grid list-shadow">
   {% for 2015-album in site.data.2015-albums limit:50 %}
   <li class="list-item">
     <a href="{{ 2015-album.link }}">
-      <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpeg" class="list-image">
+      <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpg" class="list-image">
       <h3 class="list-title">{{ 2015-album.album }}</h3>
       <h5>{{ 2015-album.artist }}</h5>
       <!-- <h5 class="list-detail">{{ 2015-album.genre }}</h5> -->
