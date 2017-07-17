@@ -80,6 +80,10 @@ ul li.list-item {
   object-fit: cover;
 }
 
+.list-image-nonuniform {
+  object-fit: contain;
+}
+
 .list-detail {
   em {
     color: $medium-gray;
@@ -102,12 +106,12 @@ ul li.list-item {
   margin-left: 0;
   justify-content: space-between;
   .list-item {
-    width: 10rem;
+    width: 12rem;
     // flex-grow: 1;
     text-align: center;
     margin-bottom: 4rem;
     h3 {
-      font-size: 1rem;
+      font-size: 1.1rem;
       font-weight: 600;
       line-height: 1.5;
       margin-bottom: .5rem;
@@ -116,18 +120,20 @@ ul li.list-item {
       color: $medium-gray;
     }
     .list-image {
-      width: 10rem;
-      height: 10rem;
+      width: 12rem;
+      height: 12rem;
       margin: 0 auto;
       margin-bottom: 2rem;      
     }
     &:hover {
       .list-image {
         transform: scale(1.05);
-
       }
       h5 {
         color: $dark-gray;
+        .subsub {
+          color: $medium-gray;
+        }
       }
     }
   }
