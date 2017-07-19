@@ -11,14 +11,14 @@ color:    "#1ED760"
 link:     https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU
 ---
 
-<ul class="list article-list list-grid list-shadow">
+<ul class="list article-list list-grid list-grid-numbered list-shadow">
   {% for 2016-album in site.data.2016-albums limit:50 %}
   <li class="list-item">
     <a href="{{ 2016-album.link }}">
+      <h5 class="list-rank"></h5>
       <img src="/img/{{ page.title | slugify }}/{{ 2016-album.album }}.jpeg" class="list-image">
       <h3 class="list-title">{{ 2016-album.album }}</h3>
       <h5>{{ 2016-album.artist }}</h5>
-      <!-- <h5 class="list-detail">{{ 2016-album.genre }}</h5> -->
     </a>
   </li>
   {% endfor %}

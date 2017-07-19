@@ -22,12 +22,13 @@ A few quick and cursory observations:
 
 ---
  -->
-<ul class="list article-list list-grid list-shadow">
+<ul class="list article-list list-grid list-grid-numbered list-shadow">
   {% for 2015-album in site.data.2015-albums limit:50 %}
   <li class="list-item">
     <a href="{{ 2015-album.link }}">
+      <h5 class="list-rank"></h5>
       <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpg" class="list-image">
-      <h3 class="list-title">{{ 2015-album.album }}</h3>
+      <h3>{{ 2015-album.album }}</h3>
       <h5>{{ 2015-album.artist }}</h5>
       <!-- <h5 class="list-detail">{{ 2015-album.genre }}</h5> -->
     </a>
