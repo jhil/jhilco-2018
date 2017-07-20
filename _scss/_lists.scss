@@ -150,7 +150,7 @@ ul li.list-item {
     margin-bottom: 1.5rem;
     &:before {
       content: counter(li);
-      color: $lighter-gray;
+      color: $light-gray;
     }
   }
 }
