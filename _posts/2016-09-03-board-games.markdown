@@ -25,21 +25,4 @@ I love collecting board games and sharing fun times with friends and family. The
   {% endfor %}
 </ul>
 
-<ul class="list article-list list-photo list-photo-big list-numbered">
-{% for boardgame in site.data.boardgames %}
-  <li class="list-item">
-    <div class="list-row">
-      <a href="{{ boardgame.link }}">
-        <img src="/img/board-games/{{ boardgame.title | slugify }}.jpg" class="list-image">
-      </a>
-      <a href="{{ boardgame.link }}">
-        <h3 class="list-title">{{ boardgame.title }}</h3>
-      </a>
-      <h5 class="list-detail"><em>{{ boardgame.rating }}</em>&#8202;/&#8202;10</h5>
-    </div>
-    <p>{{ boardgame.description }}</p>
-  </li>
-{% endfor %}
-</ul>
-
 {% include button-link.html text="See more games on BoardGameGeek" %}
