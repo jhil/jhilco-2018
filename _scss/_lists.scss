@@ -123,7 +123,7 @@ ul li.list-item {
       width: 12rem;
       height: 12rem;
       margin: 0 auto;
-      margin-bottom: 2rem;      
+      margin-bottom: 2rem;
     }
     &:hover {
       .list-image {
@@ -153,4 +153,17 @@ ul li.list-item {
       color: $light-gray;
     }
   }
+}
+
+.list-rating {
+  font-weight: $bold;
+  margin-top: .5rem;
+}
+
+.list-rating-1, .list-rating-2, .list-rating-3 {
+  color: $red !important;
+}
+
+.list-rating-10, .list-rating-9, .list-rating-8, .list-rating-7 {
+  color: $green !important;
 }

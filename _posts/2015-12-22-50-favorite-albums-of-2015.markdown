@@ -30,7 +30,6 @@ A few quick and cursory observations:
       <img src="/img/{{ page.title | slugify }}/{{ 2015-album.album }}.jpg" class="list-image">
       <h3>{{ 2015-album.album }}</h3>
       <h5>{{ 2015-album.artist }}</h5>
-      <!-- <h5 class="list-detail">{{ 2015-album.genre }}</h5> -->
     </a>
   </li>
   {% endfor %}
