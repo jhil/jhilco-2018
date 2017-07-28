@@ -14,6 +14,8 @@ We discussed the meaning of the name she chose and what Lan wanted her brand to 
 
 "[Basis Set](https://en.wikipedia.org/wiki/Basis_(linear_algebra))" is a mathematical term from which Lan extracted a few key ideas: vectors and building blocks. She wanted her logo to reflect her straightforward and direct cadence, while also representing the modern, new school of venture capital.
 
+{% include i.html src="sketchall.png" %}
+
 I sketched and mocked up a set of divergent concepts to review for a sense of direction.
 
 {% include i.html src="bsv-logo-present.png" %}
