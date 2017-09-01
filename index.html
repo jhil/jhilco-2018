@@ -12,12 +12,13 @@ title: Jeff Hilnbrand
 
 <section>
 	<div class="filter-wrapper">
-	<span>{{ site.posts | size }} posts to explore...</span>
+		<span>{{ site.posts | size }} posts to explore...</span>
 		<ul class="filter-list">
+			<li class="filter-item">all</li>
 			{% for category in site.data.post-categories %}
-			<a href="/{{ category.url }}" class="filter-item"><li>
+			<li class="filter-item">
 				#{{ category.category }}
-			</li></a>
+			</li>
 			{% endfor %}
 		</ul>
 
