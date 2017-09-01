@@ -1,4 +1,4 @@
-$content-width: 69rem;
+$content-width: 65rem;
 
 $t: color .3s ease, background .3s ease, transform .15s ease;
 
@@ -58,8 +58,8 @@ hr.section-divider {
 
 section {
   margin-top: $space;
-  padding-left: 1.5 * $space;
-  padding-right: 1.5 * $space;
+  padding-left: $space;
+  padding-right: $space;
   @media screen and (max-width: $laptop-max) {
     padding: 0rem;
   }
