@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     talk
-title:    "Design For Devs"
-date:     2014-10-01
-hero:     false
-thumb:    design-for-devs.png
-hero:     false
+layout: post
+category: talk
+title: "Design For Devs"
+date: 2014-10-01
+hero: false
+thumb: design-for-devs.png
+hero: false
 external: https://youtu.be/gaUzufrkEqM
 
 ---

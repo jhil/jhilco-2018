@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     project
-title:    "GoToo"
-date:     2016-02-04
-thumb:    gotoo.png
-link:     http://gotoo.io/
-color:    "#6A2DCC"
+layout: post
+category: project
+title: "GoToo"
+date: 2016-02-04
+thumb: gotoo.png
+link: http://gotoo.io/
+color: "#6A2DCC"
 ---
 
 {% include i.html src="gotoo_home.png" class="shadow" %}

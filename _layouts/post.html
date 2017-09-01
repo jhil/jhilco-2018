@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<article class="post post-article post-{{ page.type }}">
+<article class="post post-article post-{{ page.category }}">
 
   <section class="article-header{% if page.hero == false and page.full != true %} article-header-tight{% endif %}">
     <h1 class="post-title">{{ page.title }}</h1>
-    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.type == "work" %}<a href= "/work">{% else %}<a href="/{{ page.type }}s">{% endif %}#{{ page.type }}</a></h5>
+    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.category == "work" %}<a href= "/work">{% else %}<a href="/{{ page.category }}s">{% endif %}#{{ page.category }}</a></h5>
   </section>
 
   {% unless page.hero == false %}
@@ -26,5 +26,5 @@ layout: default
 </section>
 
 <section class="related-posts">
-  {% include post-index.html style="small" filter=true type=page.type %}
+  {% include post-index.html style="small" filter=true category=page.category %}
 </section>

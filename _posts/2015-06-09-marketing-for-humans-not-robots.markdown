@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     talk
-title:    "Marketing For Humans, Not Robots"
-date:     2015-06-09
-hero:     false
-thumb:    marketing-for-humans-not-robots.png
-hero:     false
+layout: post
+category: talk
+title: "Marketing For Humans, Not Robots"
+date: 2015-06-09
+hero: false
+thumb: marketing-for-humans-not-robots.png
+hero: false
 external: https://youtu.be/VSFN9P1bZtM
 
 ---

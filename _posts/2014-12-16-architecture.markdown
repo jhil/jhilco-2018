@@ -1,10 +1,10 @@
 ---
-layout:   post
-type:     project
-title:    "Architecture"
-date:     2014-12-16
-thumb:    architecture_thumbnail.jpg
-color:    "#4E71AA"
+layout: post
+category: project
+title: "Architecture"
+date: 2014-12-16
+thumb: architecture_thumbnail.jpg
+color: "#4E71AA"
 ---
 
 In UMD's Architecture Technology course, I created a series of projects that explored the use of software to augment the design process. Models were built with Rhinoceros, Revit, and SketchUp, parametrically modeled with Grasshopper, rendered with V-Ray and 3ds Max, comped with Photoshop, and finally presented with Illustrator and InDesign.

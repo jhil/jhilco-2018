@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     project
-title:    "Basis Set Ventures"
-date:     2017-07-19
-thumb:    bsvicon-dr@2x.png
-color:    "#9910FF"
-link:     https://medium.com/@bsv/announcing-basis-set-ventures-524efc85e7b9
+layout: post
+category: project
+title: "Basis Set Ventures"
+date: 2017-07-19
+thumb: bsvicon-dr@2x.png
+color: "#9910FF"
+link: https://medium.com/@bsv/announcing-basis-set-ventures-524efc85e7b9
 ---
 
 In May 2017, I began talking with [Lan](https://www.linkedin.com/in/xuezhao-lan-50aa1a1/) from [Basis Set Ventures](https://basisset.ventures/) about branding for her new $136M AI-focused venture capital fund.

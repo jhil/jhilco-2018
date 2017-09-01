@@ -1,10 +1,10 @@
 ---
-layout:   post
-type:     project
-title:    "Fin"
-date:     2016-01-01
-thumb:    fin-macbook.png
-color:    "#417ABA"
-link:     https://fin.com/
+layout: post
+category: project
+title: "Fin"
+date: 2016-01-01
+thumb: fin-macbook.png
+color: "#417ABA"
+link: https://fin.com/
 external: https://minimill.co/fin/
 ---

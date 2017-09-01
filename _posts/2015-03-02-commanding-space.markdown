@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     talk
-title:    "Commanding Space"
-date:     2015-03-02
-thumb:    commanding-space.png
-hero:     false
-color:    "#E79E1C"
+layout: post
+category: talk
+title: "Commanding Space"
+date: 2015-03-02
+thumb: commanding-space.png
+hero: false
+color: "#E79E1C"
 external: https://youtu.be/SEbY-_9ZTHQ
 ---
 

@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     work
-title:    "Venmo"
-date:     2014-08-22
-thumb:    venmo_logo.png
-color:    "#6294CD"
-link:     venmo.com
+layout: post
+category: work
+title: "Venmo"
+date: 2014-08-22
+thumb: venmo_logo.png
+color: "#6294CD"
+link: venmo.com
 ---
 
 Venmo is a peer-to-peer mobile payments app that helps people send money instantly, for free.

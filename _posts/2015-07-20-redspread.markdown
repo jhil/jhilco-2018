@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     project
-title:    "Redspread"
-date:     2016-10-16
-thumb:    redspread_thumbnail.png
-color:    "#FF351A"
-link:     redspread.com
+layout: post
+category: project
+title: "Redspread"
+date: 2016-10-16
+thumb: redspread_thumbnail.png
+color: "#FF351A"
+link: redspread.com
 external: https://minimill.co/redspread/
 ---
 

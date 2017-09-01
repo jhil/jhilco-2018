@@ -1,10 +1,10 @@
 ---
-layout:   post
-type:     article
-title:    "Design vs. Art"
-date:     2016-01-06
-thumb:    design-vs-art.jpg
-color:    "#486587"
+layout: post
+category: article
+title: "Design vs. Art"
+date: 2016-01-06
+thumb: design-vs-art.jpg
+color: "#486587"
 ---
 
 This is how I differentiate design and art within the time old discussion.

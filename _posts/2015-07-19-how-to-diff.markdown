@@ -1,10 +1,10 @@
 ---
-layout:   post
-type:     talk
-title:    "How to Diff"
-date:     2015-07-19
-thumb:    how-to-diff.png
-hero:     false
+layout: post
+category: talk
+title: "How to Diff"
+date: 2015-07-19
+thumb: how-to-diff.png
+hero: false
 external: https://youtu.be/1RBqRc5UhPY?start=4950
 
 ---

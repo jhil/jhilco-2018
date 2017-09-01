@@ -1,14 +1,14 @@
 ---
-layout:   post
-type:     list
-title:    "50 Favorite Albums of 2016"
-date:     2016-12-10
-tag:      music
-thumb:    Lunacy.jpeg
-hero:     false
-full:     true
-color:    "#1ED760"
-link:     https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU
+layout: post
+category: list
+title: "50 Favorite Albums of 2016"
+date: 2016-12-10
+tag: music
+thumb: Lunacy.jpeg
+hero: false
+full: true
+color: "#1ED760"
+link: https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU
 ---
 
 <ul class="list article-list list-grid list-grid-numbered list-shadow">

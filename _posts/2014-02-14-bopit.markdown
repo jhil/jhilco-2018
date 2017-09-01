@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     project
-title:    "Bop It!"
-date:     2014-02-14
-thumb:    bopit_thumbnail.jpg
-hero:     bopit-demo-3.jpg
-color:    "#71607F"
+layout: post
+category: project
+title: "Bop It!"
+date: 2014-02-14
+thumb: bopit_thumbnail.jpg
+hero: bopit-demo-3.jpg
+color: "#71607F"
 ---
 
 At PennApps Spring 2014, my team brought the classic Bop It! toy to the modern era with Leap Motion. I worked with [Mariel Bartolome](https://twitter.com/whatmariel), [Luis Santos](https://twitter.com/_lssr), and [Zach Fogg](https://twitter.com/zfogg) to develop the project. Players use mid-air gestures to control an immersive web game. Play solo to challenge your personal best, or connect with friends for "Pass It" game mode with multiple Leap Motion controllers through different computers. Philips "hue" lights also flash corresponding colors with each command.

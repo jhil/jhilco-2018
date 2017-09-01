@@ -1,12 +1,12 @@
 ---
-layout:   post
-type:     project
-title:    "Capstone: Design For All"
-date:     2016-05-12
-tag:      design, architecture, tech
-thumb:    capstone_nav.png
-color:    "#F7F7F2"
-link:     https://github.com/jhil/capstone
+layout: post
+category: project
+title: "Capstone: Design For All"
+date: 2016-05-12
+tag: design, architecture, tech
+thumb: capstone_nav.png
+color: "#F7F7F2"
+link: https://github.com/jhil/capstone
 ---
 
 For my Individual Studies major in Product Design & Engineering, I was required to create a capstone project. I called mine "Design For All." What follows is some of the writing and visuals I made to communicate my capstone research.

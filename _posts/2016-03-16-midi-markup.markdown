@@ -1,13 +1,13 @@
 ---
-layout:   post
-type:     project
-title:    "MIDI Markup"
-date:     2016-03-16
-tag:      design, tech, music
-thumb:    midi-markup.png
-hero:     midi-markup-big.png
-color:    "#8DBEB1"
-link:     https://github.com/jhil/midimarkup
+layout: post
+category: project
+title: "MIDI Markup"
+date: 2016-03-16
+tag: design, tech, music
+thumb: midi-markup.png
+hero: midi-markup-big.png
+color: "#8DBEB1"
+link: https://github.com/jhil/midimarkup
 
 ---
 

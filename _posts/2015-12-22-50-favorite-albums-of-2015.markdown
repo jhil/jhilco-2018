@@ -1,12 +1,12 @@
 ---
-layout:   post
-type:     list
-title:    "50 Favorite Albums of 2015"
-date:     2015-12-22
-thumb:    Currents.png
-hero:     false
-full:     true
-color:    "#1ED760"
+layout: post
+category: list
+title: "50 Favorite Albums of 2015"
+date: 2015-12-22
+thumb: Currents.png
+hero: false
+full: true
+color: "#1ED760"
 ---
 <!-- 
 I keep a tight playlist on Spotify called "[Albums To Listen To](https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU)." I drop in new and new-found albums to… well… listen to. Here are my favorite picks from the list that were released in 2015. Scroll all the way to the bottom to see my top choices!

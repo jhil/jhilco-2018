@@ -1,10 +1,10 @@
 ---
-layout:   post
-type:     article
-title:    "One-Up The Human Experience"
-date:     2013-06-26
-thumb:    one-up-the-human-experience_thumbnail.jpg
-color:    "#E8DBCD"
+layout: post
+category: article
+title: "One-Up The Human Experience"
+date: 2013-06-26
+thumb: one-up-the-human-experience_thumbnail.jpg
+color: "#E8DBCD"
 ---
 
 Business, and all fields for that matter, hinge on interactions and relationships. In the tech scene, we value UX to create the best possible experience for someone using your product or service. But it’s defining that someone that is especially important.

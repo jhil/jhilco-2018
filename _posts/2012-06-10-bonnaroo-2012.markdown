@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     list
-title:    "Bonnaroo 2012"
-date:     2012-06-10
-tag:      music
-thumb:    bonnaroo-2012_thumbnail.jpg
-color:    "#7B7AB4"
+layout: post
+category: list
+title: "Bonnaroo 2012"
+date: 2012-06-10
+tag: music
+thumb: bonnaroo-2012_thumbnail.jpg
+color: "#7B7AB4"
 ---
 
 {% assign groups = site.data.bonnaroo-2013-artists | group_by: "day" %}

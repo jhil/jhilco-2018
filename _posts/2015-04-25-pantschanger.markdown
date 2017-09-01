@@ -1,12 +1,12 @@
 ---
-layout:   post
-type:     project
-title:    "Pantschanger Prints"
-date:     2015-04-25
-thumb:    pantschanger-prints_thumbnail.jpg
-hero:     pantschanger-prints_jackson.jpg
-color:    "#905BCB"
-link:     pantschanger.com
+layout: post
+category: project
+title: "Pantschanger Prints"
+date: 2015-04-25
+thumb: pantschanger-prints_thumbnail.jpg
+hero: pantschanger-prints_jackson.jpg
+color: "#905BCB"
+link: pantschanger.com
 ---
 
 

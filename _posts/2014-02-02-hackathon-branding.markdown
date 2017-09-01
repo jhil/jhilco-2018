@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     talk
-title:    "Hackathon Branding"
-date:     2014-02-02
-hero:     false
-thumb:    hackathon-branding.png
-hero:     false
+layout: post
+category: talk
+title: "Hackathon Branding"
+date: 2014-02-02
+hero: false
+thumb: hackathon-branding.png
+hero: false
 external: https://youtu.be/cwJNYXlOuYo
 
 ---

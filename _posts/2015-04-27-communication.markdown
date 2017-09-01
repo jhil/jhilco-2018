@@ -1,9 +1,9 @@
 ---
-layout:   post
-type:     talk
-title:    "Communication"
-thumb:    communication.png
-hero:     false
+layout: post
+category: talk
+title: "Communication"
+thumb: communication.png
+hero: false
 external: https://youtu.be/VKZlBAcNINU?t=3m49s
 ---
 

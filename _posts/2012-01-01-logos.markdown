@@ -1,12 +1,12 @@
 ---
-layout:   post
-type:     project
-title:    "Logos"
-date:     2012-01-01
-thumb:    logos_thumbnail.png
-hero:     false
-color:    "#CCCCCC"
-link:     dribbble.com/jhil
+layout: post
+category: project
+title: "Logos"
+date: 2012-01-01
+thumb: logos_thumbnail.png
+hero: false
+color: "#CCCCCC"
+link: dribbble.com/jhil
 ---
 
 {% include i.html src="logo_ampvita.jpg" %}

@@ -1,11 +1,11 @@
 ---
-layout:   post
-type:     article
-title:    "Your company needs a tools guide"
-date:     2016-01-04
-thumb:    your-company-needs-a-tools-guide.jpg
-hero:     tools-header.png
-color:    "#6199FD"
+layout: post
+category: article
+title: "Your company needs a tools guide"
+date: 2016-01-04
+thumb: your-company-needs-a-tools-guide.jpg
+hero: tools-header.png
+color: "#6199FD"
 ---
 
 ## Design, dev, and ops all in one doc

@@ -1,12 +1,12 @@
 ---
-layout:   post
-type:     list
-title:    "Board Games"
-date:     2016-09-03
-link:     www.boardgamegeek.com/user/jhilmd
-color:    "#1d265c"
-thumb:    board-games_thumbnail.jpg
-hero:     false
+layout: post
+category: list
+title: "Board Games"
+date: 2016-09-03
+link: www.boardgamegeek.com/user/jhilmd
+color: "#1d265c"
+thumb: board-games_thumbnail.jpg
+hero: false
 ---
 
 I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my [BoardGameGeek profile](https://www.boardgamegeek.com/user/jhilmd) for more games and ratings.

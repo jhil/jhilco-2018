@@ -1,12 +1,12 @@
 ---
-layout:   post
-type:     project
-title:    "Amation"
-date:     2014-09-14
-thumb:    amation_thumbnail.png
-hero:     amation_macbook.png
-color:    "#99F967"
-link:     amation.co
+layout: post
+category: project
+title: "Amation"
+date: 2014-09-14
+thumb: amation_thumbnail.png
+hero: amation_macbook.png
+color: "#99F967"
+link: amation.co
 ---
 
 Amation combines the extensive capabilities of SVG with the power of media tools and animation. Users animate vectors in a timeline-based editor suite (like After Effects) and can distribute them as native SVGs, in all their scalable glory.

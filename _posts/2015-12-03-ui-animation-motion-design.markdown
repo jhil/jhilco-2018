@@ -1,10 +1,10 @@
 ---
-layout:   post
-type:     talk
-title:    "UI Animation + Motion Design"
-date:     2015-12-03
-thumb:    ui-animation-motion-design.jpg
-hero:     false
+layout: post
+category: talk
+title: "UI Animation + Motion Design"
+date: 2015-12-03
+thumb: ui-animation-motion-design.jpg
+hero: false
 external: https://youtu.be/ubKiOVqsM-o?t=4m10s
 ---
 
