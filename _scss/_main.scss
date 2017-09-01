@@ -1,7 +1,6 @@
 // home
 
 .intro {
-  // margin: 6rem 0;
   h2 {
     font-weight: $regular;
     font-size: 1.625rem;
@@ -100,7 +99,12 @@ sub > a.intro-link {
   &:hover {
     text-decoration: underline;
     color: $medium-gray;
+    cursor: pointer;
   }
+}
+
+.post-filter-hidden {
+  display: none;
 }
 
 // features

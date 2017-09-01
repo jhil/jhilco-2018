@@ -1,8 +1,8 @@
 <ul class="post-index post-index-{{ include.style }}">
   {% for post in site.posts limit:include.limit offset:include.offset %}
   {% if include.filter == null or post.category == include.category %}
-  <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper">
-    <li class="post-item-{{ include.style }}">
+  <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper" data-category="{{ post.category }}">
+    <li class="post-item-{{ include.style }} ">
       <div class="post-image post-image-{{ include.style }}">
         <img src="/img/{{ post.url | slugify }}/{{ post.thumb }}">
       </div>
