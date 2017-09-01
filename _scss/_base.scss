@@ -1,3 +1,9 @@
+$content-width: 69rem;
+
+$t: color .3s ease, background .3s ease, transform .15s ease;
+
+$space: 4rem;
+
 html, body {
   background-color: $white;
   color: $dark-gray;
@@ -35,7 +41,7 @@ img {
 }
 
 hr {
-  margin: 4rem 0;
+  margin: $space 0;
   border: 0;
   border-bottom: 1px $light-gray solid;
 }
@@ -44,10 +50,6 @@ hr.section-divider {
   margin: 8rem 0;
 }
 
-$content-width: 69rem;
-
-$t: color .3s ease, background .3s ease, transform .15s ease;
-
 .content {
   @include clearfix;
   margin: 0 auto 6rem;
@@ -55,8 +57,9 @@ $t: color .3s ease, background .3s ease, transform .15s ease;
 }
 
 section {
-  margin-top: 4rem;
-  padding: 0 6rem;
+  margin-top: $space;
+  padding-left: 1.5 * $space;
+  padding-right: 1.5 * $space;
   @media screen and (max-width: $laptop-max) {
     padding: 0rem;
   }

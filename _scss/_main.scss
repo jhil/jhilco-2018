@@ -124,8 +124,8 @@ sub > a.intro-link {
       color: $medium-gray;
     }
   }
-  width: calc(50% - 1.5rem);
-  margin-bottom: 4rem;
+  width: calc(50% - 2rem);
+  margin-bottom: $space;
   text-align: center;
 
   @media screen and (max-width: $tablet-portrait-max) {
@@ -136,7 +136,6 @@ sub > a.intro-link {
 
 .post-item-small {
   display: flex;
-  // padding-bottom: 2rem;
   &:hover {
     .post-image {
       transform: scale(1.05);
@@ -148,7 +147,6 @@ sub > a.intro-link {
 }
 
 .post-image {
-  transition: $t;
   @extend .ratio;
   @extend .image-fill;
 }
@@ -161,8 +159,8 @@ sub > a.intro-link {
 
 .post-image-small {
   @extend .ratio-3_2;
-  min-width: 9rem;
-  width: 9rem;
+  min-width: 10rem;
+  width: 10rem;
   margin-right: 2rem;
 }
 
