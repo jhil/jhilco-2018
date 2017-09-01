@@ -1,7 +1,7 @@
 // home
 
 .intro {
-  margin: 6rem 0;
+  // margin: 6rem 0;
   h2 {
     font-weight: $regular;
     font-size: 1.625rem;
@@ -70,6 +70,38 @@ sub > a.intro-link {
   }
 }
 
+
+// filter
+
+.filter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border: $lighter-gray 1px solid;
+  border-radius: 2px;
+  padding: 1rem 1rem 1rem 1.5rem;
+  span {
+    @extend .mono;
+    color: $light-gray;
+  }
+  @extend .hide-mobile;
+  @extend .hide-tablet;
+}
+
+.filter-list {
+  display: flex;
+}
+
+.filter-item {
+  color: $light-gray;
+  margin-left: 1rem;
+  list-style: none;
+  padding: 0 .5rem;
+  @extend .mono;
+  &:hover {
+    text-decoration: underline;
+    color: $medium-gray;
+  }
+}
 
 // features
 

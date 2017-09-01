@@ -25,6 +25,11 @@
   html, body {
     font-size: 15px;
   }
+
+  .hide-tablet {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: $tablet-portrait-min) {

@@ -4,12 +4,26 @@ title: Jeff Hilnbrand
 ---
 
 <section class="intro">
-  <h2>
-    I like making cool things with cool people. Product Designer at <a class="intro-link intro-link-facebook" href="https://www.facebook.com/design" target="_blank">Facebook</a>.
-    <sub class="subsub">Previously at <a class="intro-link intro-link-minimill" href="http://minimill.co" target="_blank">Minimill</a>, <a class="intro-link intro-link-autodesk" href="https://creativemarket.com" target="_blank">Autodesk</a>, <a class="intro-link intro-link-venmo" href="https://venmo.com" target="_blank">Venmo</a>, <a class="intro-link intro-link-startupshell" href="http://startupshell.org" target="_blank">Startup Shell</a>, <a class="intro-link intro-link-bitcamp" href="http://bitca.mp" target="_blank">Bitcamp</a>.</sub>
-  </h2>
+	<h2>
+		I like making cool things with cool people. Product Designer at <a class="intro-link intro-link-facebook" href="https://www.facebook.com/design" target="_blank">Facebook</a>.
+		<sub class="subsub">Previously at <a class="intro-link intro-link-minimill" href="http://minimill.co" target="_blank">Minimill</a>, <a class="intro-link intro-link-autodesk" href="https://creativemarket.com" target="_blank">Autodesk</a>, <a class="intro-link intro-link-venmo" href="https://venmo.com" target="_blank">Venmo</a>, <a class="intro-link intro-link-startupshell" href="http://startupshell.org" target="_blank">Startup Shell</a>, <a class="intro-link intro-link-bitcamp" href="http://bitca.mp" target="_blank">Bitcamp</a>.</sub>
+	</h2>
 </section>
 
 <section>
-  {% include post-index.html style="small" %}
+	<div class="filter-wrapper">
+	<span>{{ site.posts | size }} posts to explore...</span>
+		<ul class="filter-list">
+			{% for category in site.data.post-categories %}
+			<a href="/{{ category.url }}" class="filter-item"><li>
+				#{{ category.category }}
+			</li></a>
+			{% endfor %}
+		</ul>
+
+	</div>
+</section>
+
+<section>
+	{% include post-index.html style="small" %}
 </section>
