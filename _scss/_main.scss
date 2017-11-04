@@ -80,7 +80,7 @@ sub > a.intro-link {
   padding: 1rem 1rem 1rem 1.5rem;
   span {
     @extend .mono;
-    color: $light-gray;
+    color: $medium-gray;
   }
   @extend .hide-mobile;
   @extend .hide-tablet;
@@ -91,14 +91,13 @@ sub > a.intro-link {
 }
 
 .filter-item {
-  color: $light-gray;
+  color: $medium-gray;
   margin-left: 1rem;
   list-style: none;
   padding: 0 .5rem;
   @extend .mono;
   &:hover {
-    text-decoration: underline;
-    color: $medium-gray;
+    color: $dark-gray;
     cursor: pointer;
   }
 }
