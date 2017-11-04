@@ -2,7 +2,7 @@
 layout: post
 category: project
 title: "HH Design"
-date: 2014-02-03
+date: 2014-02-12
 thumb: hhd-full-01.png
 link: http://facebook.com/groups/designxtech
 color: "#3DCA53"
