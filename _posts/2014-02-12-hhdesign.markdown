@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "HH Design"
 date: 2014-02-12
-thumb: hhd-full-01.png
+thumb: hhd-cover.png
 link: http://facebook.com/groups/designxtech
 color: "#3DCA53"
 ---
@@ -33,8 +33,8 @@ These colors have another meaning. Instead of a stop light, this is our HH Desig
 Just for fun, when we broke several x-thousand member counts, we'd sometimes celebrate with custom graphics.
 
 {% include i.html src="1000-01.png" %}
-{% include i.html src="hhd-5000-01.png" %}
 {% include i.html src="30004.gif" %}
+{% include i.html src="hhd-5000-01.png" %}
 
 I'm still an active participant in the riveting discussions in HH Design. Dive in with me!
 
