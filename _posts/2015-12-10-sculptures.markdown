@@ -1,7 +1,7 @@
 ---
 layout: post
 category: project
-title: "Sculptures"
+title: "3D Sculptures"
 date: 2015-12-10
 thumb: sculptures_serial-shadow.jpg
 hero: sculptures_serial-black.JPG
@@ -59,4 +59,4 @@ color: "#7D3665"
 
 ## Digital Fabrication 1 - GoPro
 
-{% include i.html src="sculptures_gopro.JP" %}
+{% include i.html src="sculptures_gopro.JPG" %}
