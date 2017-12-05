@@ -10,7 +10,7 @@ color: "#1ED760"
 ---
 
 <ul class="list article-list list-grid list-grid-numbered list-shadow">
-  {% for all-album in site.data.all-albums limit:50 %}
+  {% for all-album in site.data.all-albums %}
   <li class="list-item">
     <a href="{{ all-album.link }}">
       <img src="/img/{{ page.url | slugify }}/{{ all-album.album }}.jpeg" class="list-image">
