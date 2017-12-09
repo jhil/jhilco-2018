@@ -138,6 +138,17 @@ ul li.list-item {
           color: $medium-gray;
         }
       }
+      .list-rating {
+        border: 0;
+        color: white !important;
+        background: $medium-gray;
+      }
+      .list-rating-1, .list-rating-2, .list-rating-3 {
+        background: $red;
+      }
+      .list-rating-10, .list-rating-9, .list-rating-8, .list-rating-7 {
+        background: $green;
+      }
     }
   }
 }
@@ -158,12 +169,18 @@ ul li.list-item {
 .list-rating {
   font-weight: $bold;
   margin-top: .5rem;
+  display: inline-block;
+  width: 1.5rem;
+  border: 1px solid $light-gray;
+  border-radius: 2px;
 }
 
 .list-rating-1, .list-rating-2, .list-rating-3 {
   color: $red !important;
+  border-color: $red-trans;
 }
 
 .list-rating-10, .list-rating-9, .list-rating-8, .list-rating-7 {
   color: $green !important;
+  border-color: $green-trans;
 }
