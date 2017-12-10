@@ -113,8 +113,8 @@ ul li.list-item {
     h3 {
       font-size: 1rem;
       font-weight: 600;
-      line-height: 1.5;
-      margin-bottom: .5rem;
+      line-height: 1.25;
+      margin-bottom: .25rem;
     }
     h5 {
       color: $medium-gray;
@@ -139,15 +139,17 @@ ul li.list-item {
         }
       }
       .list-rating {
-        border: 0;
         color: white !important;
+        border-color: $medium-gray;
         background: $medium-gray;
       }
       .list-rating-1, .list-rating-2, .list-rating-3 {
         background: $red;
+        border-color: $red;
       }
       .list-rating-10, .list-rating-9, .list-rating-8, .list-rating-7 {
         background: $green;
+        border-color: $green;
       }
     }
   }
@@ -173,14 +175,17 @@ ul li.list-item {
   width: 1.5rem;
   border: 1px solid $light-gray;
   border-radius: 2px;
+  transition: $t;
 }
 
 .list-rating-1, .list-rating-2, .list-rating-3 {
   color: $red !important;
   border-color: $red-trans;
+  transition: $t;
 }
 
 .list-rating-10, .list-rating-9, .list-rating-8, .list-rating-7 {
   color: $green !important;
   border-color: $green-trans;
+  transition: $t;
 }
