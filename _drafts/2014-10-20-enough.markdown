@@ -1,6 +1,6 @@
 ---
 layout: post
-category: article
+category: post
 title: "Enough"
 date: 2014-10-20
 thumb: enough_thumbnail.jpg

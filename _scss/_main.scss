@@ -1,10 +1,10 @@
 // home
 
 .intro {
+  padding-bottom: $space/2;
   h2 {
-    font-weight: $regular;
-    font-size: 1.625rem;
     line-height: 2;
+    font-weight: $regular;
   }
   a {
     font-weight: $regular;
@@ -106,12 +106,37 @@ sub > a.intro-link {
   display: none;
 }
 
-// features
+// category headers
+
+.category-header {
+  margin-bottom: $space;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.category-title {
+}
+
+.category-link {
+  @extend .h5;
+  font-weight: $bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $green;
+  &:hover {
+    color: $green-trans;
+  }
+}
+
+
+// posts grid
 
 .post-index {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-content: left;
 }
 
 .post-item-wrapper {
@@ -122,62 +147,48 @@ sub > a.intro-link {
     .post-metadata {
       color: $medium-gray;
     }
+    .post-image {
+      transform: scale(1.025);
+      transition: $t;
+    }
   }
-  width: calc(50% - 2rem);
+  width: calc(33.333333334% - 2rem);
   margin-bottom: $space;
   text-align: center;
 
   @media screen and (max-width: $tablet-portrait-max) {
     width: 100%;
   }
-
 }
 
-.post-item-small {
-  display: flex;
-  &:hover {
-    .post-image {
-      transform: scale(1.05);
-    }
-  }
+.related-posts .post-item-wrapper {
+  width: calc(50% - 2rem);
 }
 
-.post-item-feature {
+.metadata-label {
+  color: $green;
+  text-transform: uppercase;
 }
 
 .post-image {
+  margin-bottom: 1rem;
   @extend .ratio;
   @extend .image-fill;
-}
-
-.post-image-feature {
+  @extend .ratio-8_5;
   width: 100%;
-  margin-bottom: 2rem;
-  @extend .ratio-16_9;
+  transition: $t-slow;
+  transition-delay: .5s;
 }
 
-.post-image-small {
-  @extend .ratio-3_2;
-  min-width: 10rem;
-  width: 10rem;
-  margin-right: 2rem;
-}
-
-.post-info-feature {
-  text-align: center;
-}
-
-.post-info-small {
+.post-info {
   text-align: left;
 }
 
 .post-info-wrapper {
-  align-items: center;
   display: flex;
-  justify-content: center;
 }
 
-.post-title-small {
+.post-title {
   padding-right: 1rem;
 }
 

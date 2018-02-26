@@ -1,5 +1,15 @@
 ---
-layout: category
-category: project
+layout: default
 title: Projects
 ---
+
+<section>
+	<div class="category-header">
+		<h1 class="category-title">Projects</h1>
+	</div>
+	<ul class="post-index">
+		{% for post in site.categories.project %}
+    		{% include post-index-grid.html %}
+    	{% endfor %}
+	</ul>
+</section>

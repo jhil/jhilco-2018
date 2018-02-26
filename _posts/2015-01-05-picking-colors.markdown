@@ -1,6 +1,6 @@
 ---
 layout: post
-category: article
+category: post
 title: "Picking Colors"
 date: 2015-01-05
 thumb: picking-colors_thumbnail.jpg

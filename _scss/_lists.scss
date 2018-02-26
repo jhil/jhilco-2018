@@ -75,7 +75,8 @@ ul li.list-item {
   width: 3rem;
   height: 3rem;
   border: 0;
-  transition: $t;
+  transition: $t-slow;
+  transition-delay: .5s;
   background-size: cover;
   object-fit: cover;
 }
@@ -95,6 +96,7 @@ ul li.list-item {
   &:hover {
     .list-image {
       transform: scale(1.2);
+      transition: $t;
     }
   }
 }
@@ -128,6 +130,7 @@ ul li.list-item {
     &:hover {
       .list-image {
         transform: scale(1.05);
+        transition: $t;
       }
       .list-rank:before {
         color: $green;

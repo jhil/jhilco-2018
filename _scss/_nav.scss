@@ -4,22 +4,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2 * $space;  
   a {
     font-weight: $regular;
   }
   & > * {
     display: flex;
   }
-  h1 {
-    @extend p;
-    letter-spacing: 0;
-    margin-bottom: 0;
-    font-weight: $medium;
-    line-height: 2rem;
-  }
 }
 
 .nav-left {
+  display: flex;
+  align-items: center;
   &:hover {
     .nav-avatar {
       transform: scale(1.1);
@@ -33,13 +29,18 @@
   width: 2rem;
   display: block;
   background-size: cover;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  transition: $t;
   img {
     border-radius: 50%;
   }
 }
 
-.nav-title {
+.nav-title h1 {
+  @extend h4;
+  margin-bottom: 0;
+  font-weight: $medium;
+  letter-spacing: 0;
 }
 
 .nav-left {

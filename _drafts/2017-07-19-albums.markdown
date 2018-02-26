@@ -1,6 +1,6 @@
 ---
 layout: post
-category: list
+category: post
 title: "Albums"
 date: 2017-07-19
 thumb: Boomerang.jpeg

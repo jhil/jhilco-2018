@@ -1,6 +1,6 @@
 ---
 layout: post
-category: article
+category: post
 title: "The 6 Types of People on Hackathon Teams"
 date: 2014-01-17
 thumb: the-6-types-of-people-on-hackathon-teams_thumbnail.jpg

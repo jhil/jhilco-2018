@@ -1,6 +1,6 @@
 ---
 layout: post
-category: work
+category: team
 title: "Creative Market"
 date: 2015-08-11
 link: creativemarket.com

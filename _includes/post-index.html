@@ -1,19 +1,5 @@
-<ul class="post-index post-index-{{ include.style }}">
+<ul class="post-index">
   {% for post in site.posts limit:include.limit offset:include.offset %}
-  {% if include.filter == null or post.category == include.category %}
-  <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper post-item-category-{{ post.category }}">
-    <li class="post-item-{{ include.style }} ">
-      <div class="post-image post-image-{{ include.style }}">
-        <img src="/img/{{ post.url | slugify }}/{{ post.thumb }}">
-      </div>
-      <div class="post-info-wrapper">
-        <div class="post-info post-info-{{ include.style }}">
-          <h3 class="post-title post-title-{{ include.style }}">{{ post.title }}</h3>
-          <h5 class="post-metadata">{{ post.date | date: "%Y" }}&ensp;·&ensp;#{{ post.category }}</h5>
-        </div>
-      </div>
-    </li>
-  </a>
-  {% endif %}
+    {% include post-index-grid.html %}
   {% endfor %}
 </ul>

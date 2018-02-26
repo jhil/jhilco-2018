@@ -1,6 +1,6 @@
 ---
 layout: post
-category: article
+category: post
 title: "For those who don't know me"
 date: 2013-08-04
 thumb: for-those-who-dont-know-me_thumbnail.jpg

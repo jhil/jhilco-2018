@@ -41,16 +41,23 @@ h1, %h1, .h1 {
 
 h2, %h2, .h2 {
   font-size: 1.75*$base-font-size;
-  line-height: 1.75;
+  line-height: 1.5;
   margin-bottom: 1rem;
   font-family: $sans;
   font-weight: $medium;
 }
 
 h3, %h3, .h3 {
-  font-size: 1.2*$base-font-size;
+  font-size: 1.5*$base-font-size;
   font-family: $sans;
   font-weight: $medium;
+  line-height: 1.5;
+}
+
+h4, %h4, .h4 {
+  font-size: 1.125 * $base-font-size;
+  font-family: $sans;
+  font-weight: $demi;
   line-height: 1.5;
 }
 

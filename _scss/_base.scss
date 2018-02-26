@@ -1,6 +1,8 @@
 $content-width: 70rem;
 
 $t: color .3s ease, background .3s ease, transform .15s ease;
+$t-slow: color .5s ease, background .5s ease, transform .5s ease;
+
 
 $space: 3rem;
 
@@ -41,7 +43,7 @@ hr {
 }
 
 hr.section-divider {
-  margin: 8rem 0;
+  margin: 2*$space 0;
 }
 
 .content {
@@ -51,9 +53,9 @@ hr.section-divider {
 }
 
 section {
-  margin-top: $space;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  margin-top: 4rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
 }
 
 .full-width {

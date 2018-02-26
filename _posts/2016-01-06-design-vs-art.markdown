@@ -1,6 +1,6 @@
 ---
 layout: post
-category: article
+category: post
 title: "Design vs. Art"
 date: 2016-01-06
 thumb: design-vs-art.jpg

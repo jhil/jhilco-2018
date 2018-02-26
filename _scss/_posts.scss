@@ -1,10 +1,9 @@
 .article-header {
-  width: 57rem;
   max-width: 100%;
 }
 
 .article-header-tight {
-  width: 45rem;
+  width: 43rem;
   margin-left: auto;
   margin-right: auto;
   .article-metadata {
@@ -32,8 +31,7 @@
 }
 
 .article-body {
-  width: 45rem;
-  padding: 0 6rem;
+  width: 43rem;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -46,14 +44,12 @@
   }
   h1 {
     margin: 4rem 0;
-    line-height: 2;
   }
   h2 {
     margin: 4rem 0 2rem;
   }
   h3 {
     margin: 3rem 0 2rem 0;
-    line-height: 2;
   }
   img {
     display: block;

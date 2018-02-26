@@ -1,6 +1,6 @@
 ---
 layout: post
-category: list
+category: post
 title: "Bonnaroo 2012"
 date: 2012-06-10
 tag: music

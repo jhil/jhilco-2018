@@ -1,6 +1,6 @@
 ---
 layout: post
-category: list
+category: post
 title: "Board Games"
 date: 2016-09-03
 link: www.boardgamegeek.com/user/jhilmd
