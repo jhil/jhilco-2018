@@ -1,46 +1,46 @@
 // nav
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2 * $space;  
-  a {
-    font-weight: $regular;
-  }
-  & > * {
-    display: flex;
-  }
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2 * $space;  
+	a {
+		font-weight: $regular;
+	}
+	& > * {
+		display: flex;
+	}
 }
 
 .nav-left {
-  display: flex;
-  align-items: center;
-  &:hover {
-    .nav-avatar {
-      transform: scale(1.1);
-    }
-    text-decoration: underline;
-  }
+	display: flex;
+	align-items: center;
+	&:hover {
+		.nav-avatar {
+			transform: scale(1.1);
+		}
+		text-decoration: underline;
+	}
 }
 
 .nav-avatar {
-  height: 2rem;
-  width: 2rem;
-  display: block;
-  background-size: cover;
-  margin-right: 1rem;
-  transition: $t;
-  img {
-    border-radius: 50%;
-  }
+	height: 2rem;
+	width: 2rem;
+	display: block;
+	background-size: cover;
+	margin-right: 1rem;
+	transition: $t;
+	img {
+		border-radius: 50%;
+	}
 }
 
 .nav-title h1 {
-  @extend h4;
-  margin-bottom: 0;
-  font-weight: $medium;
-  letter-spacing: 0;
+	@extend h4;
+	margin-bottom: 0;
+	font-weight: $medium;
+	letter-spacing: 0;
 }
 
 .nav-left {
@@ -50,23 +50,23 @@
 }
 
 .nav-social {
-  display: flex;
+	display: flex;
 }
 
 .nav-social-item {
-  width: 1rem;
-  height: 1rem;
-  padding: .5rem;
-  margin-left: 1rem;
-  svg {
-    display: block;
-    path {
-      fill: $light-gray;
-    }
-  }
-  &:hover {
-    svg path {
-      fill: $medium-gray;
-    }
-  }
+	width: 1rem;
+	height: 1rem;
+	padding: .5rem;
+	margin-left: 1rem;
+	svg {
+		display: block;
+		path {
+			fill: $light-gray;
+		}
+	}
+	&:hover {
+		svg path {
+			fill: $medium-gray;
+		}
+	}
 }
