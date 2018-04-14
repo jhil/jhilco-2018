@@ -5,7 +5,7 @@ title: "Composition Zine"
 date: 2017-01-21
 thumb: zine-composition-cover-01-dr.png
 hero: zine-composition_Page_01.jpg
-color: "#68083C"
+color: "#CE1D7D"
 ---
 
 [Austin Hou](https://ayh.io/) and I created a zine called "Com~~posit~~ion" for [Facebook Analog Lab's](https://www.facebook.com/analoglab/) Zine Fest. It challenges the infamous rule of thirds by highlighting structural and psychological composition lines in Austin's travel photography.
