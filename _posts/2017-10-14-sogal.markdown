@@ -1,7 +1,7 @@
 ---
 layout: post
 category: project
-title: "Sogal Ventures"
+title: "SoGal Ventures"
 date: 2017-10-14
 thumb: sogal-ring-dr@2x.png
 color: "#ED396F"
