@@ -7,7 +7,7 @@ tag: music
 thumb: Lunacy.jpeg
 hero: false
 full: true
-color: "#1ED760"
+color: "#DD6BA3"
 link: https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU
 ---
 
