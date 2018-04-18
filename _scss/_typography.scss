@@ -69,7 +69,7 @@ h5, %h5, .h5 {
 	font-family: $mono;
 	font-weight: $regular;
 	line-height: 1.5;
-	color: $light-gray;
+	color: $medium-gray;
 }
 
 p, .p {
@@ -92,14 +92,14 @@ a {
 p code {
 	font-family: $mono;
 	padding: .5rem .5rem;
-	background: $lightest-gray;
+	background: $lighter-gray;
 	margin: 0 .125rem;
 }
 
 sub, .sub {
-	color: $medium-gray;
+	color: $dark-gray;
 }
 
 .subsub {
-	color: $light-gray;
+	color: $medium-gray;
 }

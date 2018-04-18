@@ -13,21 +13,12 @@ html {
 
 body {
 	// background-color: $white;
-	color: $dark-gray;
+	color: $black;
 	font-family: $sans;
 	font-size: 16px;
 	font-weight: $regular;
 	height: 100%;
 	line-height: 2;
-}
-
-.wrapper {
-	position: relative;
-	padding: 0 $space;
-}
-
-.stripe {
-	height: 4px;
 }
 
 a, a:hover {
@@ -51,7 +42,7 @@ img {
 hr {
 	margin: $space 0;
 	border: 0;
-	border-bottom: 1px $light-gray solid;
+	border-bottom: 1px $medium-gray solid;
 }
 
 hr.section-divider {
@@ -62,6 +53,8 @@ hr.section-divider {
 	@include clearfix;
 	margin: 0 auto 2*$space;
 	max-width: $content-width;
+	position: relative;
+	padding: 0 $space;
 }
 
 section {

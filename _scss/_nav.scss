@@ -5,7 +5,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding-bottom: $space;
-	border-bottom: 1px $light-gray solid;
+	border-bottom: 1px $medium-gray solid;
 	a {
 		font-weight: $regular;
 	}
@@ -62,12 +62,12 @@
 	svg {
 		display: block;
 		path {
-			fill: $light-gray;
+			fill: $black;
 		}
 	}
 	&:hover {
 		svg path {
-			fill: $medium-gray;
+			fill: $black;
 		}
 	}
 }

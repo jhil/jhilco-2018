@@ -18,9 +18,9 @@
 
 .article-metadata {
 	margin: $space/2 0 $space;
-	color: $medium-gray;
+	color: $dark-gray;
 	a:hover {
-		color: $dark-gray;
+		color: $black;
 		text-decoration: underline;
 	}
 }
@@ -31,7 +31,7 @@
 }
 
 .article-body {
-	width: 43rem;
+	width: $content-width / 2;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -39,7 +39,7 @@
 	p a {
 		text-decoration: underline;
 		&:hover {
-			color: $medium-gray;
+			color: $dark-gray;
 		}
 	}
 	h1 {
@@ -56,9 +56,9 @@
 	}
 	blockquote p {
 		padding: .25rem 0 .25rem 2rem;
-		border-left: 4px $lighter-gray solid;
+		border-left: 4px $light-gray solid;
 		margin: 3rem 0;
-		color: $medium-gray;
+		color: $dark-gray;
 	}
 	p em {
 		font-style: italic;
@@ -137,8 +137,8 @@ p img {
 }
 
 .button-link-dark {
-	color: $dark-gray;
+	color: $black;
 	&:hover {
-		color: $dark-gray !important;
+		color: $black !important;
 	}
 }

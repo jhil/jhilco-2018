@@ -86,7 +86,7 @@ ul li.list-item {
 
 .list-detail {
 	em {
-		color: $medium-gray;
+		color: $dark-gray;
 	}
 }
 
@@ -120,7 +120,7 @@ ul li.list-item {
 			margin-bottom: .25rem;
 		}
 		h5 {
-			color: $medium-gray;
+			color: $dark-gray;
 		}
 		.list-image {
 			width: 12rem;
@@ -142,15 +142,15 @@ ul li.list-item {
 				color: $green;
 			}
 			h5 {
-				color: $dark-gray;
+				color: $black;
 				.subsub {
-					color: $medium-gray;
+					color: $dark-gray;
 				}
 			}
 			.list-rating {
 				color: white !important;
-				border-color: $medium-gray;
-				background: $medium-gray;
+				border-color: $dark-gray;
+				background: $dark-gray;
 			}
 			.list-rating-1, .list-rating-2, .list-rating-3 {
 				background: $red;
@@ -172,7 +172,7 @@ ul li.list-item {
 		margin-bottom: 1.5rem;
 		&:before {
 			content: counter(li);
-			color: $light-gray;
+			color: $medium-gray;
 		}
 	}
 }
@@ -182,7 +182,7 @@ ul li.list-item {
 	margin-top: .5rem;
 	display: inline-block;
 	width: 1.5rem;
-	border: 1px solid $light-gray;
+	border: 1px solid $medium-gray;
 	border-radius: 2px;
 	transition: $t;
 }
