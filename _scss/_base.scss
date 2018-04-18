@@ -61,13 +61,10 @@ hr.section-divider {
 .content {
 	@include clearfix;
 	margin: 0 auto 2*$space;
-	max-width: $content-width;
 }
 
 section {
 	margin: 4rem auto 0;
-	padding-left: 9rem;
-	padding-right: 9rem;
 	@media screen and (max-width: $tablet-landscape-max) {
 		padding: 0;
 	}
