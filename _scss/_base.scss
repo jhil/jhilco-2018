@@ -1,4 +1,4 @@
-$content-width: 70rem;
+$content-width: 90rem;
 
 $t: color .3s ease, background .3s ease, transform .15s ease;
 $t-slow: color .5s ease, background .5s ease, transform .5s ease;
@@ -61,10 +61,11 @@ hr.section-divider {
 .content {
 	@include clearfix;
 	margin: 0 auto 2*$space;
+	max-width: $content-width;
 }
 
 section {
-	margin: 4rem auto 0;
+	margin: $space auto 0;
 	@media screen and (max-width: $tablet-landscape-max) {
 		padding: 0;
 	}

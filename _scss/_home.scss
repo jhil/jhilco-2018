@@ -1,104 +1,3 @@
-// home
-
-.intro {
-	padding-bottom: $space/2;
-	h2 {
-		line-height: 2;
-		font-weight: $regular;
-	}
-	a {
-		font-weight: $regular;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-}
-
-.intro-link-facebook {
-	color: #3b5998;
-	&:hover {
-		color: #3b5998;
-	}
-}
-
-.intro-link-minimill {
-	color: #3399FF;
-	&:hover {
-		color: #3399FF;
-	}
-}
-
-.intro-link-autodesk {
-	color: #87BC40;
-	&:hover {
-		color: #87BC40;
-	}
-}
-
-.intro-link-venmo {
-	color: #3D95CE;
-	&:hover {
-		color: #3D95CE;
-	}
-}
-
-.intro-link-startupshell {
-	color: #D74034;
-	&:hover {
-		color: #D74034;
-	}
-}
-
-.intro-link-bitcamp {
-	color: #FF7040;
-	&:hover {
-		color: #FF7040;
-	}
-}
-
-sub > a.intro-link {
-	opacity: .5;
-	&:hover {
-		opacity: 1;
-	}
-}
-
-
-// filter
-
-.filter-wrapper {
-	display: flex;
-	justify-content: space-between;
-	border: $lighter-gray 1px solid;
-	border-radius: 2px;
-	padding: 1rem 1rem 1rem 1.5rem;
-	span {
-		@extend .mono;
-		color: $medium-gray;
-	}
-	@extend .hide-mobile;
-	@extend .hide-tablet;
-}
-
-.filter-list {
-	display: flex;
-}
-
-.filter-item {
-	color: $medium-gray;
-	margin-left: 1rem;
-	list-style: none;
-	padding: 0 .5rem;
-	@extend .mono;
-	&:hover {
-		color: $dark-gray;
-		cursor: pointer;
-	}
-}
-
-.post-filter-hidden {
-	display: none;
-}
 
 // category headers
 
@@ -146,7 +45,7 @@ sub > a.intro-link {
 			transition: $t;
 		}
 	}
-	width: calc(33.333333334% - 2rem);
+	width: calc(25% - 2rem);
 	margin-bottom: $space;
 	text-align: center;
 
@@ -177,7 +76,7 @@ sub > a.intro-link {
 	@extend .image-fill;
 	@extend .ratio-8_5;
 	width: 100%;
-	transition: $t-slow;
+	transition: $t;
 }
 
 .post-info {
