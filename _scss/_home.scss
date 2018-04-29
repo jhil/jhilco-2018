@@ -2,12 +2,15 @@
 
 .intro {
 	padding: $space 0;
-	// border-top: 1px solid $medium-gray;
-	// border-bottom: 1px solid $medium-gray;
 	h2 {
 		line-height: 2;
 		font-weight: $regular;
 		margin-bottom: 0;
+	@media screen and (max-width: $tablet-portrait-max) {
+		font-size: 1.5*$base-font-size;
+	}
+
+
 	}
 	a {
 		font-weight: $regular;
@@ -61,7 +64,7 @@
 }
 
 sub > a.intro-link {
-	opacity: .5;
+	opacity: .75;
 	&:hover {
 		opacity: 1;
 	}
@@ -119,6 +122,9 @@ sub > a.intro-link {
 	margin-bottom: $space;
 	text-align: center;
 
+	@media screen and (max-width: $laptop-max) {
+		width: calc(33% - 2rem);
+	}
 	@media screen and (max-width: $tablet-portrait-max) {
 		width: calc(50% - 2rem);
 	}
@@ -158,7 +164,7 @@ sub > a.intro-link {
 }
 
 .post-title {
-	padding-right: 1rem;
+	padding-right: .25rem;
 }
 
 .post-metadata {
