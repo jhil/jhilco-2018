@@ -1,3 +1,73 @@
+// intro
+
+.intro {
+	padding: $space 0;
+	// border-top: 1px solid $medium-gray;
+	// border-bottom: 1px solid $medium-gray;
+	h2 {
+		line-height: 2;
+		font-weight: $regular;
+		margin-bottom: 0;
+	}
+	a {
+		font-weight: $regular;
+		white-space: nowrap;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.intro-link-facebook {
+	color: #3b5998;
+	&:hover {
+		color: #3b5998;
+	}
+}
+
+.intro-link-minimill {
+	color: #3399FF;
+	&:hover {
+		color: #3399FF;
+	}
+}
+
+.intro-link-autodesk {
+	color: #87BC40;
+	&:hover {
+		color: #87BC40;
+	}
+}
+
+.intro-link-venmo {
+	color: #3D95CE;
+	&:hover {
+		color: #3D95CE;
+	}
+}
+
+.intro-link-startupshell {
+	color: #D74034;
+	&:hover {
+		color: #D74034;
+	}
+}
+
+.intro-link-bitcamp {
+	color: #FF7040;
+	&:hover {
+		color: #FF7040;
+	}
+}
+
+sub > a.intro-link {
+	opacity: .5;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+
 
 // category headers
 
