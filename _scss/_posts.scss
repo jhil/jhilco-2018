@@ -1,19 +1,16 @@
 .article-header {
 	max-width: 100%;
-	margin-top: 2 * $space;
+	margin-top: $space;
+	padding-right: $space - 1rem;
 }
 
 .article-header-tight {
-	width: 43rem;
+	max-width: 43rem;
 	margin-left: auto;
 	margin-right: auto;
 	.article-metadata {
 		margin-bottom: 0;
 	}
-}
-
-.article-title {
-	font-weight: $medium;
 }
 
 .article-metadata {

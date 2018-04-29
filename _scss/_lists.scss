@@ -1,9 +1,7 @@
 .posts-list {
-	margin-left: 6rem;
 }
 
 .list {
-	margin-left: -6rem;
 }
 
 .list-numbered {
@@ -37,18 +35,12 @@ ul li.list-item {
 	list-style-type: none;
 	counter-increment: li;
 	width: 100%;
-	margin-bottom: 3rem;
-	margin-left: 0;
-	padding-left: 0;
+	padding: 0;
+	margin: 0 0 $space;
 }
 
 .list-row {
-	@extend .rich-before;
-	&:before {
-		content: "∙";
-		@extend .h5;
-	}
-	h2 {
+	h3 {
 		margin: 0;
 	}
 	h5 {
@@ -56,14 +48,10 @@ ul li.list-item {
 		text-align: right;
 	}
 	.list-image {
-		margin-right: 3rem;
-	}
-	p {
-		margin-left: 12rem;
+		margin-right: $space;
 	}
 	display: flex;
 	align-items: center;
-	margin-bottom: 1rem;
 }
 
 .list-title {
@@ -91,7 +79,6 @@ ul li.list-item {
 }
 
 .list-item {
-	background: attr(data-color);
 	&:hover {
 		.list-image {
 			transform: scale(1.2);
@@ -110,14 +97,8 @@ ul li.list-item {
 		@media screen and (max-width: $phone-portrait-max) {
 			width: 100%;
 		}
-		// flex-grow: 1;
 		text-align: center;
-		margin-bottom: 4rem;
 		h3 {
-			font-size: 1rem;
-			font-weight: 600;
-			line-height: 1.25;
-			margin-bottom: .25rem;
 		}
 		h5 {
 			color: $dark-gray;
@@ -125,7 +106,6 @@ ul li.list-item {
 		.list-image {
 			width: 12rem;
 			height: 12rem;
-			margin: 0 auto;
 			margin-bottom: 2rem;
 			@media screen and (max-width: $phone-portrait-max) {
 				width: 100%;
@@ -166,10 +146,9 @@ ul li.list-item {
 
 .list-grid-numbered {
 	.list-item {
-		margin-bottom: 4rem;
 	}
 	.list-rank {
-		margin-bottom: 1.5rem;
+		margin-top: .5rem;
 		&:before {
 			content: counter(li);
 			color: $medium-gray;

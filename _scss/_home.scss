@@ -1,28 +1,4 @@
 
-// category headers
-
-.category-header {
-	margin-bottom: $space;
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-}
-
-.category-title {
-}
-
-.category-link {
-	@extend .h5;
-	font-weight: $bold;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: $green;
-	&:hover {
-		color: $green-trans;
-	}
-}
-
-
 // posts grid
 
 .post-index {
@@ -57,6 +33,10 @@
 	}
 }
 
+
+.related-posts {
+	max-width: $content-width / 2;
+}
 .related-posts .post-item-wrapper {
 	width: calc(50% - 2rem);
 	@media screen and (max-width: $phone-portrait-max) {
