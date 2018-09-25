@@ -14,7 +14,7 @@ color: "#1ED760"
   {% if all-album.rating %}
   <li class="list-item">
     <a href="{{ all-album.link }}">
-      <img src="/img/{{ page.url | slugify }}/{{ all-album.album }}.jpeg" class="list-image">
+      <img src="{{all-album.imageurl}}" class="list-image">
       <h3>{{ all-album.album }}</h3>
       <h5>{{ all-album.artist }}</h5>
       <h5 class="list-rating list-rating-{{all-album.rating}}">{{ all-album.rating }}</h5>

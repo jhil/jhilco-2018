@@ -75,7 +75,7 @@ ul li.list-item {
 	width: 3rem;
 	height: 3rem;
 	border: 0;
-	transition: $t-slow;
+	transition: $t;
 	background-size: cover;
 	object-fit: cover;
 }
@@ -177,12 +177,12 @@ ul li.list-item {
 }
 
 .list-rating {
-	font-weight: $bold;
-	margin-top: .5rem;
+	font-weight: $demi;
 	display: inline-block;
-	width: 1.5rem;
-	border: 1px solid $medium-gray;
-	border-radius: 2px;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 100%;
 	transition: $t;
 }
 
