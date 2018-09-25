@@ -23,6 +23,22 @@
 	}
 }
 
+.nav-center {
+}
+
+.categories-list {
+	display: flex;
+	& > a {
+		margin: 0 1rem;
+		@extend .mono;
+		color: $dark-gray;
+	}
+}
+
+.nav-right {
+}
+
+
 .nav-avatar {
 	height: 2rem;
 	width: 2rem;
@@ -42,11 +58,6 @@
 	letter-spacing: 0;
 }
 
-.nav-left {
-}
-
-.nav-right {
-}
 
 .nav-social {
 	display: flex;
