@@ -10,16 +10,19 @@ color: "#1ED760"
 ---
 
 <ul class="list article-list list-grid list-grid-numbered list-shadow">
-  {% for all-album in site.data.all-albums %}
+  {% assign sorted = (site.data.all-albums | sort: 'release' | reverse) %}
+  {% for all-album in sorted %}
   {% if all-album.rating %}
+  {% if all-album.imageurl %}
   <li class="list-item">
-    <a href="{{ all-album.link }}">
-      <img src="{{all-album.imageurl}}" class="list-image">
+    <a href="{{ all-album.albumurl }}" target="_blank">
+      <img src="/img/albums/{{ all-album.albumid }}.png" class="list-image">
       <h3>{{ all-album.album }}</h3>
       <h5>{{ all-album.artist }}</h5>
       <h5 class="list-rating list-rating-{{all-album.rating}}">{{ all-album.rating }}</h5>
     </a>
   </li>
+  {% endif %}
   {% endif %}
   {% endfor %}
 </ul>
