@@ -18,4 +18,3 @@ We put out an early MVP which you can experiment with at <a href="https://onward
 {% include i.html src="ixn-expand.gif" %}
 {% include i.html src="Write Tools.png" %}
 {% include i.html src="outward-web-6-dr-buy.png" %}
-{% include i.html src="destinations.png" %}
