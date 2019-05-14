@@ -1,0 +1,21 @@
+---
+layout: post
+category: project
+title: "Onward"
+date: 2019-01-10
+thumb: onward-icon.png
+color: "#3E84F7"
+---
+
+In between jobs, <a href="https://schlosser.io/">Dan Schlosser</a> and I finally produced our oft-fantasized side project, Outward. It is travel blogging platform to help travelers become storytellers and professional bloggers monetize their content better.
+
+We put out an early MVP which you can experiment with at <a href="https://onward.to/">onward.to</a>. If anyone wants to adopt this project and give it wings, contact us!
+
+{% include i.html src="onward-dr.png" %}
+{% include i.html src="Home (Logged In).png" %}
+{% include i.html src="Post.png" %}
+{% include i.html src="ixn-map.gif" %}
+{% include i.html src="ixn-expand.gif" %}
+{% include i.html src="Write Tools.png" %}
+{% include i.html src="outward-web-6-dr-buy.png" %}
+{% include i.html src="destinations.png" %}
