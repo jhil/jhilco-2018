@@ -4,6 +4,6 @@ category: work
 title: "Scale AI"
 date: 2019-01-22
 thumb: scale-logo-black.png
-external: https://www.youtube.com/watch?v=ZAfAFTxTZEg
+external: https://scale.ai
 color: "#9347FB"
 ---
