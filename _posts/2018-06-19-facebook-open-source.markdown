@@ -1,6 +1,6 @@
 ---
 layout: post
-category: work
+category: team
 title: "Facebook Open Source"
 date: 2018-01-01
 thumb: OSS-1.jpg

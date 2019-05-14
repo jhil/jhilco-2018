@@ -1,7 +1,7 @@
 ---
 layout: post
 category: team
-title: "Creative Market"
+title: "Autodesk & Creative Market"
 date: 2015-08-11
 link: creativemarket.com
 thumb: creative-market_thumbnail.jpg

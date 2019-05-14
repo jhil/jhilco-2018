@@ -1,6 +1,6 @@
 ---
 layout: post
-category: work
+category: team
 title: "Facebook Payments"
 date: 2018-01-31
 thumb: swag-3.png

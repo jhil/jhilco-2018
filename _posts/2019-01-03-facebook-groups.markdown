@@ -1,6 +1,6 @@
 ---
 layout: post
-category: work
+category: team
 title: "Facebook Groups"
 date: 2019-01-03
 thumb: fb-groups.png
