@@ -7,7 +7,7 @@ thumb: onward-icon.png
 color: "#3E84F7"
 ---
 
-In between jobs, <a href="https://schlosser.io/">Dan Schlosser</a> and I finally produced our oft-fantasized side project, Outward. It is travel blogging platform to help travelers become storytellers and professional bloggers monetize their content better.
+In between jobs, <a href="https://schlosser.io/">Dan Schlosser</a> and I finally produced our oft-fantasized-about side project, Outward. It is travel blogging platform to help travelers become storytellers and professional bloggers monetize their content better.
 
 We put out an early MVP which you can experiment with at <a href="https://onward.to/">onward.to</a>. If anyone wants to adopt this project and give it wings, contact us!
 
