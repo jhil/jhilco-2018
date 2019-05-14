@@ -1,10 +1,10 @@
 ---
 layout: post
-category: project
+category: work
 title: "Facebook Open Source"
 date: 2018-01-01
 thumb: OSS-1.jpg
-color: "#3E84F7"
+color: "#23CEFC"
 ---
 
 Over the course of two years, I worked with the <a href="https://opensource.facebook.com/">Facebook Open Source</a> team on logos for several projects.

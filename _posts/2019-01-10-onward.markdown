@@ -3,8 +3,8 @@ layout: post
 category: project
 title: "Onward"
 date: 2019-01-10
-thumb: onward-icon.png
-color: "#3E84F7"
+thumb: onward-logo.png
+color: "#83C4FD"
 ---
 
 In between jobs, <a href="https://schlosser.io/">Dan Schlosser</a> and I finally produced our oft-fantasized-about side project, Outward. It is travel blogging platform to help travelers become storytellers and professional bloggers monetize their content better.

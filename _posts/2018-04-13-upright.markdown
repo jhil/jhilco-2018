@@ -5,7 +5,7 @@ title: "Upright Labs"
 date: 2018-04-13
 thumb: upright-construction-frame1.png
 hero: upright-construction-frame1@2x.png
-color: "#3E84F7"
+color: "#3881FB"
 ---
 
 Upright Labs is a company that builds e-commerce tools. I built the company's brand identity and first website, all centering around the core idea of giving customers confidence as they transition from retail to e-commerce.

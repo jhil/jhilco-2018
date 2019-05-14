@@ -5,7 +5,7 @@ title: "Structure"
 date: 2018-09-09
 thumb: structure-hex-icon.png
 hero: structure-full-white-blue.png
-color: "#3E84F7"
+color: "#6584F0"
 ---
 
 Structure is a startup providing instant cloud deployments. We set out to create a brand identity that evokes ideas of building a structure that is stable yet flexible.
