@@ -35,7 +35,10 @@
     "image-size": "^0.5.0",
     "jshint": "^2.11.0",
     "os-utils": "0.0.14",
-    "run-sequence": "^1.1.5"
+    "run-sequence": "^1.1.5",
+    "lodash.template": ">=4.5.0",
+    "js-yaml": ">=3.13.1",
+    "tunnel-agent": ">=0.6.0"
   },
   "engines": {
     "node": "0.10.36",
