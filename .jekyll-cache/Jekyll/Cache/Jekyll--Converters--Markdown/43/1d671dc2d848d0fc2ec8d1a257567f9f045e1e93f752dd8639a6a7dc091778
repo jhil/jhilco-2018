@@ -1,0 +1,28 @@
+I"Ã<p>Venmo is a peer-to-peer mobile payments app that helps people send money instantly, for free.</p>
+
+<p>I worked on Venmo's small but mighty Product Design team during the summer of 2014. We focused on all things Android, iOS, and web. We built a slew of new features and reduced design debt, all the while rewriting how the design team itself operates. Among other projects, I designed the new compose screens (seen above) and the experience that integrates Venmo into <a href="https://www.braintreepayments.com/v.zero">Braintree's v.zero</a> drop-in UI.</p>
+
+<p><img src="/img/venmo/venmo_store-single.png" class="" /></p>
+
+<p><img src="/img/venmo/venmo_store-multi.png" class="" /></p>
+
+<p><img src="/img/venmo/venmo_store-feed.png" class="" /></p>
+
+<p><img src="/img/venmo/venmo_vzero-android.png" class="" /></p>
+
+<p>Designing for Venmo included a lot of exploratory features. Below are some concepts that were never released, including Multipay, Undo, an alternative send command, and Material Design mockups that later inspired the Android update.</p>
+
+<p><img src="/img/venmo/venmo_multipay.png" class="" /></p>
+
+<p><img src="/img/venmo/venmo_undo.png" class="" /></p>
+
+<div class="embed-container">
+  <video class="shadow" autoplay="" loop="">
+    <source src="/img/venmo/venmo_slider.webm" type="video/webm" />
+  </video>
+</div>
+
+<p><img src="/img/venmo/venmo_material-friends.png" class="" /></p>
+
+<p><img src="/img/venmo/venmo_material-feed.png" class="" /></p>
+:ET
